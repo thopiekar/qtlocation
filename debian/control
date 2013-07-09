@@ -2,17 +2,17 @@ Source: qtlocation-opensource-src
 Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Timo Jyrinki <timo@debian.org>
+Uploaders: Timo Jyrinki <timo@debian.org>,
 Build-Depends: debhelper (>= 9.0.0),
-               qtbase5-private-dev,
-               qtdeclarative5-private-dev,
-               qt5-default,
+               libgconf2-dev,
+               libgeoclue-dev,
+               libqt5v8-5-private-dev,
                pkg-kde-tools,
                qt3d5-private-dev,
-               libgeoclue-dev,
-               libgconf2-dev,
+               qt5-default,
+               qtbase5-private-dev,
+               qtdeclarative5-private-dev,
                qtdeclarative5-qtquick2-plugin,
-               libqt5v8-5-private-dev,
 Standards-Version: 3.9.4
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtlocation.git
@@ -21,37 +21,41 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/qt/qtlocation.git;a=sum
 Package: libqt5location5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Pre-Depends: ${misc:Pre-Depends},
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
 Description: Qt Location module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains Qt Location module.
  .
- WARNING: This module is not an official part of Qt 5, but instead a git 
- snapshot of an ongoing development. The package is very likely to 
+ WARNING: This module is not an official part of Qt 5, but instead a git
+ snapshot of an ongoing development. The package is very likely to
  change in a binary incompatible way, and no guarantees are given.
 
 Package: qtdeclarative5-qtlocation-plugin
 Architecture: any
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Pre-Depends: ${misc:Pre-Depends},
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
 Description: Qt Location module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains the Qt Location QML plugin for Qt Declarative.
  .
- WARNING: This module is not an official part of Qt 5, but instead a git 
- snapshot of an ongoing development. The package is very likely to 
+ WARNING: This module is not an official part of Qt 5, but instead a git
+ snapshot of an ongoing development. The package is very likely to
  change in a binary incompatible way, and no guarantees are given.
 
 Package: qtlocation5-dev
 Section: libdevel
 Architecture: any
-Depends: libqt5location5 (= ${binary:Version}), ${misc:Depends}, qtbase5-dev
+Depends: libqt5location5 (= ${binary:Version}),
+         qtbase5-dev,
+         ${misc:Depends},
 Description: Qt 5 Location development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -59,8 +63,8 @@ Description: Qt 5 Location development files
  This package contains the header development files used for building Qt 5
  applications using Qt Location library.
  .
- WARNING: This module is not an official part of Qt 5, but instead a git 
- snapshot of an ongoing development. The package is very likely to 
+ WARNING: This module is not an official part of Qt 5, but instead a git
+ snapshot of an ongoing development. The package is very likely to
  change in a binary incompatible way, and no guarantees are given.
 
 Package: qtlocation5-private-dev
@@ -68,7 +72,7 @@ Architecture: any
 Section: libdevel
 Depends: qtlocation5-dev (= ${binary:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Description: Qt 5 Location private development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -78,24 +82,26 @@ Description: Qt 5 Location private development files
  .
  Use at your own risk.
  .
- WARNING: This module is not an official part of Qt 5, but instead a git 
- snapshot of an ongoing development. The package is very likely to 
+ WARNING: This module is not an official part of Qt 5, but instead a git
+ snapshot of an ongoing development. The package is very likely to
  change in a binary incompatible way, and no guarantees are given.
 
 Package: qtlocation5-examples
 Architecture: any
 Multi-Arch: same
 Section: x11
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Pre-Depends: dpkg (>= 1.15.6~),
+             ${misc:Pre-Depends},
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
 Description: Qt 5 Location examples
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains Qt 5 Location examples.
  .
- WARNING: This module is not an official part of Qt 5, but instead a git 
- snapshot of an ongoing development. The package is very likely to 
+ WARNING: This module is not an official part of Qt 5, but instead a git
+ snapshot of an ongoing development. The package is very likely to
  change in a binary incompatible way, and no guarantees are given.
 
 Package: qtlocation5-dbg
@@ -103,11 +109,10 @@ Priority: extra
 Architecture: any
 Section: debug
 Depends: libqt5location5 (= ${binary:Version}),
-         ${misc:Depends}
+         ${misc:Depends},
 Description: Qt Location library debugging symbols
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains the debugging symbols for the Qt 5 Location
  libraries.
-
