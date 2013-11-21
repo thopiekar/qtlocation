@@ -1,3 +1,1 @@
-usr/lib/*/*.so.*
-usr/lib/*/qt5/plugins/geoservices/libqtgeoservices_nokia.so
-usr/lib/*/qt5/plugins/position/libqtposition_geoclue.so
+usr/lib/*/libQt5Location.so.*
