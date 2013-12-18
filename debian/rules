@@ -23,6 +23,10 @@ override_dh_auto_install:
 	# Remove libtool-like files
 	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
 
+override_dh_auto_test:
+	export LD_LIBRARY_PATH=$(CURDIR)/lib
+	cd tests/auto/ && ( test -e Makefile || qmake auto.pro -o Makefile ) && xvfb-run -a make -f Makefile check
+
 override_dh_builddeb:
 	dh_builddeb -- -Zxz
 

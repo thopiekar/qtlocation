@@ -12,6 +12,7 @@ Build-Depends: debhelper (>= 9.0.0),
                qtbase5-private-dev (>= 5.2.0~),
                qtdeclarative5-private-dev (>= 5.2.0~),
                qtdeclarative5-qtquick2-plugin (>= 5.2.0~),
+               xvfb,
 Standards-Version: 3.9.4
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtlocation.git

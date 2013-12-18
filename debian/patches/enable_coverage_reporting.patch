@@ -1,0 +1,156 @@
+--- a/qtlocation.pro
++++ b/qtlocation.pro
+@@ -1,3 +1,4 @@
++include(coverage.pri)
+ load(configure)
+ qtCompileTest(geoclue)
+ qtCompileTest(geoclue-satellite)
+--- a/src/3rdparty/3rdparty.pro
++++ b/src/3rdparty/3rdparty.pro
+@@ -1,2 +1,4 @@
++include(../../coverage.pri)
++
+ TEMPLATE = subdirs
+ SUBDIRS += poly2tri
+--- a/src/3rdparty/poly2tri/poly2tri.pro
++++ b/src/3rdparty/poly2tri/poly2tri.pro
+@@ -1,3 +1,5 @@
++include(../../../coverage.pri)
++
+ TEMPLATE = lib
+ TARGET = poly2tri
+ 
+--- a/src/imports/location/location.pro
++++ b/src/imports/location/location.pro
+@@ -1,3 +1,5 @@
++include(../../../coverage.pri)
++
+ QT += quick-private network positioning-private location-private qml-private 3d core-private gui-private
+ 
+ INCLUDEPATH += ../../location
+--- a/src/location/location.pro
++++ b/src/location/location.pro
+@@ -1,3 +1,5 @@
++include(../../coverage.pri)
++
+ TARGET = QtLocation
+ QT = core-private positioning
+ 
+--- a/src/location/maps/maps.pri
++++ b/src/location/maps/maps.pri
+@@ -1,3 +1,4 @@
++include(../../../coverage.pri)
+ 
+ INCLUDEPATH += maps
+ 
+--- a/src/plugins/geoservices/osm/osm.pro
++++ b/src/plugins/geoservices/osm/osm.pro
+@@ -1,3 +1,5 @@
++include(../../../../coverage.pri)
++
+ TARGET = qtgeoservices_osm
+ QT += location-private network
+ 
+--- a/src/plugins/position/geoclue/geoclue.pro
++++ b/src/plugins/position/geoclue/geoclue.pro
+@@ -1,3 +1,5 @@
++include(../../../../coverage.pri)
++
+ TARGET = qtposition_geoclue
+ QT = core positioning
+ 
+--- a/src/plugins/position/gypsy/gypsy.pro
++++ b/src/plugins/position/gypsy/gypsy.pro
+@@ -1,3 +1,5 @@
++include(../../../../coverage.pri)
++
+ TARGET = qtposition_gypsy
+ QT = core positioning
+ 
+--- a/src/plugins/position/position.pro
++++ b/src/plugins/position/position.pro
+@@ -1,3 +1,5 @@
++include(../../coverage.pri)
++
+ TEMPLATE = subdirs
+ 
+ config_geoclue:SUBDIRS += geoclue
+--- a/src/plugins/position/simulator/simulator.pro
++++ b/src/plugins/position/simulator/simulator.pro
+@@ -1,3 +1,5 @@
++include(../../../../coverage.pri)
++
+ TARGET = qtposition_simulator
+ QT += positioning gui
+ 
+--- a/src/plugins/position/ubuntu/ubuntu.pro
++++ b/src/plugins/position/ubuntu/ubuntu.pro
+@@ -1,3 +1,5 @@
++include(../../../../coverage.pri)
++
+ TARGET = qtposition_ubuntu
+ QT += location gui
+ 
+--- a/src/src.pro
++++ b/src/src.pro
+@@ -1,3 +1,5 @@
++include(../coverage.pri)
++
+ TEMPLATE = subdirs
+ CONFIG += ordered
+ 
+--- /dev/null
++++ b/coverage.pri
+@@ -0,0 +1,44 @@
++# Coverage
++CONFIG(coverage) {
++    LIBS += -lgcov
++    QMAKE_CXXFLAGS += --coverage
++    QMAKE_LDFLAGS += --coverage
++
++    QMAKE_EXTRA_TARGETS += clean-gcno clean-gcda coverage-html \
++        generate-coverage-html clean-coverage-html coverage-gcovr \
++        generate-gcovr generate-coverage-gcovr clean-coverage-gcovr
++
++    clean-gcno.commands = \
++        "@echo Removing old coverage instrumentation"; \
++        "find -name '*.gcno' -print | xargs -r rm"
++
++    clean-gcda.commands = \
++        "@echo Removing old coverage results"; \
++        "find -name '*.gcda' -print | xargs -r rm"
++
++    coverage-html.depends = clean-gcda check generate-coverage-html
++
++    generate-coverage-html.commands = \
++        "@echo Collecting coverage data"; \
++        "lcov --directory $${TOP_SRC_DIR} --capture --output-file coverage.info --no-checksum --compat-libtool"; \
++        "lcov --extract coverage.info \"*/src/*.cpp\" -o coverage.info"; \
++        "lcov --remove coverage.info \"moc_*.cpp\" -o coverage.info"; \
++        "LANG=C genhtml --prefix $${TOP_SRC_DIR} --output-directory coverage-html --title \"Code Coverage\" --legend --show-details coverage.info"
++
++    clean-coverage-html.depends = clean-gcda
++    clean-coverage-html.commands = \
++        "lcov --directory $${TOP_SRC_DIR} -z"; \
++        "rm -rf coverage.info coverage-html"
++
++    coverage-gcovr.depends = clean-gcda check generate-coverage-gcovr
++
++    generate-coverage-gcovr.commands = \
++        "@echo Generating coverage GCOVR report"; \
++        "gcovr -x -r $${TOP_SRC_DIR} -o $${TOP_SRC_DIR}/coverage.xml -e \".*/moc_.*\" -e \"tests/.*\" -e \".*\\.h\""
++
++    clean-coverage-gcovr.depends = clean-gcda
++    clean-coverage-gcovr.commands = \
++        "rm -rf $${TOP_SRC_DIR}/coverage.xml"
++
++    QMAKE_CLEAN += *.gcda *.gcno coverage.info coverage.xml
++}
+--- a/src/plugins/geoservices/nokia/nokia.pro
++++ b/src/plugins/geoservices/nokia/nokia.pro
+@@ -1,3 +1,5 @@
++include(../../../../coverage.pri)
++
+ TARGET = qtgeoservices_nokia
+ QT += location-private network
+ 
