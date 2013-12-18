@@ -32,8 +32,17 @@
             qgeocameratiles
  
      qtHaveModule(quick) {
-@@ -75,7 +78,8 @@
-            qgeocoordinate \
+@@ -68,14 +71,15 @@
+            positionplugin \
+            positionplugintest \
+            qgeoaddress \
+-           qgeoareamonitor \
++           #qgeoareamonitor \
+            qgeoshape \
+            qgeorectangle \
+            qgeocircle \
+-           qgeocoordinate \
++           #qgeocoordinate \
             qgeolocation \
             qgeopositioninfo \
 -           qgeopositioninfosource \
@@ -41,4 +50,6 @@
 +           #qgeopositioninfosource \
             qgeosatelliteinfo \
             qgeosatelliteinfosource \
-            qnmeapositioninfosource
+-           qnmeapositioninfosource
++           #qnmeapositioninfosource
+
