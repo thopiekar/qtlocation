@@ -99,8 +99,6 @@ Description: Qt Positioning module - QML plugin
 Package: qtlocation5-dev
 Architecture: any
 Section: libdevel
-Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends},
 Depends: libqt5location5 (= ${binary:Version}),
          libqt5location5-plugins (= ${binary:Version}),
          libqt5positioning5 (= ${binary:Version}),
