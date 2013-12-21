@@ -46,7 +46,6 @@ Package: libqt5location5-plugins
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends},
-Replaces: libqt5location5 (<= 5.0~git20130117-0ubuntu2),
 Depends: libqt5location5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends},
@@ -60,7 +59,6 @@ Package: libqt5positioning5-plugins
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends},
-Replaces: libqt5location5-plugins (<= 5.0~git20130805-0ubuntu3),
 Depends: libqt5location5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends},
