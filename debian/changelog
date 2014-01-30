@@ -6,7 +6,5 @@ qtlocation-opensource-src (5.2.0-1) UNRELEASED; urgency=low
   [ Allan LeSage ]
   * debian/patches/skip_failing_tests.patch
     - Skip some failing tests pending investigation.
-  * debian/patches/enable_coverage_reporting.patch
-    - Enable standard coverage reporting for Jenkins consumption.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 21 Nov 2013 05:59:58 +0000
