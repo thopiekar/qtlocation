@@ -110,21 +110,6 @@ Description: Qt 5 Location and Positioning development files
  This package contains the header development files used for building Qt 5
  applications using Qt Location and Positioning libraries.
 
-Package: qtlocation5-private-dev
-Architecture: any
-Section: libdevel
-Depends: qtlocation5-dev (= ${binary:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends},
-Description: Qt 5 Location and Positioning private development files
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the private header development files for building some
- Qt 5 applications using Qt Location and Positioning private headers.
- .
- Use at your own risk.
-
 Package: qtlocation5-examples
 Architecture: any
 Multi-Arch: same
