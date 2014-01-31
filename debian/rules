@@ -23,6 +23,11 @@ override_dh_auto_install:
 	# Remove libtool-like files
 	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
 	
+	# Remove private stuff
+	rm -rfv $(CURDIR)/debian/tmp/usr/include/qt5/QtLocation/*/QtLocation/private
+	rm -rfv $(CURDIR)/debian/tmp/usr/include/qt5/QtPositioning/*/QtPositioning/private
+	rm -fv $(CURDIR)/debian/tmp/usr/share/qt5/mkspecs/modules/qt_lib_*_private.pri
+	
 	# Remove binary that includes libtheora in itself
 	rm -f debian/tmp/usr/lib/*/qt5/examples/qtlocation/declarative/mapviewer/qml_location_mapviewer
 
