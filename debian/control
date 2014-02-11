@@ -9,9 +9,9 @@ Build-Depends: debhelper (>= 9.0.0),
                libqt5opengl5-dev,
                pkg-kde-tools,
                qt3d5-dev,
-               qtbase5-private-dev (>= 5.2.0~),
-               qtdeclarative5-private-dev (>= 5.2.0~),
-               qtdeclarative5-qtquick2-plugin (>= 5.2.0~),
+               qtbase5-private-dev (>= 5.2.1~),
+               qtdeclarative5-private-dev (>= 5.2.1~),
+               qtdeclarative5-qtquick2-plugin (>= 5.2.1~),
                xvfb,
 Standards-Version: 3.9.4
 Homepage: http://qt-project.org/
