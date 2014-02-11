@@ -127,5 +127,5 @@ usr/lib/*/libQt5Positioning.prl
 usr/lib/*/libQt5Positioning.so
 usr/lib/*/pkgconfig/Qt5Location.pc
 usr/lib/*/pkgconfig/Qt5Positioning.pc
-usr/share/qt5/mkspecs/modules/qt_lib_location.pri
-usr/share/qt5/mkspecs/modules/qt_lib_positioning.pri
+usr/lib/*/qt5/mkspecs/modules/qt_lib_location.pri
+usr/lib/*/qt5/mkspecs/modules/qt_lib_positioning.pri
