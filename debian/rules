@@ -11,6 +11,23 @@ export QT_SELECT := qt5
 %:
 	dh $@ --parallel --with pkgkde_symbolshelper --dbg-package=qtlocation5-dbg
 
+override_dh_auto_clean:
+	dh_auto_clean
+	# Leftover files and all symlinks
+	find \( -false \
+	  -o -name \*.a \
+	  -o -name Makefile.Debug \
+	  -o -name Makefile.Release \
+	  -o -name \*.o \
+	  -o -name \*.prl \
+	  -o -name \*.so \
+	  -o -name \*.so.debug \
+	  -o -type l \
+	\) -print0 | xargs -0 rm -rfv
+
+	# Some other leftover binaries
+	rm -fv config.tests/geoclue/geoclue
+
 override_dh_auto_configure:
 	qmake QT_BUILD_PARTS+=tests
 
