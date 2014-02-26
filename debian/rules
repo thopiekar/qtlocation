@@ -52,7 +52,10 @@ override_dh_install:
 	dh_install --fail-missing
 
 override_dh_auto_test:
+ifeq (,$(findstring nocheck,$(DEB_BUILD_OPTIONS)))
 	xvfb-run -a dh_auto_test -- QT_PLUGIN_PATH=$(CURDIR)/plugins LD_LIBRARY_PATH=$(CURDIR)/lib
+endif
+
 
 override_dh_builddeb:
 	dh_builddeb -- -Zxz
