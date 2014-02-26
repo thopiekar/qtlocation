@@ -77,11 +77,11 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends: libqt5positioning5-plugins (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Description: Qt 5 Location examples
+Description: Qt 5 Location and Positioning examples
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains Qt 5 Location examples.
+ This package contains Qt 5 Location and Positioning examples.
 
 Package: qtlocation5-dbg
 Priority: extra
@@ -94,4 +94,4 @@ Description: Qt Location library debugging symbols
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains the debugging symbols for the Qt 5 Location
- libraries.
+ and Positioning libraries.
