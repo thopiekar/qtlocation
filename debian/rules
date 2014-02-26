@@ -9,24 +9,7 @@ export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 export QT_SELECT := qt5
 
 %:
-	dh $@ --parallel --with pkgkde_symbolshelper --dbg-package=qtlocation5-dbg
-
-override_dh_auto_clean:
-	dh_auto_clean
-	# Leftover files and all symlinks
-	find \( -false \
-	  -o -name \*.a \
-	  -o -name Makefile.Debug \
-	  -o -name Makefile.Release \
-	  -o -name \*.o \
-	  -o -name \*.prl \
-	  -o -name \*.so \
-	  -o -name \*.so.debug \
-	  -o -type l \
-	\) -print0 | xargs -0 rm -rfv
-
-	# Some other leftover binaries
-	rm -fv config.tests/geoclue/geoclue
+	dh $@ --parallel --with pkgkde_symbolshelper --dbg-package=qtpositioning5-dbg
 
 override_dh_auto_configure:
 	qmake QT_BUILD_PARTS+=tests
@@ -68,7 +51,20 @@ ifeq (,$(findstring nocheck,$(DEB_BUILD_OPTIONS)))
 	xvfb-run -a dh_auto_test -- QT_PLUGIN_PATH=$(CURDIR)/plugins LD_LIBRARY_PATH=$(CURDIR)/lib
 endif
 
+override_dh_auto_clean:
+	dh_auto_clean
+	# Leftover files and all symlinks
+	find \( -false \
+	  -o -name \*.a \
+	  -o -name Makefile.Debug \
+	  -o -name Makefile.Release \
+	  -o -name \*.o \
+	  -o -name \*.prl \
+	  -o -name \*.so \
+	  -o -name \*.so.debug \
+	  -o -type l \
+	\) -print0 | xargs -0 rm -rfv
 
-override_dh_builddeb:
-	dh_builddeb -- -Zxz
+	# Some other leftover binaries
+	rm -fv config.tests/geoclue/geoclue
 
