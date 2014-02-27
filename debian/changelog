@@ -1,5 +1,5 @@
-qtlocation-opensource-src (5.2.1-1) UNRELEASED; urgency=low
+qtlocation-opensource-src (5.2.1-1) experimental; urgency=low
 
   * Initial release. (Closes: #697509)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 21 Nov 2013 05:59:58 +0000
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 26 Feb 2014 23:29:05 -0300
