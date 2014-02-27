@@ -60,8 +60,6 @@ Architecture: any
 Section: libdevel
 Depends: libqt5positioning5 (= ${binary:Version}),
          libqt5positioning5-plugins (= ${binary:Version}),
-         libqt5positioning5 (= ${binary:Version}),
-         libqt5positioning5-plugins (= ${binary:Version}),
          qtbase5-dev,
          qtdeclarative5-dev,
          ${misc:Depends}
