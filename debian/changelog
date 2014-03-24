@@ -4,6 +4,8 @@ qtlocation-opensource-src (5.2.1-2) UNRELEASED; urgency=medium
   * Rename the -doc, -dbg and -examples packages to match the source
     package name, for consistency with other Qt 5 modules.
   * Build new packages for qtlocation module.
+  * Pass ‘-screen 0 640x480x24’ to Xvfb server when running tests,
+    needed for executing OpenGL/QML tests on the builders.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 23 Mar 2014 13:37:08 +0400
 
