@@ -1,4 +1,4 @@
-qtlocation-opensource-src (5.2.1-2) UNRELEASED; urgency=medium
+qtlocation-opensource-src (5.2.1-3) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Rename the -doc, -dbg and -examples packages to match the source
@@ -8,6 +8,13 @@ qtlocation-opensource-src (5.2.1-2) UNRELEASED; urgency=medium
     needed for executing OpenGL/QML tests on the builders.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 23 Mar 2014 13:37:08 +0400
+
+qtlocation-opensource-src (5.2.1-2) unstable; urgency=medium
+
+  * Upload to unstable.
+  * Update symbols files with buildd's logs.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 26 Mar 2014 08:34:10 -0300
 
 qtlocation-opensource-src (5.2.1-1) experimental; urgency=low
 

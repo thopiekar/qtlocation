@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.1 amd64
+# SymbolsHelper-Confirmed: 5.2.1 amd64 sparc
 libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZN10QGeoCircle9setCenterERK14QGeoCoordinate@Base 5.2.1
  _ZN10QGeoCircle9setRadiusEd@Base 5.2.1
@@ -342,6 +342,36 @@ libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZNK9QGeoShape8containsERK14QGeoCoordinate@Base 5.2.1
  _ZNK9QGeoShapeeqERKS_@Base 5.2.1
  _ZNK9QGeoShapeneERKS_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZNSt17_Temporary_bufferIN5QListI11QJsonObjectE8iteratorES1_EC1ES3_S3_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZNSt17_Temporary_bufferIN5QListI11QJsonObjectE8iteratorES1_EC2ES3_S3_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt12__move_mergeIN5QListI11QJsonObjectE8iteratorES3_PS1_PFbRKS1_S6_EET1_T_SA_T0_SB_S9_T2_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt12__move_mergeIN5QListIN16QGeoPositionInfo9AttributeEE8iteratorES4_PS2_ET1_T_S7_T0_S8_S6_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt12__move_mergeIP11QJsonObjectS1_N5QListIS0_E8iteratorEPFbRKS0_S6_EET1_T_SA_T0_SB_S9_T2_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt12__move_mergeIPN16QGeoPositionInfo9AttributeES2_N5QListIS1_E8iteratorEET1_T_S7_T0_S8_S6_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt16__insertion_sortIN5QListI11QJsonObjectE8iteratorEPFbRKS1_S5_EEvT_S8_T0_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt16__insertion_sortIN5QListIN16QGeoPositionInfo9AttributeEE8iteratorEEvT_S5_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt16__merge_adaptiveIN5QListI11QJsonObjectE8iteratorEiPS1_PFbRKS1_S6_EEvT_S9_S9_T0_SA_T1_SA_T2_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt16__merge_adaptiveIN5QListIN16QGeoPositionInfo9AttributeEE8iteratorEiPS2_EvT_S6_S6_T0_S7_T1_S7_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt17__merge_sort_loopIN5QListI11QJsonObjectE8iteratorEPS1_iPFbRKS1_S6_EEvT_S9_T0_T1_T2_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt17__merge_sort_loopIN5QListIN16QGeoPositionInfo9AttributeEE8iteratorEPS2_iEvT_S6_T0_T1_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt17__merge_sort_loopIP11QJsonObjectN5QListIS0_E8iteratorEiPFbRKS0_S6_EEvT_S9_T0_T1_T2_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt17__merge_sort_loopIPN16QGeoPositionInfo9AttributeEN5QListIS1_E8iteratorEiEvT_S6_T0_T1_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt17__rotate_adaptiveIN5QListI11QJsonObjectE8iteratorEPS1_iET_S5_S5_S5_T1_S6_T0_S6_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt17__rotate_adaptiveIN5QListIN16QGeoPositionInfo9AttributeEE8iteratorEPS2_iET_S6_S6_S6_T1_S7_T0_S7_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt21__inplace_stable_sortIN5QListI11QJsonObjectE8iteratorEPFbRKS1_S5_EEvT_S8_T0_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt21__inplace_stable_sortIN5QListIN16QGeoPositionInfo9AttributeEE8iteratorEEvT_S5_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt21__move_merge_adaptiveIP11QJsonObjectN5QListIS0_E8iteratorES4_PFbRKS0_S6_EEvT_S9_T0_SA_T1_T2_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt21__move_merge_adaptiveIPN16QGeoPositionInfo9AttributeEN5QListIS1_E8iteratorES5_EvT_S6_T0_S7_T1_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt22__merge_without_bufferIN5QListI11QJsonObjectE8iteratorEiPFbRKS1_S5_EEvT_S8_S8_T0_S9_T1_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt22__merge_without_bufferIN5QListIN16QGeoPositionInfo9AttributeEE8iteratorEiEvT_S5_S5_T0_S6_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt22__stable_sort_adaptiveIN5QListI11QJsonObjectE8iteratorEPS1_iPFbRKS1_S6_EEvT_S9_T0_T1_T2_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt22__stable_sort_adaptiveIN5QListIN16QGeoPositionInfo9AttributeEE8iteratorEPS2_iEvT_S6_T0_T1_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt24__merge_sort_with_bufferIN5QListI11QJsonObjectE8iteratorEPS1_PFbRKS1_S6_EEvT_S9_T0_T1_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt24__merge_sort_with_bufferIN5QListIN16QGeoPositionInfo9AttributeEE8iteratorEPS2_EvT_S6_T0_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt30__move_merge_adaptive_backwardIN5QListI11QJsonObjectE8iteratorEPS1_S3_PFbRKS1_S6_EEvT_S9_T0_SA_T1_T2_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt30__move_merge_adaptive_backwardIN5QListIN16QGeoPositionInfo9AttributeEE8iteratorEPS2_S4_EvT_S6_T0_S7_T1_@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt8__rotateIN5QListI11QJsonObjectE8iteratorEEvT_S4_S4_St26random_access_iterator_tag@Base 5.2.1
+ (optional=templinst|arch=sparc)_ZSt8__rotateIN5QListIN16QGeoPositionInfo9AttributeEE8iteratorEEvT_S5_S5_St26random_access_iterator_tag@Base 5.2.1
  _ZTI11QSharedData@Base 5.2.1
  _ZTI21QGeoAreaMonitorSource@Base 5.2.1
  _ZTI22QDeclarativeGeoAddress@Base 5.2.1
