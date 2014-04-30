@@ -1,4 +1,4 @@
-qtlocation-opensource-src (5.2.1-3) UNRELEASED; urgency=medium
+qtlocation-opensource-src (5.2.1-4) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Rename the -doc, -dbg and -examples packages to match the source
@@ -7,7 +7,17 @@ qtlocation-opensource-src (5.2.1-3) UNRELEASED; urgency=medium
   * Pass ‘-screen 0 640x480x24’ to Xvfb server when running tests,
     needed for executing OpenGL/QML tests on the builders.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 23 Mar 2014 13:37:08 +0400
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Apr 2014 16:19:31 +0400
+
+qtlocation-opensource-src (5.2.1-3) unstable; urgency=medium
+
+  * Rename the QML module from qtdeclarative5-qtlocation-plugin to
+    qml-module-location, adding proper Break+Replaces and renaming necessary
+    files.
+    Also rename the location QML module files, which is currently not being
+     built.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 03 Apr 2014 12:14:03 -0300
 
 qtlocation-opensource-src (5.2.1-2) unstable; urgency=medium
 
