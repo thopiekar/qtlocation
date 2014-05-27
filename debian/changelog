@@ -8,6 +8,8 @@ qtlocation-opensource-src (5.3.0-1) UNRELEASED; urgency=medium
   * Remove transitional package qtdeclarative5-qtpositioning-plugin.
   * Remove skip_failing_tests.patch. If the test are failing then they should
     not be deactivated but solved, except we have a good reason to do it.
+  * Remove qtdeclarative5-qtquick2-plugin from the build dependencies, it is
+    not really needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 May 2014 15:28:31 -0300
 
