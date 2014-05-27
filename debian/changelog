@@ -5,6 +5,7 @@ qtlocation-opensource-src (5.3.0-1) UNRELEASED; urgency=medium
   * Bump Qt build dependencies.
   * Install headers in their new m-a path. Mark development package as
     Multi-Arch: same.
+  * Remove transitional package qtdeclarative5-qtpositioning-plugin.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 May 2014 15:28:31 -0300
 

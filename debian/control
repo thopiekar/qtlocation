@@ -45,16 +45,6 @@ Description: Qt Positioning module - position plugins
  .
  This package contains Qt Positioning plugins.
 
-Package: qtdeclarative5-qtpositioning-plugin
-Architecture: all
-Section: oldlibs
-Depends: qml-module-qtpositioning, ${misc:Depends}
-Description: transitional dummy package for Qt Positioning QML module
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This is a transitional dummy package which can be safely removed.
-
 Package: qml-module-qtpositioning
 Architecture: any
 Multi-Arch: same
