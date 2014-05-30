@@ -33,6 +33,7 @@ usr/include/*/qt5/QtPositioning/qpositioningglobal.h
 usr/include/*/qt5/QtPositioning/qtpositioningversion.h
 usr/lib/*/cmake/Qt5Positioning/Qt5PositioningConfig.cmake
 usr/lib/*/cmake/Qt5Positioning/Qt5PositioningConfigVersion.cmake
+usr/lib/*/cmake/Qt5Positioning/Qt5Positioning_.cmake
 usr/lib/*/libQt5Positioning.prl
 usr/lib/*/libQt5Positioning.so
 usr/lib/*/pkgconfig/Qt5Positioning.pc
