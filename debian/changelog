@@ -17,6 +17,7 @@ qtlocation-opensource-src (5.3.0-1) UNRELEASED; urgency=medium
   * Update symbols files with current build log.
   * Update install files.
   * Fix path for removing private headers.
+  * Update debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 May 2014 15:28:31 -0300
 
