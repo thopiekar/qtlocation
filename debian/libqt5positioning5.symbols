@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.1 amd64 sparc
+# SymbolsHelper-Confirmed: 5.3.0 amd64
 libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZN10QGeoCircle9setCenterERK14QGeoCoordinate@Base 5.2.1
  _ZN10QGeoCircle9setRadiusEd@Base 5.2.1
@@ -51,11 +51,13 @@ libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZN13QGeoRectangle9translateEdd@Base 5.2.1
  _ZN13QGeoRectangleC1ERK14QGeoCoordinateS2_@Base 5.2.1
  _ZN13QGeoRectangleC1ERK14QGeoCoordinatedd@Base 5.2.1
+ _ZN13QGeoRectangleC1ERK5QListI14QGeoCoordinateE@Base 5.3.0
  _ZN13QGeoRectangleC1ERK9QGeoShape@Base 5.2.1
  _ZN13QGeoRectangleC1ERKS_@Base 5.2.1
  _ZN13QGeoRectangleC1Ev@Base 5.2.1
  _ZN13QGeoRectangleC2ERK14QGeoCoordinateS2_@Base 5.2.1
  _ZN13QGeoRectangleC2ERK14QGeoCoordinatedd@Base 5.2.1
+ _ZN13QGeoRectangleC2ERK5QListI14QGeoCoordinateE@Base 5.3.0
  _ZN13QGeoRectangleC2ERK9QGeoShape@Base 5.2.1
  _ZN13QGeoRectangleC2ERKS_@Base 5.2.1
  _ZN13QGeoRectangleC2Ev@Base 5.2.1
@@ -77,6 +79,16 @@ libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZN14QGeoCoordinateD1Ev@Base 5.2.1
  _ZN14QGeoCoordinateD2Ev@Base 5.2.1
  _ZN14QGeoCoordinateaSERKS_@Base 5.2.1
+ _ZN14QGeoProjection15coordToMercatorERK14QGeoCoordinate@Base 5.3.0
+ _ZN14QGeoProjection15mercatorToCoordERK15QDoubleVector2D@Base 5.3.0
+ _ZN14QGeoProjection23coordinateInterpolationERK14QGeoCoordinateS2_d@Base 5.3.0
+ _ZN14QGeoProjection7realmodEdd@Base 5.3.0
+ _ZN15QDoubleVector2D9normalizeEv@Base 5.3.0
+ _ZN15QDoubleVector2DC1ERK15QDoubleVector3D@Base 5.3.0
+ _ZN15QDoubleVector2DC2ERK15QDoubleVector3D@Base 5.3.0
+ _ZN15QDoubleVector3D6normalERKS_S1_@Base 5.3.0
+ _ZN15QDoubleVector3D6normalERKS_S1_S1_@Base 5.3.0
+ _ZN15QDoubleVector3D9normalizeEv@Base 5.3.0
  _ZN16QGeoPositionInfo12setAttributeENS_9AttributeEd@Base 5.2.1
  _ZN16QGeoPositionInfo12setTimestampERK9QDateTime@Base 5.2.1
  _ZN16QGeoPositionInfo13setCoordinateERK14QGeoCoordinate@Base 5.2.1
@@ -217,6 +229,7 @@ libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZN23QNmeaPositionInfoSource16staticMetaObjectE@Base 5.2.1
  _ZN23QNmeaPositionInfoSource17setUpdateIntervalEi@Base 5.2.1
  _ZN23QNmeaPositionInfoSource24parsePosInfoFromNmeaDataEPKciP16QGeoPositionInfoPb@Base 5.2.1
+ _ZN23QNmeaPositionInfoSource27setUserEquivalentRangeErrorEd@Base 5.3.0
  _ZN23QNmeaPositionInfoSource8setErrorEN22QGeoPositionInfoSource5ErrorE@Base 5.2.1
  _ZN23QNmeaPositionInfoSource9setDeviceEP9QIODevice@Base 5.2.1
  _ZN23QNmeaPositionInfoSourceC1ENS_10UpdateModeEP7QObject@Base 5.2.1
@@ -227,6 +240,7 @@ libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZN29QGeoPositionInfoSourceFactoryD0Ev@Base 5.2.1
  _ZN29QGeoPositionInfoSourceFactoryD1Ev@Base 5.2.1
  _ZN29QGeoPositionInfoSourceFactoryD2Ev@Base 5.2.1
+ _ZN9QGeoShape11extendShapeERK14QGeoCoordinate@Base 5.3.0
  _ZN9QGeoShapeC1EP16QGeoShapePrivate@Base 5.2.1
  _ZN9QGeoShapeC1ERKS_@Base 5.2.1
  _ZN9QGeoShapeC1Ev@Base 5.2.1
@@ -281,6 +295,13 @@ libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZNK14QGeoCoordinate9azimuthToERKS_@Base 5.2.1
  _ZNK14QGeoCoordinate9longitudeEv@Base 5.2.1
  _ZNK14QGeoCoordinateeqERKS_@Base 5.2.1
+ _ZNK15QDoubleVector2D10normalizedEv@Base 5.3.0
+ _ZNK15QDoubleVector2D10toVector3DEv@Base 5.3.0
+ _ZNK15QDoubleVector2D6lengthEv@Base 5.3.0
+ _ZNK15QDoubleVector3D10normalizedEv@Base 5.3.0
+ _ZNK15QDoubleVector3D14distanceToLineERKS_S1_@Base 5.3.0
+ _ZNK15QDoubleVector3D15distanceToPlaneERKS_S1_S1_@Base 5.3.0
+ _ZNK15QDoubleVector3D6lengthEv@Base 5.3.0
  _ZNK16QGeoPositionInfo10coordinateEv@Base 5.2.1
  _ZNK16QGeoPositionInfo12hasAttributeENS_9AttributeE@Base 5.2.1
  _ZNK16QGeoPositionInfo7isValidEv@Base 5.2.1
@@ -333,6 +354,7 @@ libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZNK23QNmeaPositionInfoSource10updateModeEv@Base 5.2.1
  _ZNK23QNmeaPositionInfoSource17lastKnownPositionEb@Base 5.2.1
  _ZNK23QNmeaPositionInfoSource21minimumUpdateIntervalEv@Base 5.2.1
+ _ZNK23QNmeaPositionInfoSource24userEquivalentRangeErrorEv@Base 5.3.0
  _ZNK23QNmeaPositionInfoSource27supportedPositioningMethodsEv@Base 5.2.1
  _ZNK23QNmeaPositionInfoSource5errorEv@Base 5.2.1
  _ZNK23QNmeaPositionInfoSource6deviceEv@Base 5.2.1
