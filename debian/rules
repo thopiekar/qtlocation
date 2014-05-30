@@ -12,7 +12,7 @@ export QT_SELECT := qt5
 	dh $@ --parallel --with pkgkde_symbolshelper --dbg-package=qtpositioning5-dbg
 
 override_dh_auto_configure:
-	qmake #QT_BUILD_PARTS+=tests
+	qmake QT_BUILD_PARTS+=tests
 
 override_dh_auto_build-arch:
 	# This override may seem futile, but it helps us make sure that the tools
@@ -46,10 +46,10 @@ override_dh_auto_install-indep:
 override_dh_install:
 	dh_install --fail-missing
 
-#override_dh_auto_test:
-#ifeq (,$(findstring nocheck,$(DEB_BUILD_OPTIONS)))
-#	xvfb-run -a dbus-launch dh_auto_test -- QT_PLUGIN_PATH=$(CURDIR)/plugins LD_LIBRARY_PATH=$(CURDIR)/lib
-#endif
+override_dh_auto_test:
+ifeq (,$(findstring nocheck,$(DEB_BUILD_OPTIONS)))
+	xvfb-run -a dbus-launch dh_auto_test -- QT_PLUGIN_PATH=$(CURDIR)/plugins LD_LIBRARY_PATH=$(CURDIR)/lib
+endif
 
 override_dh_auto_clean:
 	dh_auto_clean
