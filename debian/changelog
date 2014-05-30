@@ -1,6 +1,5 @@
-qtlocation-opensource-src (5.3.0-1) UNRELEASED; urgency=medium
+qtlocation-opensource-src (5.3.0-1) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * Bump Qt build dependencies.
   * Install headers in their new m-a path. Mark development package as
@@ -19,7 +18,7 @@ qtlocation-opensource-src (5.3.0-1) UNRELEASED; urgency=medium
   * Fix path for removing private headers.
   * Update debian/copyright.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 May 2014 15:28:31 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 29 May 2014 23:32:11 -0300
 
 qtlocation-opensource-src (5.2.1-3) unstable; urgency=medium
 
