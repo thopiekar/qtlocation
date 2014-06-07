@@ -6,7 +6,7 @@ Uploaders: Timo Jyrinki <timo@debian.org>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
 Build-Depends: dbus,
                debhelper (>= 9.0.0),
-               geoclue,
+               geoclue, geoclue-hostip, geoclue-localnet, geoclue-nominatim,
                libgconf2-dev,
                libgeoclue-dev,
                libqt5opengl5-dev (>= 5.3.0+dfsg~),
