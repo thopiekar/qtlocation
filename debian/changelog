@@ -1,12 +1,12 @@
-qtlocation-opensource-src (5.3.0-2) UNRELEASED; urgency=medium
+qtlocation-opensource-src (5.3.0-2) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
-  * Reenable tests, using disable_failing_tests.patch to disable the tests
+  * Upload to unstable.
+  * Re-enable tests, using disable_failing_tests.patch to disable the tests
     that are currently failing. Both of them seems to lack a source of
     information to properly work.
   * Add build dependencies needed for running the tests.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 May 2014 23:42:03 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 07 Jun 2014 11:18:06 -0300
 
 qtlocation-opensource-src (5.3.0-1) experimental; urgency=medium
 
