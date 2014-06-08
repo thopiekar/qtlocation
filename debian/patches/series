@@ -1,1 +1,2 @@
 disable_failing_tests.patch
+remove_qreal_check.patch
