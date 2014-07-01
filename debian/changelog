@@ -4,6 +4,7 @@ qtlocation-opensource-src (5.3.1-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Qt build dependencies.
   * Remove remove_qreal_check.patch, applied upstream.
+  * Fix install file with new files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 01 Jul 2014 12:58:46 -0300
 
