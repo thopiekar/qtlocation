@@ -5,6 +5,7 @@ qtlocation-opensource-src (5.3.1-2) UNRELEASED; urgency=medium
   * Run tests with QT_QPA_PLATFORM=minimal, so that they could be
     run without Xvfb.
   * Update my e-mail address.
+  * Update Vcs-Browser field to point to cgit interface.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 26 Aug 2014 21:30:57 +0400
 
