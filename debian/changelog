@@ -11,6 +11,7 @@ qtlocation-opensource-src (5.3.2-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Qt build dependencies.
   * Update symbols files with buildds' logs.
+  * Update install files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 26 Aug 2014 21:30:57 +0400
 
