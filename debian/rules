@@ -14,12 +14,6 @@ export QT_SELECT := qt5
 override_dh_auto_configure:
 	qmake QT_BUILD_PARTS+=tests
 
-override_dh_auto_build-arch:
-	# This override may seem futile, but it helps us make sure that the tools
-	# needed for building the docs are built before calling them.
-	# If there's a better way, do not hesitate to tell us.
-	dh_auto_build
-
 override_dh_auto_build-indep:
 	dh_auto_build -Smakefile -- docs
 
@@ -33,8 +27,8 @@ override_dh_auto_install-arch:
 	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
 	
 	# Remove private stuff
-	rm -rfv $(CURDIR)/debian/tmp/usr/include/qt5/QtLocation/*/QtLocation/private
-	rm -rfv $(CURDIR)/debian/tmp/usr/include/qt5/QtPositioning/*/QtPositioning/private
+	rm -rfv $(CURDIR)/debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtLocation/*/QtLocation/private
+	rm -rfv $(CURDIR)/debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtPositioning/*/QtPositioning/private
 	rm -fv $(CURDIR)/debian/tmp/usr/lib/*/qt5/mkspecs/modules/qt_lib_*_private.pri
 	
 	# Remove binary that includes libtheora in itself
@@ -48,7 +42,7 @@ override_dh_install:
 
 override_dh_auto_test:
 ifeq (,$(findstring nocheck,$(DEB_BUILD_OPTIONS)))
-	xvfb-run -a -s '-screen 0 640x480x24' dh_auto_test -- QT_PLUGIN_PATH=$(CURDIR)/plugins LD_LIBRARY_PATH=$(CURDIR)/lib
+	dbus-launch --exit-with-session dh_auto_test -- QT_QPA_PLATFORM=minimal QT_DEBUG_PLUGINS=1 QT_PLUGIN_PATH=$(CURDIR)/plugins
 endif
 
 override_dh_auto_clean:

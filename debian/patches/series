@@ -1,1 +1,2 @@
-skip_failing_tests.patch
+disable_qgeocircle_extendShape_tests.patch
+disable_failing_tests.patch

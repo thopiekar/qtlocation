@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.1 amd64 sparc
+# SymbolsHelper-Confirmed: 5.3.1 sparc
 libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZN10QGeoCircle9setCenterERK14QGeoCoordinate@Base 5.2.1
  _ZN10QGeoCircle9setRadiusEd@Base 5.2.1
@@ -51,11 +51,13 @@ libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZN13QGeoRectangle9translateEdd@Base 5.2.1
  _ZN13QGeoRectangleC1ERK14QGeoCoordinateS2_@Base 5.2.1
  _ZN13QGeoRectangleC1ERK14QGeoCoordinatedd@Base 5.2.1
+ _ZN13QGeoRectangleC1ERK5QListI14QGeoCoordinateE@Base 5.3.0
  _ZN13QGeoRectangleC1ERK9QGeoShape@Base 5.2.1
  _ZN13QGeoRectangleC1ERKS_@Base 5.2.1
  _ZN13QGeoRectangleC1Ev@Base 5.2.1
  _ZN13QGeoRectangleC2ERK14QGeoCoordinateS2_@Base 5.2.1
  _ZN13QGeoRectangleC2ERK14QGeoCoordinatedd@Base 5.2.1
+ _ZN13QGeoRectangleC2ERK5QListI14QGeoCoordinateE@Base 5.3.0
  _ZN13QGeoRectangleC2ERK9QGeoShape@Base 5.2.1
  _ZN13QGeoRectangleC2ERKS_@Base 5.2.1
  _ZN13QGeoRectangleC2Ev@Base 5.2.1
@@ -77,6 +79,16 @@ libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZN14QGeoCoordinateD1Ev@Base 5.2.1
  _ZN14QGeoCoordinateD2Ev@Base 5.2.1
  _ZN14QGeoCoordinateaSERKS_@Base 5.2.1
+ _ZN14QGeoProjection15coordToMercatorERK14QGeoCoordinate@Base 5.3.0
+ _ZN14QGeoProjection15mercatorToCoordERK15QDoubleVector2D@Base 5.3.0
+ _ZN14QGeoProjection23coordinateInterpolationERK14QGeoCoordinateS2_d@Base 5.3.0
+ _ZN14QGeoProjection7realmodEdd@Base 5.3.0
+ _ZN15QDoubleVector2D9normalizeEv@Base 5.3.0
+ _ZN15QDoubleVector2DC1ERK15QDoubleVector3D@Base 5.3.0
+ _ZN15QDoubleVector2DC2ERK15QDoubleVector3D@Base 5.3.0
+ _ZN15QDoubleVector3D6normalERKS_S1_@Base 5.3.0
+ _ZN15QDoubleVector3D6normalERKS_S1_S1_@Base 5.3.0
+ _ZN15QDoubleVector3D9normalizeEv@Base 5.3.0
  _ZN16QGeoPositionInfo12setAttributeENS_9AttributeEd@Base 5.2.1
  _ZN16QGeoPositionInfo12setTimestampERK9QDateTime@Base 5.2.1
  _ZN16QGeoPositionInfo13setCoordinateERK14QGeoCoordinate@Base 5.2.1
@@ -217,6 +229,7 @@ libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZN23QNmeaPositionInfoSource16staticMetaObjectE@Base 5.2.1
  _ZN23QNmeaPositionInfoSource17setUpdateIntervalEi@Base 5.2.1
  _ZN23QNmeaPositionInfoSource24parsePosInfoFromNmeaDataEPKciP16QGeoPositionInfoPb@Base 5.2.1
+ _ZN23QNmeaPositionInfoSource27setUserEquivalentRangeErrorEd@Base 5.3.0
  _ZN23QNmeaPositionInfoSource8setErrorEN22QGeoPositionInfoSource5ErrorE@Base 5.2.1
  _ZN23QNmeaPositionInfoSource9setDeviceEP9QIODevice@Base 5.2.1
  _ZN23QNmeaPositionInfoSourceC1ENS_10UpdateModeEP7QObject@Base 5.2.1
@@ -227,6 +240,7 @@ libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZN29QGeoPositionInfoSourceFactoryD0Ev@Base 5.2.1
  _ZN29QGeoPositionInfoSourceFactoryD1Ev@Base 5.2.1
  _ZN29QGeoPositionInfoSourceFactoryD2Ev@Base 5.2.1
+ _ZN9QGeoShape11extendShapeERK14QGeoCoordinate@Base 5.3.0
  _ZN9QGeoShapeC1EP16QGeoShapePrivate@Base 5.2.1
  _ZN9QGeoShapeC1ERKS_@Base 5.2.1
  _ZN9QGeoShapeC1Ev@Base 5.2.1
@@ -281,6 +295,13 @@ libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZNK14QGeoCoordinate9azimuthToERKS_@Base 5.2.1
  _ZNK14QGeoCoordinate9longitudeEv@Base 5.2.1
  _ZNK14QGeoCoordinateeqERKS_@Base 5.2.1
+ _ZNK15QDoubleVector2D10normalizedEv@Base 5.3.0
+ _ZNK15QDoubleVector2D10toVector3DEv@Base 5.3.0
+ _ZNK15QDoubleVector2D6lengthEv@Base 5.3.0
+ _ZNK15QDoubleVector3D10normalizedEv@Base 5.3.0
+ _ZNK15QDoubleVector3D14distanceToLineERKS_S1_@Base 5.3.0
+ _ZNK15QDoubleVector3D15distanceToPlaneERKS_S1_S1_@Base 5.3.0
+ _ZNK15QDoubleVector3D6lengthEv@Base 5.3.0
  _ZNK16QGeoPositionInfo10coordinateEv@Base 5.2.1
  _ZNK16QGeoPositionInfo12hasAttributeENS_9AttributeE@Base 5.2.1
  _ZNK16QGeoPositionInfo7isValidEv@Base 5.2.1
@@ -333,6 +354,7 @@ libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZNK23QNmeaPositionInfoSource10updateModeEv@Base 5.2.1
  _ZNK23QNmeaPositionInfoSource17lastKnownPositionEb@Base 5.2.1
  _ZNK23QNmeaPositionInfoSource21minimumUpdateIntervalEv@Base 5.2.1
+ _ZNK23QNmeaPositionInfoSource24userEquivalentRangeErrorEv@Base 5.3.0
  _ZNK23QNmeaPositionInfoSource27supportedPositioningMethodsEv@Base 5.2.1
  _ZNK23QNmeaPositionInfoSource5errorEv@Base 5.2.1
  _ZNK23QNmeaPositionInfoSource6deviceEv@Base 5.2.1
@@ -342,36 +364,6 @@ libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZNK9QGeoShape8containsERK14QGeoCoordinate@Base 5.2.1
  _ZNK9QGeoShapeeqERKS_@Base 5.2.1
  _ZNK9QGeoShapeneERKS_@Base 5.2.1
- (optional=templinst|arch=sparc)_ZNSt17_Temporary_bufferIN5QListI11QJsonObjectE8iteratorES1_EC1ES3_S3_@Base 5.2.1
- (optional=templinst|arch=sparc)_ZNSt17_Temporary_bufferIN5QListI11QJsonObjectE8iteratorES1_EC2ES3_S3_@Base 5.2.1
- (optional=templinst|arch=sparc)_ZSt12__move_mergeIN5QListI11QJsonObjectE8iteratorES3_PS1_PFbRKS1_S6_EET1_T_SA_T0_SB_S9_T2_@Base 5.2.1
- (optional=templinst|arch=sparc)_ZSt12__move_mergeIN5QListIN16QGeoPositionInfo9AttributeEE8iteratorES4_PS2_ET1_T_S7_T0_S8_S6_@Base 5.2.1
- (optional=templinst|arch=sparc)_ZSt12__move_mergeIP11QJsonObjectS1_N5QListIS0_E8iteratorEPFbRKS0_S6_EET1_T_SA_T0_SB_S9_T2_@Base 5.2.1
- (optional=templinst|arch=sparc)_ZSt12__move_mergeIPN16QGeoPositionInfo9AttributeES2_N5QListIS1_E8iteratorEET1_T_S7_T0_S8_S6_@Base 5.2.1
- (optional=templinst|arch=sparc)_ZSt16__insertion_sortIN5QListI11QJsonObjectE8iteratorEPFbRKS1_S5_EEvT_S8_T0_@Base 5.2.1
- (optional=templinst|arch=sparc)_ZSt16__insertion_sortIN5QListIN16QGeoPositionInfo9AttributeEE8iteratorEEvT_S5_@Base 5.2.1
- (optional=templinst|arch=sparc)_ZSt16__merge_adaptiveIN5QListI11QJsonObjectE8iteratorEiPS1_PFbRKS1_S6_EEvT_S9_S9_T0_SA_T1_SA_T2_@Base 5.2.1
- (optional=templinst|arch=sparc)_ZSt16__merge_adaptiveIN5QListIN16QGeoPositionInfo9AttributeEE8iteratorEiPS2_EvT_S6_S6_T0_S7_T1_S7_@Base 5.2.1
- (optional=templinst|arch=sparc)_ZSt17__merge_sort_loopIN5QListI11QJsonObjectE8iteratorEPS1_iPFbRKS1_S6_EEvT_S9_T0_T1_T2_@Base 5.2.1
- (optional=templinst|arch=sparc)_ZSt17__merge_sort_loopIN5QListIN16QGeoPositionInfo9AttributeEE8iteratorEPS2_iEvT_S6_T0_T1_@Base 5.2.1
- (optional=templinst|arch=sparc)_ZSt17__merge_sort_loopIP11QJsonObjectN5QListIS0_E8iteratorEiPFbRKS0_S6_EEvT_S9_T0_T1_T2_@Base 5.2.1
- (optional=templinst|arch=sparc)_ZSt17__merge_sort_loopIPN16QGeoPositionInfo9AttributeEN5QListIS1_E8iteratorEiEvT_S6_T0_T1_@Base 5.2.1
- (optional=templinst|arch=sparc)_ZSt17__rotate_adaptiveIN5QListI11QJsonObjectE8iteratorEPS1_iET_S5_S5_S5_T1_S6_T0_S6_@Base 5.2.1
- (optional=templinst|arch=sparc)_ZSt17__rotate_adaptiveIN5QListIN16QGeoPositionInfo9AttributeEE8iteratorEPS2_iET_S6_S6_S6_T1_S7_T0_S7_@Base 5.2.1
- (optional=templinst|arch=sparc)_ZSt21__inplace_stable_sortIN5QListI11QJsonObjectE8iteratorEPFbRKS1_S5_EEvT_S8_T0_@Base 5.2.1
- (optional=templinst|arch=sparc)_ZSt21__inplace_stable_sortIN5QListIN16QGeoPositionInfo9AttributeEE8iteratorEEvT_S5_@Base 5.2.1
- (optional=templinst|arch=sparc)_ZSt21__move_merge_adaptiveIP11QJsonObjectN5QListIS0_E8iteratorES4_PFbRKS0_S6_EEvT_S9_T0_SA_T1_T2_@Base 5.2.1
- (optional=templinst|arch=sparc)_ZSt21__move_merge_adaptiveIPN16QGeoPositionInfo9AttributeEN5QListIS1_E8iteratorES5_EvT_S6_T0_S7_T1_@Base 5.2.1
- (optional=templinst|arch=sparc)_ZSt22__merge_without_bufferIN5QListI11QJsonObjectE8iteratorEiPFbRKS1_S5_EEvT_S8_S8_T0_S9_T1_@Base 5.2.1
- (optional=templinst|arch=sparc)_ZSt22__merge_without_bufferIN5QListIN16QGeoPositionInfo9AttributeEE8iteratorEiEvT_S5_S5_T0_S6_@Base 5.2.1
- (optional=templinst|arch=sparc)_ZSt22__stable_sort_adaptiveIN5QListI11QJsonObjectE8iteratorEPS1_iPFbRKS1_S6_EEvT_S9_T0_T1_T2_@Base 5.2.1
- (optional=templinst|arch=sparc)_ZSt22__stable_sort_adaptiveIN5QListIN16QGeoPositionInfo9AttributeEE8iteratorEPS2_iEvT_S6_T0_T1_@Base 5.2.1
- (optional=templinst|arch=sparc)_ZSt24__merge_sort_with_bufferIN5QListI11QJsonObjectE8iteratorEPS1_PFbRKS1_S6_EEvT_S9_T0_T1_@Base 5.2.1
- (optional=templinst|arch=sparc)_ZSt24__merge_sort_with_bufferIN5QListIN16QGeoPositionInfo9AttributeEE8iteratorEPS2_EvT_S6_T0_@Base 5.2.1
- (optional=templinst|arch=sparc)_ZSt30__move_merge_adaptive_backwardIN5QListI11QJsonObjectE8iteratorEPS1_S3_PFbRKS1_S6_EEvT_S9_T0_SA_T1_T2_@Base 5.2.1
- (optional=templinst|arch=sparc)_ZSt30__move_merge_adaptive_backwardIN5QListIN16QGeoPositionInfo9AttributeEE8iteratorEPS2_S4_EvT_S6_T0_S7_T1_@Base 5.2.1
- (optional=templinst|arch=sparc)_ZSt8__rotateIN5QListI11QJsonObjectE8iteratorEEvT_S4_S4_St26random_access_iterator_tag@Base 5.2.1
- (optional=templinst|arch=sparc)_ZSt8__rotateIN5QListIN16QGeoPositionInfo9AttributeEE8iteratorEEvT_S5_S5_St26random_access_iterator_tag@Base 5.2.1
  _ZTI11QSharedData@Base 5.2.1
  _ZTI21QGeoAreaMonitorSource@Base 5.2.1
  _ZTI22QDeclarativeGeoAddress@Base 5.2.1
