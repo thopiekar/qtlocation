@@ -4,6 +4,7 @@ qtlocation-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Qt build-dependencies to 5.4.0.
   * Drop disable_qgeocircle_extendShape_tests.patch, no longer needed.
+  * Disable building qtlocation module for now.
   * Build-depend on qtbase5-doc-html, for docs linking.
   * Update debian/copyright.
   * Bump Standards-Version to 3.9.6, no changes needed.
