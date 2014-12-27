@@ -5,12 +5,10 @@ Last-Update: 2014-12-27
 
 --- a/src/src.pro
 +++ b/src/src.pro
-@@ -12,24 +12,3 @@
- 
-     SUBDIRS += positioning_doc_snippets
+@@ -14,22 +14,6 @@
  }
--
--qtHaveModule(quick) {
+ 
+ qtHaveModule(quick) {
 -    SUBDIRS += 3rdparty
 -
 -    location.depends = positioning 3rdparty
@@ -27,6 +25,6 @@ Last-Update: 2014-12-27
 -        SUBDIRS += location_doc_snippets
 -    }
 -
--    imports.depends += positioning
--    SUBDIRS += imports
--}
+     imports.depends += positioning
+     SUBDIRS += imports
+ }
