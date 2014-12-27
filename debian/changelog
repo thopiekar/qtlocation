@@ -1,6 +1,5 @@
-qtlocation-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
+qtlocation-opensource-src (5.4.0-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.4.0.
   * Drop disable_qgeocircle_extendShape_tests.patch, no longer needed.
@@ -9,7 +8,7 @@ qtlocation-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
   * Update debian/copyright.
   * Bump Standards-Version to 3.9.6, no changes needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Dec 2014 15:35:49 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 27 Dec 2014 16:33:21 +0300
 
 qtlocation-opensource-src (5.3.2-2) unstable; urgency=medium
 
