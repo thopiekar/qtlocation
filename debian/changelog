@@ -6,6 +6,7 @@ qtlocation-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
   * Drop disable_qgeocircle_extendShape_tests.patch, no longer needed.
   * Build-depend on qtbase5-doc-html, for docs linking.
   * Update debian/copyright.
+  * Bump Standards-Version to 3.9.6, no changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Dec 2014 15:35:49 +0300
 
