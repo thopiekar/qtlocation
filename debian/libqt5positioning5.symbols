@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.1 sparc
+# SymbolsHelper-Confirmed: 5.4.0 amd64
 libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZN10QGeoCircle9setCenterERK14QGeoCoordinate@Base 5.2.1
  _ZN10QGeoCircle9setRadiusEd@Base 5.2.1
@@ -169,9 +169,9 @@ libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZN22QDeclarativeGeoAddressC1ERK11QGeoAddressP7QObject@Base 5.2.1
  _ZN22QDeclarativeGeoAddressC2EP7QObject@Base 5.2.1
  _ZN22QDeclarativeGeoAddressC2ERK11QGeoAddressP7QObject@Base 5.2.1
- _ZN22QDeclarativeGeoAddressD0Ev@Base 5.2.1
- _ZN22QDeclarativeGeoAddressD1Ev@Base 5.2.1
- _ZN22QDeclarativeGeoAddressD2Ev@Base 5.2.1
+ (optional=gccinternal)_ZN22QDeclarativeGeoAddressD0Ev@Base 5.2.1
+ (optional=gccinternal)_ZN22QDeclarativeGeoAddressD1Ev@Base 5.2.1
+ (optional=gccinternal)_ZN22QDeclarativeGeoAddressD2Ev@Base 5.2.1
  _ZN22QGeoPositionInfoSource11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.1
  _ZN22QGeoPositionInfoSource11qt_metacastEPKc@Base 5.2.1
  _ZN22QGeoPositionInfoSource12createSourceERK7QStringP7QObject@Base 5.2.1

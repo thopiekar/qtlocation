@@ -4,6 +4,8 @@ qtlocation-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Qt build-dependencies to 5.4.1.
   * Update watch and copyright to use https://download.qt.io/.
+  * Mark three destructors symbols missing with GCC 5 as optional
+    (closes: #778090).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 04 Mar 2015 20:45:12 +0300
 
