@@ -3,6 +3,7 @@ qtlocation-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.4.1.
+  * Update watch and copyright to use https://download.qt.io/.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 04 Mar 2015 20:45:12 +0300
 
