@@ -3,6 +3,7 @@ qtlocation-opensource-src (5.4.2-1) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
     - Bump Qt build dependencies.
+  * Expose HTML documentation (Closes: #751179).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 03 Jun 2015 16:13:11 -0300
 
