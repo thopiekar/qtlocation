@@ -1,9 +1,9 @@
-qtlocation-opensource-src (5.4.2-2) UNRELEASED; urgency=medium
+qtlocation-opensource-src (5.4.2-2) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Upload to unstable.
   * Update symbols files with buildds' logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Jun 2015 16:00:14 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 24 Jun 2015 16:02:32 -0300
 
 qtlocation-opensource-src (5.4.2-1) experimental; urgency=medium
 
