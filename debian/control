@@ -85,7 +85,7 @@ Description: Qt Location QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains the Qt Location QML module for Qt Declarative.
+ This package contains the Qt Location QML plugin for Qt Declarative.
 
 Package: qml-module-qtpositioning
 Architecture: any
@@ -100,7 +100,7 @@ Description: Qt Positioning QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains the Qt Positioning QML module for Qt Declarative.
+ This package contains the Qt Positioning QML plugin for Qt Declarative.
 
 Package: qtlocation5-dev
 Architecture: any
