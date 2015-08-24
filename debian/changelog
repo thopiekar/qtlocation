@@ -6,6 +6,7 @@ qtlocation-opensource-src (5.5.0-1) UNRELEASED; urgency=medium
     name, for consistency with other Qt 5 modules.
   * Build new packages for qtlocation module.
   * Drop disable_qtlocation.patch.
+  * Update install files for the new release.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 24 Aug 2015 11:51:52 +0300
 

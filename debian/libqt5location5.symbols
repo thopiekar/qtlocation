@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.1 i386
+# SymbolsHelper-Confirmed: 5.5.0 amd64 arm64 armhf i386 powerpc ppc64el
 libQt5Location.so.5 libqt5location5 #MINVER#
  _Z5qHashRK12QGeoTileSpec@Base 5.2.1
  _ZN10QPlaceIcon10setManagerEP13QPlaceManager@Base 5.2.1
@@ -20,32 +20,10 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN10QPlaceUserD1Ev@Base 5.2.1
  _ZN10QPlaceUserD2Ev@Base 5.2.1
  _ZN10QPlaceUseraSERKS_@Base 5.2.1
- _ZN11QGeoMapData11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.1
- _ZN11QGeoMapData11qt_metacastEPKc@Base 5.2.1
- _ZN11QGeoMapData12pluginStringEv@Base 5.2.1
- _ZN11QGeoMapData13mapControllerEv@Base 5.2.1
- _ZN11QGeoMapData13setCameraDataERK14QGeoCameraData@Base 5.2.1
- _ZN11QGeoMapData14updateRequiredEv@Base 5.2.1
- _ZN11QGeoMapData16setActiveMapTypeE11QGeoMapType@Base 5.2.1
- _ZN11QGeoMapData16staticMetaObjectE@Base 5.2.1
- _ZN11QGeoMapData17cameraDataChangedERK14QGeoCameraData@Base 5.2.1
- _ZN11QGeoMapData17copyrightsChangedERK6QImageRK6QPoint@Base 5.2.1
- _ZN11QGeoMapData18cameraCapabilitiesEv@Base 5.2.1
- _ZN11QGeoMapData20activeMapTypeChangedEv@Base 5.2.1
- _ZN11QGeoMapData22coordinateInterpolatorEv@Base 5.2.1
- _ZN11QGeoMapData25setCoordinateInterpolatorE14QSharedPointerI26QGeoCoordinateInterpolatorE@Base 5.2.1
- _ZN11QGeoMapData6engineEv@Base 5.2.1
- _ZN11QGeoMapData6resizeEii@Base 5.2.1
- _ZN11QGeoMapData6updateEv@Base 5.2.1
- _ZN11QGeoMapDataC1EP24QGeoMappingManagerEngineP7QObject@Base 5.2.1
- _ZN11QGeoMapDataC2EP24QGeoMappingManagerEngineP7QObject@Base 5.2.1
- _ZN11QGeoMapDataD0Ev@Base 5.2.1
- _ZN11QGeoMapDataD1Ev@Base 5.2.1
- _ZN11QGeoMapDataD2Ev@Base 5.2.1
- _ZN11QGeoMapTypeC1ENS_8MapStyleERK7QStringS3_bi@Base 5.2.1
+ _ZN11QGeoMapTypeC1ENS_8MapStyleERK7QStringS3_bbi@Base 5.4.0
  _ZN11QGeoMapTypeC1ERKS_@Base 5.2.1
  _ZN11QGeoMapTypeC1Ev@Base 5.2.1
- _ZN11QGeoMapTypeC2ENS_8MapStyleERK7QStringS3_bi@Base 5.2.1
+ _ZN11QGeoMapTypeC2ENS_8MapStyleERK7QStringS3_bbi@Base 5.4.0
  _ZN11QGeoMapTypeC2ERKS_@Base 5.2.1
  _ZN11QGeoMapTypeC2Ev@Base 5.2.1
  _ZN11QGeoMapTypeD1Ev@Base 5.2.1
@@ -98,27 +76,43 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN12QGeoMapScene15newTilesVisibleERK4QSetI12QGeoTileSpecE@Base 5.2.1
  _ZN12QGeoMapScene15setVisibleTilesERK4QSetI12QGeoTileSpecE@Base 5.2.1
  _ZN12QGeoMapScene16staticMetaObjectE@Base 5.2.1
+ _ZN12QGeoMapScene16updateSceneGraphEP7QSGNodeP12QQuickWindow@Base 5.4.0
  _ZN12QGeoMapScene18setUseVerticalLockEb@Base 5.2.1
  _ZN12QGeoMapScene7addTileERK12QGeoTileSpec14QSharedPointerI15QGeoTileTextureE@Base 5.2.1
- _ZN12QGeoMapScene7paintGLEP10QGLPainter@Base 5.2.1
- _ZN12QGeoMapSceneC1Ev@Base 5.2.1
- _ZN12QGeoMapSceneC2Ev@Base 5.2.1
+ _ZN12QGeoMapSceneC1EP7QObject@Base 5.5.0
+ _ZN12QGeoMapSceneC2EP7QObject@Base 5.5.0
  _ZN12QGeoMapSceneD0Ev@Base 5.2.1
  _ZN12QGeoMapSceneD1Ev@Base 5.2.1
  _ZN12QGeoMapSceneD2Ev@Base 5.2.1
+ _ZN12QGeoTileSpec10setVersionEi@Base 5.3.0
  _ZN12QGeoTileSpec4setXEi@Base 5.2.1
  _ZN12QGeoTileSpec4setYEi@Base 5.2.1
  _ZN12QGeoTileSpec7setZoomEi@Base 5.2.1
  _ZN12QGeoTileSpec8setMapIdEi@Base 5.2.1
- _ZN12QGeoTileSpecC1ERK7QStringiiii@Base 5.2.1
+ _ZN12QGeoTileSpecC1ERK7QStringiiiii@Base 5.3.0
  _ZN12QGeoTileSpecC1ERKS_@Base 5.2.1
  _ZN12QGeoTileSpecC1Ev@Base 5.2.1
- _ZN12QGeoTileSpecC2ERK7QStringiiii@Base 5.2.1
+ _ZN12QGeoTileSpecC2ERK7QStringiiiii@Base 5.3.0
  _ZN12QGeoTileSpecC2ERKS_@Base 5.2.1
  _ZN12QGeoTileSpecC2Ev@Base 5.2.1
  _ZN12QGeoTileSpecD1Ev@Base 5.2.1
  _ZN12QGeoTileSpecD2Ev@Base 5.2.1
  _ZN12QGeoTileSpecaSERKS_@Base 5.2.1
+ _ZN12QGeoTiledMap10updateTileERK12QGeoTileSpec@Base 5.5.0
+ _ZN12QGeoTiledMap11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
+ _ZN12QGeoTiledMap11qt_metacastEPKc@Base 5.5.0
+ _ZN12QGeoTiledMap12prefetchDataEv@Base 5.5.0
+ _ZN12QGeoTiledMap14requestManagerEv@Base 5.5.0
+ _ZN12QGeoTiledMap16staticMetaObjectE@Base 5.5.0
+ _ZN12QGeoTiledMap16updateMapVersionEv@Base 5.5.0
+ _ZN12QGeoTiledMap16updateSceneGraphEP7QSGNodeP12QQuickWindow@Base 5.5.0
+ _ZN12QGeoTiledMap18evaluateCopyrightsERK4QSetI12QGeoTileSpecE@Base 5.5.0
+ _ZN12QGeoTiledMap9tileCacheEv@Base 5.5.0
+ _ZN12QGeoTiledMapC1EP29QGeoTiledMappingManagerEngineP7QObject@Base 5.5.0
+ _ZN12QGeoTiledMapC2EP29QGeoTiledMappingManagerEngineP7QObject@Base 5.5.0
+ _ZN12QGeoTiledMapD0Ev@Base 5.5.0
+ _ZN12QGeoTiledMapD1Ev@Base 5.5.0
+ _ZN12QGeoTiledMapD2Ev@Base 5.5.0
  _ZN12QPlaceResult11setDistanceEd@Base 5.2.1
  _ZN12QPlaceResult12setSponsoredEb@Base 5.2.1
  _ZN12QPlaceResult8setPlaceERK6QPlace@Base 5.2.1
@@ -166,22 +160,18 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN13QGeoTileCache11handleErrorERK12QGeoTileSpecRK7QString@Base 5.2.1
  _ZN13QGeoTileCache11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.1
  _ZN13QGeoTileCache11qt_metacastEPKc@Base 5.2.1
- _ZN13QGeoTileCache12cleanupList_E@Base 5.2.1
- _ZN13QGeoTileCache13cleanupMutex_E@Base 5.2.1
  _ZN13QGeoTileCache14addToDiskCacheERK12QGeoTileSpecRK7QString@Base 5.2.1
  _ZN13QGeoTileCache15setMaxDiskUsageEi@Base 5.2.1
  _ZN13QGeoTileCache16addToMemoryCacheERK12QGeoTileSpecRK10QByteArrayRK7QString@Base 5.2.1
  _ZN13QGeoTileCache16staticMetaObjectE@Base 5.2.1
  _ZN13QGeoTileCache17addToTextureCacheERK12QGeoTileSpecRK7QPixmap@Base 5.2.1
  _ZN13QGeoTileCache17setMaxMemoryUsageEi@Base 5.2.1
- _ZN13QGeoTileCache18GLContextAvailableEv@Base 5.2.1
  _ZN13QGeoTileCache18evictFromDiskCacheEP18QGeoCachedTileDisk@Base 5.2.1
  _ZN13QGeoTileCache18filenameToTileSpecERK7QString@Base 5.2.1
  _ZN13QGeoTileCache18setMinTextureUsageEi@Base 5.2.1
  _ZN13QGeoTileCache18tileSpecToFilenameERK12QGeoTileSpecRK7QStringS5_@Base 5.2.1
  _ZN13QGeoTileCache20evictFromMemoryCacheEP20QGeoCachedTileMemory@Base 5.2.1
  _ZN13QGeoTileCache20setExtraTextureUsageEi@Base 5.2.1
- _ZN13QGeoTileCache21evictFromTextureCacheEP15QGeoTileTexture@Base 5.2.1
  _ZN13QGeoTileCache3getERK12QGeoTileSpec@Base 5.2.1
  _ZN13QGeoTileCache6insertERK12QGeoTileSpecRK10QByteArrayRK7QString6QFlagsIN29QGeoTiledMappingManagerEngine9CacheAreaEE@Base 5.2.1
  _ZN13QGeoTileCache9loadTilesEv@Base 5.2.1
@@ -249,7 +239,6 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN13QPlaceRatingsaSERKS_@Base 5.2.1
  _ZN14QGeoCameraData10setBearingEd@Base 5.2.1
  _ZN14QGeoCameraData12setZoomLevelEd@Base 5.2.1
- _ZN14QGeoCameraData25setCoordinateInterpolatorE14QSharedPointerI26QGeoCoordinateInterpolatorE@Base 5.2.1
  _ZN14QGeoCameraData7setRollEd@Base 5.2.1
  _ZN14QGeoCameraData7setTiltEd@Base 5.2.1
  _ZN14QGeoCameraData9setCenterERK14QGeoCoordinate@Base 5.2.1
@@ -260,9 +249,6 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN14QGeoCameraDataD1Ev@Base 5.2.1
  _ZN14QGeoCameraDataD2Ev@Base 5.2.1
  _ZN14QGeoCameraDataaSERKS_@Base 5.2.1
- _ZN14QGeoProjection15coordToMercatorERK14QGeoCoordinate@Base 5.2.1
- _ZN14QGeoProjection15mercatorToCoordERK15QDoubleVector2D@Base 5.2.1
- _ZN14QGeoProjection7realmodEdd@Base 5.2.1
  _ZN14QGeoRouteReply11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.1
  _ZN14QGeoRouteReply11qt_metacastEPKc@Base 5.2.1
  _ZN14QGeoRouteReply11setFinishedEb@Base 5.2.1
@@ -271,6 +257,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN14QGeoRouteReply5errorENS_5ErrorERK7QString@Base 5.2.1
  _ZN14QGeoRouteReply8finishedEv@Base 5.2.1
  _ZN14QGeoRouteReply8setErrorENS_5ErrorERK7QString@Base 5.2.1
+ _ZN14QGeoRouteReply9addRoutesERK5QListI9QGeoRouteE@Base 5.3.0
  _ZN14QGeoRouteReply9setRoutesERK5QListI9QGeoRouteE@Base 5.2.1
  _ZN14QGeoRouteReplyC1ENS_5ErrorERK7QStringP7QObject@Base 5.2.1
  _ZN14QGeoRouteReplyC1ERK16QGeoRouteRequestP7QObject@Base 5.2.1
@@ -304,31 +291,30 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN14QPlaceSupplieraSERKS_@Base 5.2.1
  _ZN15QGeoCameraTiles10setMapTypeERK11QGeoMapType@Base 5.2.1
  _ZN15QGeoCameraTiles11setTileSizeEi@Base 5.2.1
+ _ZN15QGeoCameraTiles12visibleTilesEv@Base 5.5.0
+ _ZN15QGeoCameraTiles13prefetchTilesENS_12PrefetchStleE@Base 5.5.0
+ _ZN15QGeoCameraTiles13setMapVersionEi@Base 5.3.0
  _ZN15QGeoCameraTiles13setScreenSizeERK5QSize@Base 5.2.1
  _ZN15QGeoCameraTiles15setPluginStringERK7QString@Base 5.2.1
- _ZN15QGeoCameraTiles17findPrefetchTilesEv@Base 5.2.1
  _ZN15QGeoCameraTiles19setMaximumZoomLevelEi@Base 5.2.1
  _ZN15QGeoCameraTiles9setCameraERK14QGeoCameraData@Base 5.2.1
  _ZN15QGeoCameraTilesC1Ev@Base 5.2.1
  _ZN15QGeoCameraTilesC2Ev@Base 5.2.1
  _ZN15QGeoCameraTilesD1Ev@Base 5.2.1
  _ZN15QGeoCameraTilesD2Ev@Base 5.2.1
+ _ZN15QGeoTileFetcher10timerEventEP11QTimerEvent@Base 5.3.0
  _ZN15QGeoTileFetcher11handleReplyEP17QGeoTiledMapReplyRK12QGeoTileSpec@Base 5.2.1
  _ZN15QGeoTileFetcher11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.1
  _ZN15QGeoTileFetcher11qt_metacastEPKc@Base 5.2.1
  _ZN15QGeoTileFetcher12tileFinishedERK12QGeoTileSpecRK10QByteArrayRK7QString@Base 5.2.1
- _ZN15QGeoTileFetcher13threadStartedEv@Base 5.2.1
- _ZN15QGeoTileFetcher14threadFinishedEv@Base 5.2.1
  _ZN15QGeoTileFetcher15requestNextTileEv@Base 5.2.1
  _ZN15QGeoTileFetcher16staticMetaObjectE@Base 5.2.1
  _ZN15QGeoTileFetcher18cancelTileRequestsERK4QSetI12QGeoTileSpecE@Base 5.2.1
  _ZN15QGeoTileFetcher18updateTileRequestsERK4QSetI12QGeoTileSpecES4_@Base 5.2.1
- _ZN15QGeoTileFetcher4initEv@Base 5.2.1
  _ZN15QGeoTileFetcher8finishedEv@Base 5.2.1
- _ZN15QGeoTileFetcher9stopTimerEv@Base 5.2.1
  _ZN15QGeoTileFetcher9tileErrorERK12QGeoTileSpecRK7QString@Base 5.2.1
- _ZN15QGeoTileFetcherC1EP29QGeoTiledMappingManagerEngineP7QObject@Base 5.2.1
- _ZN15QGeoTileFetcherC2EP29QGeoTiledMappingManagerEngineP7QObject@Base 5.2.1
+ _ZN15QGeoTileFetcherC1EP7QObject@Base 5.3.0
+ _ZN15QGeoTileFetcherC2EP7QObject@Base 5.3.0
  _ZN15QGeoTileFetcherD0Ev@Base 5.2.1
  _ZN15QGeoTileFetcherD1Ev@Base 5.2.1
  _ZN15QGeoTileFetcherD2Ev@Base 5.2.1
@@ -390,23 +376,6 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN16QGeoRouteSegmentD1Ev@Base 5.2.1
  _ZN16QGeoRouteSegmentD2Ev@Base 5.2.1
  _ZN16QGeoRouteSegmentaSERKS_@Base 5.2.1
- _ZN16QGeoTiledMapData10mapResizedEii@Base 5.2.1
- _ZN16QGeoTiledMapData11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.1
- _ZN16QGeoTiledMapData11qt_metacastEPKc@Base 5.2.1
- _ZN16QGeoTiledMapData12prefetchDataEv@Base 5.2.1
- _ZN16QGeoTiledMapData14newTileFetchedERK12QGeoTileSpec@Base 5.2.1
- _ZN16QGeoTiledMapData16changeCameraDataERK14QGeoCameraData@Base 5.2.1
- _ZN16QGeoTiledMapData16staticMetaObjectE@Base 5.2.1
- _ZN16QGeoTiledMapData17getRequestManagerEv@Base 5.2.1
- _ZN16QGeoTiledMapData18evaluateCopyrightsERK4QSetI12QGeoTileSpecE@Base 5.2.1
- _ZN16QGeoTiledMapData19changeActiveMapTypeE11QGeoMapType@Base 5.2.1
- _ZN16QGeoTiledMapData7paintGLEP10QGLPainter@Base 5.2.1
- _ZN16QGeoTiledMapData9tileCacheEv@Base 5.2.1
- _ZN16QGeoTiledMapDataC1EP29QGeoTiledMappingManagerEngineP7QObject@Base 5.2.1
- _ZN16QGeoTiledMapDataC2EP29QGeoTiledMappingManagerEngineP7QObject@Base 5.2.1
- _ZN16QGeoTiledMapDataD0Ev@Base 5.2.1
- _ZN16QGeoTiledMapDataD1Ev@Base 5.2.1
- _ZN16QGeoTiledMapDataD2Ev@Base 5.2.1
  _ZN16QPlaceMatchReply10setRequestERK18QPlaceMatchRequest@Base 5.2.1
  _ZN16QPlaceMatchReply11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.1
  _ZN16QPlaceMatchReply11qt_metacastEPKc@Base 5.2.1
@@ -440,7 +409,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN17QGeoMapController11tiltChangedEd@Base 5.2.1
  _ZN17QGeoMapController11zoomChangedEd@Base 5.2.1
  _ZN17QGeoMapController12setLongitudeEd@Base 5.2.1
- _ZN17QGeoMapController13centerChangedERK20AnimatableCoordinate@Base 5.2.1
+ _ZN17QGeoMapController13centerChangedERK14QGeoCoordinate@Base 5.3.0
  _ZN17QGeoMapController14bearingChangedEd@Base 5.2.1
  _ZN17QGeoMapController16staticMetaObjectE@Base 5.2.1
  _ZN17QGeoMapController17cameraDataChangedERK14QGeoCameraData@Base 5.2.1
@@ -448,9 +417,9 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN17QGeoMapController7setRollEd@Base 5.2.1
  _ZN17QGeoMapController7setTiltEd@Base 5.2.1
  _ZN17QGeoMapController7setZoomEd@Base 5.2.1
- _ZN17QGeoMapController9setCenterERK20AnimatableCoordinate@Base 5.2.1
- _ZN17QGeoMapControllerC1EP11QGeoMapData14QSharedPointerI26QGeoCoordinateInterpolatorE@Base 5.2.1
- _ZN17QGeoMapControllerC2EP11QGeoMapData14QSharedPointerI26QGeoCoordinateInterpolatorE@Base 5.2.1
+ _ZN17QGeoMapController9setCenterERK14QGeoCoordinate@Base 5.3.0
+ _ZN17QGeoMapControllerC1EP7QGeoMap@Base 5.5.0
+ _ZN17QGeoMapControllerC2EP7QGeoMap@Base 5.5.0
  _ZN17QGeoMapControllerD0Ev@Base 5.2.1
  _ZN17QGeoMapControllerD1Ev@Base 5.2.1
  _ZN17QGeoMapControllerD2Ev@Base 5.2.1
@@ -477,6 +446,8 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN17QPlaceSearchReply11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.1
  _ZN17QPlaceSearchReply11qt_metacastEPKc@Base 5.2.1
  _ZN17QPlaceSearchReply16staticMetaObjectE@Base 5.2.1
+ _ZN17QPlaceSearchReply18setNextPageRequestERK19QPlaceSearchRequest@Base 5.3.0
+ _ZN17QPlaceSearchReply22setPreviousPageRequestERK19QPlaceSearchRequest@Base 5.3.0
  _ZN17QPlaceSearchReplyC1EP7QObject@Base 5.2.1
  _ZN17QPlaceSearchReplyC2EP7QObject@Base 5.2.1
  _ZN17QPlaceSearchReplyD0Ev@Base 5.2.1
@@ -498,6 +469,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN18QGeoRoutingManager11updateRouteERK9QGeoRouteRK14QGeoCoordinate@Base 5.2.1
  _ZN18QGeoRoutingManager14calculateRouteERK16QGeoRouteRequest@Base 5.2.1
  _ZN18QGeoRoutingManager16staticMetaObjectE@Base 5.2.1
+ _ZN18QGeoRoutingManager20setMeasurementSystemEN7QLocale17MeasurementSystemE@Base 5.3.0
  _ZN18QGeoRoutingManager5errorEP14QGeoRouteReplyNS0_5ErrorE7QString@Base 5.2.1
  _ZN18QGeoRoutingManager8finishedEP14QGeoRouteReply@Base 5.2.1
  _ZN18QGeoRoutingManager9setLocaleERK7QLocale@Base 5.2.1
@@ -512,6 +484,8 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN18QPlaceContentReply11qt_metacastEPKc@Base 5.2.1
  _ZN18QPlaceContentReply13setTotalCountEi@Base 5.2.1
  _ZN18QPlaceContentReply16staticMetaObjectE@Base 5.2.1
+ _ZN18QPlaceContentReply18setNextPageRequestERK20QPlaceContentRequest@Base 5.3.0
+ _ZN18QPlaceContentReply22setPreviousPageRequestERK20QPlaceContentRequest@Base 5.3.0
  _ZN18QPlaceContentReplyC1EP7QObject@Base 5.2.1
  _ZN18QPlaceContentReplyC2EP7QObject@Base 5.2.1
  _ZN18QPlaceContentReplyD0Ev@Base 5.2.1
@@ -592,7 +566,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN19QPlaceManagerEngine14setManagerNameERK7QString@Base 5.2.1
  _ZN19QPlaceManagerEngine15categoryRemovedERK7QStringS2_@Base 5.2.1
  _ZN19QPlaceManagerEngine15categoryUpdatedERK14QPlaceCategoryRK7QString@Base 5.2.1
- _ZN19QPlaceManagerEngine15getPlaceContentERK7QStringRK20QPlaceContentRequest@Base 5.2.1
+ _ZN19QPlaceManagerEngine15getPlaceContentERK20QPlaceContentRequest@Base 5.3.0
  _ZN19QPlaceManagerEngine15getPlaceDetailsERK7QString@Base 5.2.1
  _ZN19QPlaceManagerEngine16staticMetaObjectE@Base 5.2.1
  _ZN19QPlaceManagerEngine17searchSuggestionsERK19QPlaceSearchRequest@Base 5.2.1
@@ -617,7 +591,6 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN19QPlaceSearchRequest19setRecommendationIdERK7QString@Base 5.2.1
  _ZN19QPlaceSearchRequest5clearEv@Base 5.2.1
  _ZN19QPlaceSearchRequest8setLimitEi@Base 5.2.1
- _ZN19QPlaceSearchRequest9setOffsetEi@Base 5.2.1
  _ZN19QPlaceSearchRequestC1ERKS_@Base 5.2.1
  _ZN19QPlaceSearchRequestC1Ev@Base 5.2.1
  _ZN19QPlaceSearchRequestC2ERKS_@Base 5.2.1
@@ -625,16 +598,11 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN19QPlaceSearchRequestD1Ev@Base 5.2.1
  _ZN19QPlaceSearchRequestD2Ev@Base 5.2.1
  _ZN19QPlaceSearchRequestaSERKS_@Base 5.2.1
- _ZN20AnimatableCoordinate13setCoordinateERK14QGeoCoordinate@Base 5.2.1
- _ZN20AnimatableCoordinate15setInterpolatorE14QSharedPointerI26QGeoCoordinateInterpolatorE@Base 5.2.1
- _ZN20AnimatableCoordinateC1ERK14QGeoCoordinate14QSharedPointerI26QGeoCoordinateInterpolatorE@Base 5.2.1
- _ZN20AnimatableCoordinateC1Ev@Base 5.2.1
- _ZN20AnimatableCoordinateC2ERK14QGeoCoordinate14QSharedPointerI26QGeoCoordinateInterpolatorE@Base 5.2.1
- _ZN20AnimatableCoordinateC2Ev@Base 5.2.1
+ _ZN20QPlaceContentRequest10setPlaceIdERK7QString@Base 5.3.0
  _ZN20QPlaceContentRequest14setContentTypeEN13QPlaceContent4TypeE@Base 5.2.1
+ _ZN20QPlaceContentRequest17setContentContextERK8QVariant@Base 5.3.0
  _ZN20QPlaceContentRequest5clearEv@Base 5.2.1
  _ZN20QPlaceContentRequest8setLimitEi@Base 5.2.1
- _ZN20QPlaceContentRequest9setOffsetEi@Base 5.2.1
  _ZN20QPlaceContentRequestC1ERKS_@Base 5.2.1
  _ZN20QPlaceContentRequestC1Ev@Base 5.2.1
  _ZN20QPlaceContentRequestC2ERKS_@Base 5.2.1
@@ -656,6 +624,9 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN22QGeoCameraCapabilitiesD1Ev@Base 5.2.1
  _ZN22QGeoCameraCapabilitiesD2Ev@Base 5.2.1
  _ZN22QGeoCameraCapabilitiesaSERKS_@Base 5.2.1
+ _ZN22QPlaceReplyUnsupported11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
+ _ZN22QPlaceReplyUnsupported11qt_metacastEPKc@Base 5.5.0
+ _ZN22QPlaceReplyUnsupported16staticMetaObjectE@Base 5.5.0
  _ZN23QGeoCodingManagerEngine11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.1
  _ZN23QGeoCodingManagerEngine11qt_metacastEPKc@Base 5.2.1
  _ZN23QGeoCodingManagerEngine14reverseGeocodeERK14QGeoCoordinateRK9QGeoShape@Base 5.2.1
@@ -694,6 +665,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN24QGeoRoutingManagerEngine14setManagerNameERK7QString@Base 5.2.1
  _ZN24QGeoRoutingManagerEngine16staticMetaObjectE@Base 5.2.1
  _ZN24QGeoRoutingManagerEngine17setManagerVersionEi@Base 5.2.1
+ _ZN24QGeoRoutingManagerEngine20setMeasurementSystemEN7QLocale17MeasurementSystemE@Base 5.3.0
  _ZN24QGeoRoutingManagerEngine23setSupportedTravelModesE6QFlagsIN16QGeoRouteRequest10TravelModeEE@Base 5.2.1
  _ZN24QGeoRoutingManagerEngine24setSupportedFeatureTypesE6QFlagsIN16QGeoRouteRequest11FeatureTypeEE@Base 5.2.1
  _ZN24QGeoRoutingManagerEngine26setSupportedFeatureWeightsE6QFlagsIN16QGeoRouteRequest13FeatureWeightEE@Base 5.2.1
@@ -708,11 +680,9 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN24QGeoRoutingManagerEngineD0Ev@Base 5.2.1
  _ZN24QGeoRoutingManagerEngineD1Ev@Base 5.2.1
  _ZN24QGeoRoutingManagerEngineD2Ev@Base 5.2.1
- _ZN26QGeoCoordinateInterpolatorC1Ev@Base 5.2.1
- _ZN26QGeoCoordinateInterpolatorC2Ev@Base 5.2.1
- _ZN26QGeoCoordinateInterpolatorD0Ev@Base 5.2.1
- _ZN26QGeoCoordinateInterpolatorD1Ev@Base 5.2.1
- _ZN26QGeoCoordinateInterpolatorD2Ev@Base 5.2.1
+ _ZN24QPlaceIdReplyUnsupported11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
+ _ZN24QPlaceIdReplyUnsupported11qt_metacastEPKc@Base 5.5.0
+ _ZN24QPlaceIdReplyUnsupported16staticMetaObjectE@Base 5.5.0
  _ZN26QPlaceProposedSearchResult16setSearchRequestERK19QPlaceSearchRequest@Base 5.2.1
  _ZN26QPlaceProposedSearchResultC1ERK18QPlaceSearchResult@Base 5.2.1
  _ZN26QPlaceProposedSearchResultC1Ev@Base 5.2.1
@@ -721,6 +691,9 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN26QPlaceProposedSearchResultD0Ev@Base 5.2.1
  _ZN26QPlaceProposedSearchResultD1Ev@Base 5.2.1
  _ZN26QPlaceProposedSearchResultD2Ev@Base 5.2.1
+ _ZN27QPlaceMatchReplyUnsupported11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
+ _ZN27QPlaceMatchReplyUnsupported11qt_metacastEPKc@Base 5.5.0
+ _ZN27QPlaceMatchReplyUnsupported16staticMetaObjectE@Base 5.5.0
  _ZN27QPlaceSearchSuggestionReply11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.1
  _ZN27QPlaceSearchSuggestionReply11qt_metacastEPKc@Base 5.2.1
  _ZN27QPlaceSearchSuggestionReply14setSuggestionsERK11QStringList@Base 5.2.1
@@ -730,21 +703,25 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN27QPlaceSearchSuggestionReplyD0Ev@Base 5.2.1
  _ZN27QPlaceSearchSuggestionReplyD1Ev@Base 5.2.1
  _ZN27QPlaceSearchSuggestionReplyD2Ev@Base 5.2.1
+ _ZN28QPlaceSearchReplyUnsupported11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
+ _ZN28QPlaceSearchReplyUnsupported11qt_metacastEPKc@Base 5.5.0
+ _ZN28QPlaceSearchReplyUnsupported16staticMetaObjectE@Base 5.5.0
  _ZN29QGeoTiledMappingManagerEngine11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.1
  _ZN29QGeoTiledMappingManagerEngine11qt_metacastEPKc@Base 5.2.1
- _ZN29QGeoTiledMappingManagerEngine11registerMapEP16QGeoTiledMapData@Base 5.2.1
+ _ZN29QGeoTiledMappingManagerEngine11registerMapEP7QGeoMap@Base 5.5.0
  _ZN29QGeoTiledMappingManagerEngine11setTileSizeERK5QSize@Base 5.2.1
  _ZN29QGeoTiledMappingManagerEngine11tileFetcherEv@Base 5.2.1
  _ZN29QGeoTiledMappingManagerEngine12setCacheHintE6QFlagsINS_9CacheAreaEE@Base 5.2.1
- _ZN29QGeoTiledMappingManagerEngine13deregisterMapEP16QGeoTiledMapData@Base 5.2.1
+ _ZN29QGeoTiledMappingManagerEngine13deregisterMapEP7QGeoMap@Base 5.5.0
  _ZN29QGeoTiledMappingManagerEngine14getTileTextureERK12QGeoTileSpec@Base 5.2.1
  _ZN29QGeoTiledMappingManagerEngine14setTileFetcherEP15QGeoTileFetcher@Base 5.2.1
  _ZN29QGeoTiledMappingManagerEngine15engineTileErrorERK12QGeoTileSpecRK7QString@Base 5.2.1
  _ZN29QGeoTiledMappingManagerEngine16staticMetaObjectE@Base 5.2.1
+ _ZN29QGeoTiledMappingManagerEngine17mapVersionChangedEv@Base 5.3.0
  _ZN29QGeoTiledMappingManagerEngine18engineTileFinishedERK12QGeoTileSpecRK10QByteArrayRK7QString@Base 5.2.1
- _ZN29QGeoTiledMappingManagerEngine18updateTileRequestsEP16QGeoTiledMapDataRK4QSetI12QGeoTileSpecES6_@Base 5.2.1
+ _ZN29QGeoTiledMappingManagerEngine18updateTileRequestsEP12QGeoTiledMapRK4QSetI12QGeoTileSpecES6_@Base 5.5.0
  _ZN29QGeoTiledMappingManagerEngine22createTileCacheWithDirERK7QString@Base 5.2.1
- _ZN29QGeoTiledMappingManagerEngine9createMapEP7QObject@Base 5.2.1
+ _ZN29QGeoTiledMappingManagerEngine9createMapEv@Base 5.5.0
  _ZN29QGeoTiledMappingManagerEngine9tileCacheEv@Base 5.2.1
  _ZN29QGeoTiledMappingManagerEngine9tileErrorERK12QGeoTileSpecRK7QString@Base 5.2.1
  _ZN29QGeoTiledMappingManagerEngineC1EP7QObject@Base 5.2.1
@@ -752,6 +729,15 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN29QGeoTiledMappingManagerEngineD0Ev@Base 5.2.1
  _ZN29QGeoTiledMappingManagerEngineD1Ev@Base 5.2.1
  _ZN29QGeoTiledMappingManagerEngineD2Ev@Base 5.2.1
+ _ZN29QPlaceContentReplyUnsupported11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
+ _ZN29QPlaceContentReplyUnsupported11qt_metacastEPKc@Base 5.5.0
+ _ZN29QPlaceContentReplyUnsupported16staticMetaObjectE@Base 5.5.0
+ _ZN29QPlaceDetailsReplyUnsupported11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
+ _ZN29QPlaceDetailsReplyUnsupported11qt_metacastEPKc@Base 5.5.0
+ _ZN29QPlaceDetailsReplyUnsupported16staticMetaObjectE@Base 5.5.0
+ _ZN38QPlaceSearchSuggestionReplyUnsupported11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
+ _ZN38QPlaceSearchSuggestionReplyUnsupported11qt_metacastEPKc@Base 5.5.0
+ _ZN38QPlaceSearchSuggestionReplyUnsupported16staticMetaObjectE@Base 5.5.0
  _ZN6QPlace10setContentEN13QPlaceContent4TypeERK4QMapIiS0_E@Base 5.2.1
  _ZN6QPlace10setPlaceIdERK7QString@Base 5.2.1
  _ZN6QPlace10setRatingsERK13QPlaceRatings@Base 5.2.1
@@ -778,23 +764,25 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN6QPlaceD1Ev@Base 5.2.1
  _ZN6QPlaceD2Ev@Base 5.2.1
  _ZN6QPlaceaSERKS_@Base 5.2.1
+ _ZN7QGeoMap10mapVersionEv@Base 5.5.0
  _ZN7QGeoMap11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.1
  _ZN7QGeoMap11qt_metacastEPKc@Base 5.2.1
  _ZN7QGeoMap12pluginStringEv@Base 5.2.1
- _ZN7QGeoMap13cameraStoppedEv@Base 5.2.1
+ _ZN7QGeoMap12prefetchDataEv@Base 5.5.0
  _ZN7QGeoMap13mapControllerEv@Base 5.2.1
  _ZN7QGeoMap13setCameraDataERK14QGeoCameraData@Base 5.2.1
  _ZN7QGeoMap14updateRequiredEv@Base 5.2.1
  _ZN7QGeoMap16setActiveMapTypeE11QGeoMapType@Base 5.2.1
  _ZN7QGeoMap16staticMetaObjectE@Base 5.2.1
  _ZN7QGeoMap17cameraDataChangedERK14QGeoCameraData@Base 5.2.1
- _ZN7QGeoMap17copyrightsChangedERK6QImageRK6QPoint@Base 5.2.1
+ _ZN7QGeoMap17copyrightsChangedERK6QImage@Base 5.5.0
+ _ZN7QGeoMap17copyrightsChangedERK7QString@Base 5.5.0
+ _ZN7QGeoMap18cameraCapabilitiesEv@Base 5.5.0
  _ZN7QGeoMap20activeMapTypeChangedEv@Base 5.2.1
  _ZN7QGeoMap6resizeEii@Base 5.2.1
  _ZN7QGeoMap6updateEv@Base 5.2.1
- _ZN7QGeoMap7paintGLEP10QGLPainter@Base 5.2.1
- _ZN7QGeoMapC1EP11QGeoMapDataP7QObject@Base 5.2.1
- _ZN7QGeoMapC2EP11QGeoMapDataP7QObject@Base 5.2.1
+ _ZN7QGeoMapC1ER14QGeoMapPrivateP7QObject@Base 5.5.0
+ _ZN7QGeoMapC2ER14QGeoMapPrivateP7QObject@Base 5.5.0
  _ZN7QGeoMapD0Ev@Base 5.2.1
  _ZN7QGeoMapD1Ev@Base 5.2.1
  _ZN7QGeoMapD2Ev@Base 5.2.1
@@ -821,15 +809,10 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK10QPlaceUser4nameEv@Base 5.2.1
  _ZNK10QPlaceUser6userIdEv@Base 5.2.1
  _ZNK10QPlaceUsereqERKS_@Base 5.2.1
- _ZNK11QGeoMapData10cameraDataEv@Base 5.2.1
- _ZNK11QGeoMapData10metaObjectEv@Base 5.2.1
- _ZNK11QGeoMapData13activeMapTypeEv@Base 5.2.1
- _ZNK11QGeoMapData5widthEv@Base 5.2.1
- _ZNK11QGeoMapData6heightEv@Base 5.2.1
- _ZNK11QGeoMapData8glCameraEv@Base 5.2.1
  _ZNK11QGeoMapType11descriptionEv@Base 5.2.1
  _ZNK11QGeoMapType4nameEv@Base 5.2.1
  _ZNK11QGeoMapType5mapIdEv@Base 5.2.1
+ _ZNK11QGeoMapType5nightEv@Base 5.4.0
  _ZNK11QGeoMapType5styleEv@Base 5.2.1
  _ZNK11QGeoMapType6mobileEv@Base 5.2.1
  _ZNK11QGeoMapTypeeqERKS_@Base 5.2.1
@@ -853,17 +836,19 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK12QGeoManeuverneERKS_@Base 5.2.1
  _ZNK12QGeoMapScene10metaObjectEv@Base 5.2.1
  _ZNK12QGeoMapScene12verticalLockEv@Base 5.2.1
- _ZNK12QGeoMapScene24mercatorToScreenPositionERK15QDoubleVector2D@Base 5.2.1
- _ZNK12QGeoMapScene24screenPositionToMercatorERK7QPointF@Base 5.2.1
- _ZNK12QGeoMapScene6cameraEv@Base 5.2.1
- _ZNK12QGeoMapScene9sceneNodeEv@Base 5.2.1
+ _ZNK12QGeoMapScene22itemPositionToMercatorERK15QDoubleVector2D@Base 5.5.0
+ _ZNK12QGeoMapScene22mercatorToItemPositionERK15QDoubleVector2D@Base 5.5.0
  _ZNK12QGeoTileSpec1xEv@Base 5.2.1
  _ZNK12QGeoTileSpec1yEv@Base 5.2.1
  _ZNK12QGeoTileSpec4zoomEv@Base 5.2.1
  _ZNK12QGeoTileSpec5mapIdEv@Base 5.2.1
  _ZNK12QGeoTileSpec6pluginEv@Base 5.2.1
+ _ZNK12QGeoTileSpec7versionEv@Base 5.3.0
  _ZNK12QGeoTileSpeceqERKS_@Base 5.2.1
  _ZNK12QGeoTileSpecltERKS_@Base 5.2.1
+ _ZNK12QGeoTiledMap10metaObjectEv@Base 5.5.0
+ _ZNK12QGeoTiledMap24coordinateToItemPositionERK14QGeoCoordinateb@Base 5.5.0
+ _ZNK12QGeoTiledMap24itemPositionToCoordinateERK15QDoubleVector2Db@Base 5.5.0
  _ZNK12QPlaceResult11isSponsoredEv@Base 5.2.1
  _ZNK12QPlaceResult5placeEv@Base 5.2.1
  _ZNK12QPlaceResult8distanceEv@Base 5.2.1
@@ -888,6 +873,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK13QGeoTileCache14maxMemoryUsageEv@Base 5.2.1
  _ZNK13QGeoTileCache15maxTextureUsageEv@Base 5.2.1
  _ZNK13QGeoTileCache15minTextureUsageEv@Base 5.2.1
+ _ZNK13QGeoTileCache9directoryEv@Base 5.3.0
  _ZNK13QGeoTileCache9diskUsageEv@Base 5.2.1
  _ZNK13QPlaceContent11attributionEv@Base 5.2.1
  _ZNK13QPlaceContent4typeEv@Base 5.2.1
@@ -904,7 +890,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK13QPlaceManager14managerVersionEv@Base 5.2.1
  _ZNK13QPlaceManager14matchingPlacesERK18QPlaceMatchRequest@Base 5.2.1
  _ZNK13QPlaceManager15childCategoriesERK7QString@Base 5.2.1
- _ZNK13QPlaceManager15getPlaceContentERK7QStringRK20QPlaceContentRequest@Base 5.2.1
+ _ZNK13QPlaceManager15getPlaceContentERK20QPlaceContentRequest@Base 5.3.0
  _ZNK13QPlaceManager15getPlaceDetailsERK7QString@Base 5.2.1
  _ZNK13QPlaceManager16childCategoryIdsERK7QString@Base 5.2.1
  _ZNK13QPlaceManager16parentCategoryIdERK7QString@Base 5.2.1
@@ -917,7 +903,6 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK13QPlaceRatings7isEmptyEv@Base 5.2.1
  _ZNK13QPlaceRatings7maximumEv@Base 5.2.1
  _ZNK13QPlaceRatingseqERKS_@Base 5.2.1
- _ZNK14QGeoCameraData22coordinateInterpolatorEv@Base 5.2.1
  _ZNK14QGeoCameraData4rollEv@Base 5.2.1
  _ZNK14QGeoCameraData4tiltEv@Base 5.2.1
  _ZNK14QGeoCameraData6centerEv@Base 5.2.1
@@ -943,7 +928,6 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK14QPlaceSupplier4nameEv@Base 5.2.1
  _ZNK14QPlaceSupplier7isEmptyEv@Base 5.2.1
  _ZNK14QPlaceSuppliereqERKS_@Base 5.2.1
- _ZNK15QGeoCameraTiles5tilesEv@Base 5.2.1
  _ZNK15QGeoCameraTiles8tileSizeEv@Base 5.2.1
  _ZNK15QGeoTileFetcher10metaObjectEv@Base 5.2.1
  _ZNK15QPlaceAttribute4textEv@Base 5.2.1
@@ -973,9 +957,6 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK16QGeoRouteSegment8maneuverEv@Base 5.2.1
  _ZNK16QGeoRouteSegmenteqERKS_@Base 5.2.1
  _ZNK16QGeoRouteSegmentneERKS_@Base 5.2.1
- _ZNK16QGeoTiledMapData10metaObjectEv@Base 5.2.1
- _ZNK16QGeoTiledMapData26coordinateToScreenPositionERK14QGeoCoordinateb@Base 5.2.1
- _ZNK16QGeoTiledMapData26screenPositionToCoordinateERK7QPointFb@Base 5.2.1
  _ZNK16QPlaceMatchReply10metaObjectEv@Base 5.2.1
  _ZNK16QPlaceMatchReply4typeEv@Base 5.2.1
  _ZNK16QPlaceMatchReply6placesEv@Base 5.2.1
@@ -999,6 +980,8 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK17QGeoTiledMapReply8isCachedEv@Base 5.2.1
  _ZNK17QGeoTiledMapReply8tileSpecEv@Base 5.2.1
  _ZNK17QPlaceSearchReply10metaObjectEv@Base 5.2.1
+ _ZNK17QPlaceSearchReply15nextPageRequestEv@Base 5.3.0
+ _ZNK17QPlaceSearchReply19previousPageRequestEv@Base 5.3.0
  _ZNK17QPlaceSearchReply4typeEv@Base 5.2.1
  _ZNK17QPlaceSearchReply7requestEv@Base 5.2.1
  _ZNK17QPlaceSearchReply7resultsEv@Base 5.2.1
@@ -1012,6 +995,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK18QGeoRoutingManager10metaObjectEv@Base 5.2.1
  _ZNK18QGeoRoutingManager11managerNameEv@Base 5.2.1
  _ZNK18QGeoRoutingManager14managerVersionEv@Base 5.2.1
+ _ZNK18QGeoRoutingManager17measurementSystemEv@Base 5.3.0
  _ZNK18QGeoRoutingManager20supportedTravelModesEv@Base 5.2.1
  _ZNK18QGeoRoutingManager21supportedFeatureTypesEv@Base 5.2.1
  _ZNK18QGeoRoutingManager23supportedFeatureWeightsEv@Base 5.2.1
@@ -1021,6 +1005,8 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK18QGeoRoutingManager6localeEv@Base 5.2.1
  _ZNK18QPlaceContentReply10metaObjectEv@Base 5.2.1
  _ZNK18QPlaceContentReply10totalCountEv@Base 5.2.1
+ _ZNK18QPlaceContentReply15nextPageRequestEv@Base 5.3.0
+ _ZNK18QPlaceContentReply19previousPageRequestEv@Base 5.3.0
  _ZNK18QPlaceContentReply4typeEv@Base 5.2.1
  _ZNK18QPlaceContentReply7contentEv@Base 5.2.1
  _ZNK18QPlaceContentReply7requestEv@Base 5.2.1
@@ -1069,14 +1055,12 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK19QPlaceSearchRequest15visibilityScopeEv@Base 5.2.1
  _ZNK19QPlaceSearchRequest16recommendationIdEv@Base 5.2.1
  _ZNK19QPlaceSearchRequest5limitEv@Base 5.2.1
- _ZNK19QPlaceSearchRequest6offsetEv@Base 5.2.1
  _ZNK19QPlaceSearchRequesteqERKS_@Base 5.2.1
  _ZNK19QPlaceSearchRequestneERKS_@Base 5.2.1
- _ZNK20AnimatableCoordinate10coordinateEv@Base 5.2.1
- _ZNK20AnimatableCoordinate12interpolatorEv@Base 5.2.1
  _ZNK20QPlaceContentRequest11contentTypeEv@Base 5.2.1
+ _ZNK20QPlaceContentRequest14contentContextEv@Base 5.3.0
  _ZNK20QPlaceContentRequest5limitEv@Base 5.2.1
- _ZNK20QPlaceContentRequest6offsetEv@Base 5.2.1
+ _ZNK20QPlaceContentRequest7placeIdEv@Base 5.3.0
  _ZNK20QPlaceContentRequesteqERKS_@Base 5.2.1
  _ZNK20QPlaceContentRequestneERKS_@Base 5.2.1
  _ZNK22QGeoCameraCapabilities11maximumTiltEv@Base 5.2.1
@@ -1087,6 +1071,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK22QGeoCameraCapabilities16maximumZoomLevelEv@Base 5.2.1
  _ZNK22QGeoCameraCapabilities16minimumZoomLevelEv@Base 5.2.1
  _ZNK22QGeoCameraCapabilities7isValidEv@Base 5.2.1
+ _ZNK22QPlaceReplyUnsupported10metaObjectEv@Base 5.5.0
  _ZNK23QGeoCodingManagerEngine10metaObjectEv@Base 5.2.1
  _ZNK23QGeoCodingManagerEngine11managerNameEv@Base 5.2.1
  _ZNK23QGeoCodingManagerEngine14managerVersionEv@Base 5.2.1
@@ -1100,6 +1085,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK24QGeoRoutingManagerEngine10metaObjectEv@Base 5.2.1
  _ZNK24QGeoRoutingManagerEngine11managerNameEv@Base 5.2.1
  _ZNK24QGeoRoutingManagerEngine14managerVersionEv@Base 5.2.1
+ _ZNK24QGeoRoutingManagerEngine17measurementSystemEv@Base 5.3.0
  _ZNK24QGeoRoutingManagerEngine20supportedTravelModesEv@Base 5.2.1
  _ZNK24QGeoRoutingManagerEngine21supportedFeatureTypesEv@Base 5.2.1
  _ZNK24QGeoRoutingManagerEngine23supportedFeatureWeightsEv@Base 5.2.1
@@ -1107,17 +1093,23 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK24QGeoRoutingManagerEngine24supportedManeuverDetailsEv@Base 5.2.1
  _ZNK24QGeoRoutingManagerEngine27supportedRouteOptimizationsEv@Base 5.2.1
  _ZNK24QGeoRoutingManagerEngine6localeEv@Base 5.2.1
+ _ZNK24QPlaceIdReplyUnsupported10metaObjectEv@Base 5.5.0
  _ZNK26QGeoServiceProviderFactory24createPlaceManagerEngineERK4QMapI7QString8QVariantEPN19QGeoServiceProvider5ErrorEPS1_@Base 5.2.1
  _ZNK26QGeoServiceProviderFactory26createMappingManagerEngineERK4QMapI7QString8QVariantEPN19QGeoServiceProvider5ErrorEPS1_@Base 5.2.1
  _ZNK26QGeoServiceProviderFactory26createRoutingManagerEngineERK4QMapI7QString8QVariantEPN19QGeoServiceProvider5ErrorEPS1_@Base 5.2.1
  _ZNK26QGeoServiceProviderFactory28createGeocodingManagerEngineERK4QMapI7QString8QVariantEPN19QGeoServiceProvider5ErrorEPS1_@Base 5.2.1
  _ZNK26QPlaceProposedSearchResult13searchRequestEv@Base 5.2.1
+ _ZNK27QPlaceMatchReplyUnsupported10metaObjectEv@Base 5.5.0
  _ZNK27QPlaceSearchSuggestionReply10metaObjectEv@Base 5.2.1
  _ZNK27QPlaceSearchSuggestionReply11suggestionsEv@Base 5.2.1
  _ZNK27QPlaceSearchSuggestionReply4typeEv@Base 5.2.1
+ _ZNK28QPlaceSearchReplyUnsupported10metaObjectEv@Base 5.5.0
  _ZNK29QGeoTiledMappingManagerEngine10metaObjectEv@Base 5.2.1
  _ZNK29QGeoTiledMappingManagerEngine8tileSizeEv@Base 5.2.1
  _ZNK29QGeoTiledMappingManagerEngine9cacheHintEv@Base 5.2.1
+ _ZNK29QPlaceContentReplyUnsupported10metaObjectEv@Base 5.5.0
+ _ZNK29QPlaceDetailsReplyUnsupported10metaObjectEv@Base 5.5.0
+ _ZNK38QPlaceSearchSuggestionReplyUnsupported10metaObjectEv@Base 5.5.0
  _ZNK6QPlace10categoriesEv@Base 5.2.1
  _ZNK6QPlace10primaryFaxEv@Base 5.2.1
  _ZNK6QPlace10visibilityEv@Base 5.2.1
@@ -1144,12 +1136,8 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK7QGeoMap10cameraDataEv@Base 5.2.1
  _ZNK7QGeoMap10metaObjectEv@Base 5.2.1
  _ZNK7QGeoMap13activeMapTypeEv@Base 5.2.1
- _ZNK7QGeoMap18cameraCapabilitiesEv@Base 5.2.1
- _ZNK7QGeoMap26coordinateToScreenPositionERK14QGeoCoordinateb@Base 5.2.1
- _ZNK7QGeoMap26screenPositionToCoordinateERK7QPointFb@Base 5.2.1
  _ZNK7QGeoMap5widthEv@Base 5.2.1
  _ZNK7QGeoMap6heightEv@Base 5.2.1
- _ZNK7QGeoMap8glCameraEv@Base 5.2.1
  _ZNK9QGeoRoute10travelModeEv@Base 5.2.1
  _ZNK9QGeoRoute10travelTimeEv@Base 5.2.1
  _ZNK9QGeoRoute17firstRouteSegmentEv@Base 5.2.1
@@ -1160,11 +1148,11 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK9QGeoRoute8distanceEv@Base 5.2.1
  _ZNK9QGeoRouteeqERKS_@Base 5.2.1
  _ZNK9QGeoRouteneERKS_@Base 5.2.1
- _ZTI11QGeoMapData@Base 5.2.1
  _ZTI11QPlaceImage@Base 5.2.1
  _ZTI11QPlaceReply@Base 5.2.1
  _ZTI11QSharedData@Base 5.2.1
  _ZTI12QGeoMapScene@Base 5.2.1
+ _ZTI12QGeoTiledMap@Base 5.5.0
  _ZTI12QPlaceResult@Base 5.2.1
  _ZTI12QPlaceReview@Base 5.2.1
  _ZTI13QGeoCodeReply@Base 5.2.1
@@ -1177,7 +1165,6 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZTI15QGeoTileFetcher@Base 5.2.1
  _ZTI15QPlaceAttribute@Base 5.2.1
  _ZTI15QPlaceEditorial@Base 5.2.1
- _ZTI16QGeoTiledMapData@Base 5.2.1
  _ZTI16QPlaceMatchReply@Base 5.2.1
  _ZTI17QGeoCodingManager@Base 5.2.1
  _ZTI17QGeoMapController@Base 5.2.1
@@ -1191,20 +1178,26 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZTI19QGeoServiceProvider@Base 5.2.1
  _ZTI19QPlaceContactDetail@Base 5.2.1
  _ZTI19QPlaceManagerEngine@Base 5.2.1
+ _ZTI22QPlaceReplyUnsupported@Base 5.5.0
  _ZTI23QGeoCodingManagerEngine@Base 5.2.1
  _ZTI24QGeoMappingManagerEngine@Base 5.2.1
  _ZTI24QGeoRoutingManagerEngine@Base 5.2.1
- _ZTI26QGeoCoordinateInterpolator@Base 5.2.1
+ _ZTI24QPlaceIdReplyUnsupported@Base 5.5.0
  _ZTI26QGeoServiceProviderFactory@Base 5.2.1
  _ZTI26QPlaceProposedSearchResult@Base 5.2.1
+ _ZTI27QPlaceMatchReplyUnsupported@Base 5.5.0
  _ZTI27QPlaceSearchSuggestionReply@Base 5.2.1
+ _ZTI28QPlaceSearchReplyUnsupported@Base 5.5.0
  _ZTI29QGeoTiledMappingManagerEngine@Base 5.2.1
+ _ZTI29QPlaceContentReplyUnsupported@Base 5.5.0
+ _ZTI29QPlaceDetailsReplyUnsupported@Base 5.5.0
+ _ZTI38QPlaceSearchSuggestionReplyUnsupported@Base 5.5.0
  _ZTI7QGeoMap@Base 5.2.1
- _ZTS11QGeoMapData@Base 5.2.1
  _ZTS11QPlaceImage@Base 5.2.1
  _ZTS11QPlaceReply@Base 5.2.1
  _ZTS11QSharedData@Base 5.2.1
  _ZTS12QGeoMapScene@Base 5.2.1
+ _ZTS12QGeoTiledMap@Base 5.5.0
  _ZTS12QPlaceResult@Base 5.2.1
  _ZTS12QPlaceReview@Base 5.2.1
  _ZTS13QGeoCodeReply@Base 5.2.1
@@ -1217,7 +1210,6 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZTS15QGeoTileFetcher@Base 5.2.1
  _ZTS15QPlaceAttribute@Base 5.2.1
  _ZTS15QPlaceEditorial@Base 5.2.1
- _ZTS16QGeoTiledMapData@Base 5.2.1
  _ZTS16QPlaceMatchReply@Base 5.2.1
  _ZTS17QGeoCodingManager@Base 5.2.1
  _ZTS17QGeoMapController@Base 5.2.1
@@ -1231,19 +1223,25 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZTS19QGeoServiceProvider@Base 5.2.1
  _ZTS19QPlaceContactDetail@Base 5.2.1
  _ZTS19QPlaceManagerEngine@Base 5.2.1
+ _ZTS22QPlaceReplyUnsupported@Base 5.5.0
  _ZTS23QGeoCodingManagerEngine@Base 5.2.1
  _ZTS24QGeoMappingManagerEngine@Base 5.2.1
  _ZTS24QGeoRoutingManagerEngine@Base 5.2.1
- _ZTS26QGeoCoordinateInterpolator@Base 5.2.1
+ _ZTS24QPlaceIdReplyUnsupported@Base 5.5.0
  _ZTS26QGeoServiceProviderFactory@Base 5.2.1
  _ZTS26QPlaceProposedSearchResult@Base 5.2.1
+ _ZTS27QPlaceMatchReplyUnsupported@Base 5.5.0
  _ZTS27QPlaceSearchSuggestionReply@Base 5.2.1
+ _ZTS28QPlaceSearchReplyUnsupported@Base 5.5.0
  _ZTS29QGeoTiledMappingManagerEngine@Base 5.2.1
+ _ZTS29QPlaceContentReplyUnsupported@Base 5.5.0
+ _ZTS29QPlaceDetailsReplyUnsupported@Base 5.5.0
+ _ZTS38QPlaceSearchSuggestionReplyUnsupported@Base 5.5.0
  _ZTS7QGeoMap@Base 5.2.1
- _ZTV11QGeoMapData@Base 5.2.1
  _ZTV11QPlaceImage@Base 5.2.1
  _ZTV11QPlaceReply@Base 5.2.1
  _ZTV12QGeoMapScene@Base 5.2.1
+ _ZTV12QGeoTiledMap@Base 5.5.0
  _ZTV12QPlaceResult@Base 5.2.1
  _ZTV12QPlaceReview@Base 5.2.1
  _ZTV13QGeoCodeReply@Base 5.2.1
@@ -1256,7 +1254,6 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZTV15QGeoTileFetcher@Base 5.2.1
  _ZTV15QPlaceAttribute@Base 5.2.1
  _ZTV15QPlaceEditorial@Base 5.2.1
- _ZTV16QGeoTiledMapData@Base 5.2.1
  _ZTV16QPlaceMatchReply@Base 5.2.1
  _ZTV17QGeoCodingManager@Base 5.2.1
  _ZTV17QGeoMapController@Base 5.2.1
@@ -1270,13 +1267,23 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZTV19QGeoServiceProvider@Base 5.2.1
  _ZTV19QPlaceContactDetail@Base 5.2.1
  _ZTV19QPlaceManagerEngine@Base 5.2.1
+ _ZTV22QPlaceReplyUnsupported@Base 5.5.0
  _ZTV23QGeoCodingManagerEngine@Base 5.2.1
  _ZTV24QGeoMappingManagerEngine@Base 5.2.1
  _ZTV24QGeoRoutingManagerEngine@Base 5.2.1
- _ZTV26QGeoCoordinateInterpolator@Base 5.2.1
+ _ZTV24QPlaceIdReplyUnsupported@Base 5.5.0
  _ZTV26QGeoServiceProviderFactory@Base 5.2.1
  _ZTV26QPlaceProposedSearchResult@Base 5.2.1
+ _ZTV27QPlaceMatchReplyUnsupported@Base 5.5.0
  _ZTV27QPlaceSearchSuggestionReply@Base 5.2.1
+ _ZTV28QPlaceSearchReplyUnsupported@Base 5.5.0
  _ZTV29QGeoTiledMappingManagerEngine@Base 5.2.1
+ _ZTV29QPlaceContentReplyUnsupported@Base 5.5.0
+ _ZTV29QPlaceDetailsReplyUnsupported@Base 5.5.0
+ _ZTV38QPlaceSearchSuggestionReplyUnsupported@Base 5.5.0
  _ZTV7QGeoMap@Base 5.2.1
+ _ZZZN27QPlaceMatchReplyUnsupportedC4EP19QPlaceManagerEngineENKUlvE_clEvE15qstring_literal@Base 5.5.0
+ _ZZZN29QPlaceContentReplyUnsupportedC4EP19QPlaceManagerEngineENKUlvE_clEvE15qstring_literal@Base 5.5.0
+ _ZZZN29QPlaceDetailsReplyUnsupportedC4EP19QPlaceManagerEngineENKUlvE_clEvE15qstring_literal@Base 5.5.0
+ _ZZZN38QPlaceSearchSuggestionReplyUnsupportedC4EP19QPlaceManagerEngineENKUlvE_clEvE15qstring_literal@Base 5.5.0
  _Zls6QDebugRK12QGeoTileSpec@Base 5.2.1
