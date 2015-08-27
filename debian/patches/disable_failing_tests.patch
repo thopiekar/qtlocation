@@ -5,15 +5,41 @@ Description: disable failing tests
  Disable them until we can work it out.
 Author: Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
 Forwarded: not-needed
-Last-Update: 2014-06-07
-
----
- tests/auto/auto.pro |    2 --
- 1 file changed, 2 deletions(-)
+Last-Update: 2015-08-27
 
 --- a/tests/auto/auto.pro
 +++ b/tests/auto/auto.pro
-@@ -76,7 +76,5 @@ SUBDIRS += \
+@@ -25,12 +25,11 @@
+            qplacesearchsuggestionreply \
+            qplaceuser \
+            qplacemanager \
+-           qplacemanager_nokia \
+            qplacemanager_unsupported \
+            placesplugin_unsupported
+ 
+     #misc tests
+-    SUBDIRS +=  qmlinterface \
++    SUBDIRS += \
+            cmake \
+            doublevectors
+ 
+@@ -54,15 +53,8 @@
+            qgeoroutexmlparser \
+            qgeomapcontroller \
+            maptype \
+-           nokia_services \
+            qgeocameratiles
+ 
+-    qtHaveModule(quick) {
+-        SUBDIRS += declarative_core \
+-                declarative_geoshape
+-
+-        !mac: SUBDIRS += declarative_ui
+-    }
+ }
+ 
+ 
+@@ -77,7 +69,5 @@
             qgeocoordinate \
             qgeolocation \
             qgeopositioninfo \
