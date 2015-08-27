@@ -1,5 +1,11 @@
-# SymbolsHelper-Confirmed: 5.4.2 hppa
+# SymbolsHelper-Confirmed: 5.5.0 amd64
 libQt5Positioning.so.5 libqt5positioning5 #MINVER#
+ _Z25geoCoordinateInterpolatorRK14QGeoCoordinateS1_d@Base 5.5.0
+ _ZGVZN9QMetaType17registerConverterI10QGeoCircle9QGeoShapePFS2_RKS1_EEEbT1_E1f@Base 5.5.0
+ _ZGVZN9QMetaType17registerConverterI13QGeoRectangle9QGeoShapePFS2_RKS1_EEEbT1_E1f@Base 5.5.0
+ _ZGVZN9QMetaType17registerConverterI9QGeoShape10QGeoCirclePFS2_RKS1_EEEbT1_E1f@Base 5.5.0
+ _ZGVZN9QMetaType17registerConverterI9QGeoShape13QGeoRectanglePFS2_RKS1_EEEbT1_E1f@Base 5.5.0
+ _ZN10QGeoCircle16staticMetaObjectE@Base 5.5.0
  _ZN10QGeoCircle9setCenterERK14QGeoCoordinate@Base 5.2.1
  _ZN10QGeoCircle9setRadiusEd@Base 5.2.1
  _ZN10QGeoCircle9translateEdd@Base 5.2.1
@@ -45,6 +51,7 @@ libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZN13QGeoRectangle11setTopRightERK14QGeoCoordinate@Base 5.2.1
  _ZN13QGeoRectangle13setBottomLeftERK14QGeoCoordinate@Base 5.2.1
  _ZN13QGeoRectangle14setBottomRightERK14QGeoCoordinate@Base 5.2.1
+ _ZN13QGeoRectangle16staticMetaObjectE@Base 5.5.0
  _ZN13QGeoRectangle8setWidthEd@Base 5.2.1
  _ZN13QGeoRectangle9setCenterERK14QGeoCoordinate@Base 5.2.1
  _ZN13QGeoRectangle9setHeightEd@Base 5.2.1
@@ -68,6 +75,7 @@ libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZN14QGeoCoordinate11setAltitudeEd@Base 5.2.1
  _ZN14QGeoCoordinate11setLatitudeEd@Base 5.2.1
  _ZN14QGeoCoordinate12setLongitudeEd@Base 5.2.1
+ _ZN14QGeoCoordinate16staticMetaObjectE@Base 5.5.0
  _ZN14QGeoCoordinateC1ERKS_@Base 5.2.1
  _ZN14QGeoCoordinateC1Edd@Base 5.2.1
  _ZN14QGeoCoordinateC1Eddd@Base 5.2.1
@@ -238,6 +246,7 @@ libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZN29QGeoPositionInfoSourceFactoryD1Ev@Base 5.2.1
  _ZN29QGeoPositionInfoSourceFactoryD2Ev@Base 5.2.1
  _ZN9QGeoShape11extendShapeERK14QGeoCoordinate@Base 5.3.0
+ _ZN9QGeoShape16staticMetaObjectE@Base 5.5.0
  _ZN9QGeoShapeC1EP16QGeoShapePrivate@Base 5.2.1
  _ZN9QGeoShapeC1ERKS_@Base 5.2.1
  _ZN9QGeoShapeC1Ev@Base 5.2.1
@@ -250,6 +259,7 @@ libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZNK10QGeoCircle10translatedEdd@Base 5.2.1
  _ZNK10QGeoCircle6centerEv@Base 5.2.1
  _ZNK10QGeoCircle6radiusEv@Base 5.2.1
+ _ZNK10QGeoCircle8toStringEv@Base 5.5.0
  _ZNK10QGeoCircleeqERKS_@Base 5.2.1
  _ZNK10QGeoCircleneERKS_@Base 5.2.1
  _ZNK11QGeoAddress10postalCodeEv@Base 5.2.1
@@ -279,6 +289,7 @@ libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZNK13QGeoRectangle6unitedERKS_@Base 5.2.1
  _ZNK13QGeoRectangle7topLeftEv@Base 5.2.1
  _ZNK13QGeoRectangle8containsERKS_@Base 5.2.1
+ _ZNK13QGeoRectangle8toStringEv@Base 5.5.0
  _ZNK13QGeoRectangle8topRightEv@Base 5.2.1
  _ZNK13QGeoRectangleeqERKS_@Base 5.2.1
  _ZNK13QGeoRectangleneERKS_@Base 5.2.1
@@ -356,9 +367,11 @@ libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZNK23QNmeaPositionInfoSource5errorEv@Base 5.2.1
  _ZNK23QNmeaPositionInfoSource6deviceEv@Base 5.2.1
  _ZNK9QGeoShape4typeEv@Base 5.2.1
+ _ZNK9QGeoShape6centerEv@Base 5.5.0
  _ZNK9QGeoShape7isEmptyEv@Base 5.2.1
  _ZNK9QGeoShape7isValidEv@Base 5.2.1
  _ZNK9QGeoShape8containsERK14QGeoCoordinate@Base 5.2.1
+ _ZNK9QGeoShape8toStringEv@Base 5.5.0
  _ZNK9QGeoShapeeqERKS_@Base 5.2.1
  _ZNK9QGeoShapeneERKS_@Base 5.2.1
  _ZTI11QSharedData@Base 5.2.1
@@ -384,18 +397,28 @@ libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZTV23QGeoSatelliteInfoSource@Base 5.2.1
  _ZTV23QNmeaPositionInfoSource@Base 5.2.1
  _ZTV29QGeoPositionInfoSourceFactory@Base 5.2.1
+ _ZZN9QMetaType17registerConverterI10QGeoCircle9QGeoShapePFS2_RKS1_EEEbT1_E1f@Base 5.5.0
+ _ZZN9QMetaType17registerConverterI13QGeoRectangle9QGeoShapePFS2_RKS1_EEEbT1_E1f@Base 5.5.0
+ _ZZN9QMetaType17registerConverterI9QGeoShape10QGeoCirclePFS2_RKS1_EEEbT1_E1f@Base 5.5.0
+ _ZZN9QMetaType17registerConverterI9QGeoShape13QGeoRectanglePFS2_RKS1_EEEbT1_E1f@Base 5.5.0
  _Zls6QDebugRK14QGeoCoordinate@Base 5.2.1
+ _Zls6QDebugRK15QDoubleVector2D@Base 5.5.0
+ _Zls6QDebugRK15QDoubleVector3D@Base 5.5.0
  _Zls6QDebugRK16QGeoPositionInfo@Base 5.2.1
  _Zls6QDebugRK17QGeoSatelliteInfo@Base 5.2.1
  _Zls6QDebugRK19QGeoAreaMonitorInfo@Base 5.2.1
  _Zls6QDebugRK9QGeoShape@Base 5.2.1
  _ZlsR11QDataStreamN16QGeoPositionInfo9AttributeE@Base 5.2.1
  _ZlsR11QDataStreamRK14QGeoCoordinate@Base 5.2.1
+ _ZlsR11QDataStreamRK15QDoubleVector2D@Base 5.5.0
+ _ZlsR11QDataStreamRK15QDoubleVector3D@Base 5.5.0
  _ZlsR11QDataStreamRK16QGeoPositionInfo@Base 5.2.1
  _ZlsR11QDataStreamRK17QGeoSatelliteInfo@Base 5.2.1
  _ZlsR11QDataStreamRK19QGeoAreaMonitorInfo@Base 5.2.1
  _ZlsR11QDataStreamRK9QGeoShape@Base 5.2.1
  _ZrsR11QDataStreamR14QGeoCoordinate@Base 5.2.1
+ _ZrsR11QDataStreamR15QDoubleVector2D@Base 5.5.0
+ _ZrsR11QDataStreamR15QDoubleVector3D@Base 5.5.0
  _ZrsR11QDataStreamR16QGeoPositionInfo@Base 5.2.1
  _ZrsR11QDataStreamR17QGeoSatelliteInfo@Base 5.2.1
  _ZrsR11QDataStreamR19QGeoAreaMonitorInfo@Base 5.2.1
