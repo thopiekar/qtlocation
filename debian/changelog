@@ -8,7 +8,6 @@ qtlocation-opensource-src (5.5.0-1) UNRELEASED; urgency=medium
   * Drop disable_qtlocation.patch.
   * Update install files for the new release.
   * Bump Qt build-dependencies to 5.5.0.
-  * Add libqt5xcbqpa5 build-dependency, it is needed to run tests under Xvfb.
   * Update debian/copyright.
   * Disable some failing tests for location module.
   * Update symbols files.

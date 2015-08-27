@@ -14,7 +14,6 @@ Build-Depends: dbus,
                libgconf2-dev,
                libgeoclue-dev,
                libqt5opengl5-dev (>= 5.5.0+dfsg~),
-               libqt5xcbqpa5,
                pkg-kde-tools,
                qtbase5-private-dev (>= 5.5.0+dfsg~),
                qtdeclarative5-private-dev (>= 5.5.0~)
