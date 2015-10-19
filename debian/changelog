@@ -1,10 +1,9 @@
-qtlocation-opensource-src (5.5.1-2) UNRELEASED; urgency=medium
+qtlocation-opensource-src (5.5.1-2) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Only run test when building arch-dependant packages. The arch: all
     packages are just doc (Closes: #802344).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 19 Oct 2015 14:48:26 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 19 Oct 2015 15:56:30 -0300
 
 qtlocation-opensource-src (5.5.1-1) experimental; urgency=medium
 
