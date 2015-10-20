@@ -1,3 +1,8 @@
+qtlocation-opensource-src (5.5.1-3) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 20 Oct 2015 12:33:06 +0300
+
 qtlocation-opensource-src (5.5.1-2) experimental; urgency=medium
 
   * Only run test when building arch-dependant packages. The arch: all
