@@ -1,5 +1,8 @@
 qtlocation-opensource-src (5.5.1-3) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Add empty override_dh_auto_test-indep target, so that tests are really
+    not run during arch-indep builds.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 20 Oct 2015 12:33:06 +0300
 

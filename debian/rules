@@ -45,6 +45,8 @@ ifeq (,$(findstring nocheck,$(DEB_BUILD_OPTIONS)))
 	dbus-launch --exit-with-session dh_auto_test -- QT_QPA_PLATFORM=minimal QT_DEBUG_PLUGINS=1 QT_PLUGIN_PATH=$(CURDIR)/plugins
 endif
 
+override_dh_auto_test-indep:
+
 override_dh_auto_clean:
 	dh_auto_clean
 	# Leftover files and all symlinks
