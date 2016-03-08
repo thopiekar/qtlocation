@@ -149,7 +149,7 @@ Package: qtpositioning5-examples
 Priority: extra
 Architecture: all
 Section: oldlibs
-Depends: qtlocation5-examples, ${misc:Depends}
+Depends: qml-module-positioning, qtlocation5-examples, ${misc:Depends}
 Description: transitional dummy package for qtlocation5-examples
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
