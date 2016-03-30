@@ -1,7 +1,7 @@
-qtlocation-opensource-src (5.6.0~rc-1) UNRELEASED; urgency=medium
+qtlocation-opensource-src (5.6.0-1) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
-  * New upstream RC release.
+  * New upstream release.
     - Bump Qt build dependencies.
   * Make qtpositioning5-examples depend on qml-module-positioning.
   * Make libqt5positioning5 recommend geoclue-2.0. It will connect to it by

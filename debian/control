@@ -8,13 +8,13 @@ Uploaders: Timo Jyrinki <timo@debian.org>,
 Build-Depends: dbus,
                debhelper (>= 9.0.0),
                libgconf2-dev,
-               libqt5opengl5-dev (>= 5.6.0~rc+dfsg~),
+               libqt5opengl5-dev (>= 5.6.0+dfsg~),
                pkg-kde-tools,
-               qtbase5-private-dev (>= 5.6.0~rc+dfsg~),
-               qtdeclarative5-private-dev (>= 5.6.0~rc~)
-Build-Depends-Indep: libqt5sql5-sqlite (>= 5.6.0~rc+dfsg~),
-                     qtbase5-doc-html (>= 5.6.0~rc+dfsg~),
-                     qttools5-dev-tools (>= 5.6.0~rc~)
+               qtbase5-private-dev (>= 5.6.0+dfsg~),
+               qtdeclarative5-private-dev (>= 5.6.0~)
+Build-Depends-Indep: libqt5sql5-sqlite (>= 5.6.0+dfsg~),
+                     qtbase5-doc-html (>= 5.6.0+dfsg~),
+                     qttools5-dev-tools (>= 5.6.0~)
 Standards-Version: 3.9.6
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtlocation.git
