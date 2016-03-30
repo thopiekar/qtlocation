@@ -21,13 +21,8 @@ Files: src/plugins/geoservices/mapbox/*
 Copyright: 2014 Canonical Ltd.
 License: LGPL-3 or GPL-2
 
-Files: src/plugins/position/blackberry/*
-Copyright: 2012-2013 BlackBerry Limited
-License: LGPL-2.1-or-3 with Qt-1.1 exception
-
 Files: examples/*
        src/location/doc/snippets/*
-       tests/applications/declarative_map/*
 Copyright: 2015 The Qt Company Ltd.
 License: BSD-3-clause
 

@@ -13,6 +13,7 @@ qtlocation-opensource-src (5.6.0-1) UNRELEASED; urgency=medium
   * Install the GeoClue plugin again.
   * Update symbols files for 5.6.0.
   * Bump Standards-Version to 3.9.7, no changes needed.
+  * Drop debian/copyright entries for removed code.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 08 Mar 2016 14:14:20 -0300
 
