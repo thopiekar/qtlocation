@@ -10,6 +10,7 @@ qtlocation-opensource-src (5.6.0-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * Use recommended https URIs for Vcs fields.
   * Simplify the command for running the tests.
+  * Install the GeoClue plugin again.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 08 Mar 2016 14:14:20 -0300
 
