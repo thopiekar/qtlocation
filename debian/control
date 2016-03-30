@@ -136,6 +136,7 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends: libqt5location5-plugins (= ${binary:Version}),
          libqt5positioning5-plugins (= ${binary:Version}),
          qml-module-qtlocation (= ${binary:Version}),
+         qml-module-qtpositioning (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Breaks: qtpositioning5-examples (<< 5.5.0~)
@@ -150,7 +151,7 @@ Package: qtpositioning5-examples
 Priority: extra
 Architecture: all
 Section: oldlibs
-Depends: qml-module-positioning, qtlocation5-examples, ${misc:Depends}
+Depends: qtlocation5-examples, ${misc:Depends}
 Description: transitional dummy package for qtlocation5-examples
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
