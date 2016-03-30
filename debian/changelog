@@ -7,6 +7,9 @@ qtlocation-opensource-src (5.6.0-1) UNRELEASED; urgency=medium
   * Make libqt5positioning5 recommend geoclue-2.0. It will connect to it by
     using dbus.
 
+  [ Dmitry Shachnev ]
+  * Use recommended https URIs for Vcs fields.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 08 Mar 2016 14:14:20 -0300
 
 qtlocation-opensource-src (5.5.1-4) unstable; urgency=medium
