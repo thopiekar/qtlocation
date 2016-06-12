@@ -6,6 +6,7 @@ qtlocation-opensource-src (5.6.1-1) UNRELEASED; urgency=medium
   * Bump Standards-Version to 3.9.8, no changes required.
   * Remove libgconf2-dev from build dependencies. It was used for the gipsy
     plugin, which is long go.
+  * Update install files, one example was removed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 10 Jun 2016 22:45:57 -0300
 
