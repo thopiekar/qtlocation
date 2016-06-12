@@ -1,6 +1,5 @@
-qtlocation-opensource-src (5.6.1-1) UNRELEASED; urgency=medium
+qtlocation-opensource-src (5.6.1-1) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
     - Bump Qt build dependencies.
   * Bump Standards-Version to 3.9.8, no changes required.
@@ -8,7 +7,7 @@ qtlocation-opensource-src (5.6.1-1) UNRELEASED; urgency=medium
     plugin, which is long go.
   * Update install files, one example was removed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 10 Jun 2016 22:45:57 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 11 Jun 2016 22:24:09 -0300
 
 qtlocation-opensource-src (5.6.0-1) experimental; urgency=medium
 
