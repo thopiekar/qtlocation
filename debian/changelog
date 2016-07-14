@@ -2,6 +2,7 @@ qtlocation-opensource-src (5.7.0-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release.
+  * Refresh disable_failing_tests.patch.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 14 Jul 2016 14:02:41 +0300
 

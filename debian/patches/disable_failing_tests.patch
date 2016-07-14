@@ -5,7 +5,7 @@ Description: disable failing tests
  Disable them until we can work it out.
 Author: Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
 Forwarded: not-needed
-Last-Update: 2015-08-27
+Last-Update: 2016-07-14
 
 --- a/tests/auto/auto.pro
 +++ b/tests/auto/auto.pro
@@ -24,8 +24,8 @@ Last-Update: 2015-08-27
             doublevectors
  
 @@ -54,15 +53,8 @@
+            qgeotilespec \
             qgeoroutexmlparser \
-            qgeomapcontroller \
             maptype \
 -           nokia_services \
             qgeocameratiles
