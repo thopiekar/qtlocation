@@ -7,6 +7,7 @@ qtlocation-opensource-src (5.7.0-1) UNRELEASED; urgency=medium
   * Update debian/copyright.
   * Migrate to automatic dbgsym packages.
   * Update symbols files from amd64 build log.
+  * Drop obsolete Breaks/Replaces.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 14 Jul 2016 14:02:41 +0300
 
