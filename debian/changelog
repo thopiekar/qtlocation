@@ -5,6 +5,7 @@ qtlocation-opensource-src (5.7.0-1) UNRELEASED; urgency=medium
   * Refresh disable_failing_tests.patch.
   * Bump Qt build-dependencies to 5.7.0.
   * Update debian/copyright.
+  * Migrate to automatic dbgsym packages.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 14 Jul 2016 14:02:41 +0300
 
