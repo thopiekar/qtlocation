@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.0 amd64
+# SymbolsHelper-Confirmed: 5.7.0 amd64
 libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  Qt_5.0@Qt_5.0 5.6.0
  Qt_5.1@Qt_5.1 5.6.0
@@ -7,9 +7,11 @@ libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  Qt_5.4@Qt_5.4 5.6.0
  Qt_5.5@Qt_5.5 5.6.0
  Qt_5.6@Qt_5.6 5.6.0
+ Qt_5.7@Qt_5.7 5.7.0
  Qt_5@Qt_5 5.6.0
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0
  _Z24qt_registerLocationTypesv@Qt_5 5.6.0
+ _Z5qHashRK14QGeoCoordinatej@Qt_5 5.7.0
  _ZGVZN9QMetaType17registerConverterI10QGeoCircle9QGeoShapePFS2_RKS1_EEEbT1_E1f@Qt_5 5.6.0
  _ZGVZN9QMetaType17registerConverterI13QGeoRectangle9QGeoShapePFS2_RKS1_EEEbT1_E1f@Qt_5 5.6.0
  _ZGVZN9QMetaType17registerConverterI9QGeoShape10QGeoCirclePFS2_RKS1_EEEbT1_E1f@Qt_5 5.6.0
