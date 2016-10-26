@@ -3,6 +3,7 @@ qtlocation-opensource-src (5.7.1~20161021-1) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream snapshot.
     - Bump Qt build dependencies.
+  * Update symbols files with current build log.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 26 Oct 2016 09:23:35 -0300
 
