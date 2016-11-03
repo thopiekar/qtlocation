@@ -1,11 +1,10 @@
-qtlocation-opensource-src (5.7.1~20161021-3) UNRELEASED; urgency=medium
+qtlocation-opensource-src (5.7.1~20161021-3) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Disable tests during the transition. We have a couple of flaky tests
     on mips*, sometimes they work sometimes they don't. This will be further
     investigated.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 03 Nov 2016 15:43:14 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 03 Nov 2016 15:47:06 -0300
 
 qtlocation-opensource-src (5.7.1~20161021-2) unstable; urgency=medium
 
