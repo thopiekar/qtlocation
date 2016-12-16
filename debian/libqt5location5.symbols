@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.7.1~20161021 amd64
+# SymbolsHelper-Confirmed: 5.7.1 amd64
 libQt5Location.so.5 libqt5location5 #MINVER#
  Qt_5.0@Qt_5.0 5.6.0
  Qt_5.1@Qt_5.1 5.6.0
@@ -272,6 +272,14 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN15QGeoCameraTilesC2Ev@Qt_5_PRIVATE_API 5.6.0
  _ZN15QGeoCameraTilesD1Ev@Qt_5_PRIVATE_API 5.6.0
  _ZN15QGeoCameraTilesD2Ev@Qt_5_PRIVATE_API 5.6.0
+ _ZN15QGeoRouteParser11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.7.1
+ _ZN15QGeoRouteParser11qt_metacastEPKc@Qt_5_PRIVATE_API 5.7.1
+ _ZN15QGeoRouteParser16staticMetaObjectE@Qt_5_PRIVATE_API 5.7.1
+ _ZN15QGeoRouteParserC1ER22QGeoRouteParserPrivateP7QObject@Qt_5_PRIVATE_API 5.7.1
+ _ZN15QGeoRouteParserC2ER22QGeoRouteParserPrivateP7QObject@Qt_5_PRIVATE_API 5.7.1
+ _ZN15QGeoRouteParserD0Ev@Qt_5_PRIVATE_API 5.7.1
+ _ZN15QGeoRouteParserD1Ev@Qt_5_PRIVATE_API 5.7.1
+ _ZN15QGeoRouteParserD2Ev@Qt_5_PRIVATE_API 5.7.1
  _ZN15QGeoTileFetcher10timerEventEP11QTimerEvent@Qt_5_PRIVATE_API 5.6.0
  _ZN15QGeoTileFetcher11handleReplyEP17QGeoTiledMapReplyRK12QGeoTileSpec@Qt_5_PRIVATE_API 5.6.0
  _ZN15QGeoTileFetcher11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.6.0
@@ -613,6 +621,22 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN21QAbstractGeoTileCacheD0Ev@Qt_5_PRIVATE_API 5.6.0
  _ZN21QAbstractGeoTileCacheD1Ev@Qt_5_PRIVATE_API 5.6.0
  _ZN21QAbstractGeoTileCacheD2Ev@Qt_5_PRIVATE_API 5.6.0
+ _ZN21QGeoRouteParserOsrmV411qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.7.1
+ _ZN21QGeoRouteParserOsrmV411qt_metacastEPKc@Qt_5_PRIVATE_API 5.7.1
+ _ZN21QGeoRouteParserOsrmV416staticMetaObjectE@Qt_5_PRIVATE_API 5.7.1
+ _ZN21QGeoRouteParserOsrmV4C1EP7QObject@Qt_5_PRIVATE_API 5.7.1
+ _ZN21QGeoRouteParserOsrmV4C2EP7QObject@Qt_5_PRIVATE_API 5.7.1
+ _ZN21QGeoRouteParserOsrmV4D0Ev@Qt_5_PRIVATE_API 5.7.1
+ _ZN21QGeoRouteParserOsrmV4D1Ev@Qt_5_PRIVATE_API 5.7.1
+ _ZN21QGeoRouteParserOsrmV4D2Ev@Qt_5_PRIVATE_API 5.7.1
+ _ZN21QGeoRouteParserOsrmV511qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.7.1
+ _ZN21QGeoRouteParserOsrmV511qt_metacastEPKc@Qt_5_PRIVATE_API 5.7.1
+ _ZN21QGeoRouteParserOsrmV516staticMetaObjectE@Qt_5_PRIVATE_API 5.7.1
+ _ZN21QGeoRouteParserOsrmV5C1EP7QObject@Qt_5_PRIVATE_API 5.7.1
+ _ZN21QGeoRouteParserOsrmV5C2EP7QObject@Qt_5_PRIVATE_API 5.7.1
+ _ZN21QGeoRouteParserOsrmV5D0Ev@Qt_5_PRIVATE_API 5.7.1
+ _ZN21QGeoRouteParserOsrmV5D1Ev@Qt_5_PRIVATE_API 5.7.1
+ _ZN21QGeoRouteParserOsrmV5D2Ev@Qt_5_PRIVATE_API 5.7.1
  _ZN22QGeoCameraCapabilities14setMaximumTiltEd@Qt_5_PRIVATE_API 5.6.0
  _ZN22QGeoCameraCapabilities14setMinimumTiltEd@Qt_5_PRIVATE_API 5.6.0
  _ZN22QGeoCameraCapabilities18setSupportsBearingEb@Qt_5_PRIVATE_API 5.6.0
@@ -920,6 +944,9 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK14QPlaceSuppliereqERKS_@Qt_5 5.6.0
  _ZNK15QGeoCameraTiles10cameraDataEv@Qt_5_PRIVATE_API 5.7.0
  _ZNK15QGeoCameraTiles8tileSizeEv@Qt_5_PRIVATE_API 5.6.0
+ _ZNK15QGeoRouteParser10metaObjectEv@Qt_5_PRIVATE_API 5.7.1
+ _ZNK15QGeoRouteParser10parseReplyER5QListI9QGeoRouteER7QStringRK10QByteArray@Qt_5_PRIVATE_API 5.7.1
+ _ZNK15QGeoRouteParser10requestUrlERK16QGeoRouteRequestRK7QString@Qt_5_PRIVATE_API 5.7.1
  _ZNK15QGeoTileFetcher10metaObjectEv@Qt_5_PRIVATE_API 5.6.0
  _ZNK15QGeoTileFetcher11initializedEv@Qt_5_PRIVATE_API 5.7.1~20161021
  _ZNK15QPlaceAttribute4textEv@Qt_5 5.6.0
@@ -1068,6 +1095,8 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK21QAbstractGeoTileCache12maxDiskUsageEv@Qt_5_PRIVATE_API 5.6.0
  _ZNK21QAbstractGeoTileCache14maxMemoryUsageEv@Qt_5_PRIVATE_API 5.6.0
  _ZNK21QAbstractGeoTileCache9diskUsageEv@Qt_5_PRIVATE_API 5.6.0
+ _ZNK21QGeoRouteParserOsrmV410metaObjectEv@Qt_5_PRIVATE_API 5.7.1
+ _ZNK21QGeoRouteParserOsrmV510metaObjectEv@Qt_5_PRIVATE_API 5.7.1
  _ZNK22QGeoCameraCapabilities11maximumTiltEv@Qt_5_PRIVATE_API 5.6.0
  _ZNK22QGeoCameraCapabilities11minimumTiltEv@Qt_5_PRIVATE_API 5.6.0
  _ZNK22QGeoCameraCapabilities15supportsBearingEv@Qt_5_PRIVATE_API 5.6.0
@@ -1169,6 +1198,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZTI13QPlaceManager@Qt_5 5.6.0
  _ZTI14QGeoRouteReply@Qt_5 5.6.0
  _ZTI14QPlaceCategory@Qt_5 5.6.0
+ _ZTI15QGeoRouteParser@Qt_5_PRIVATE_API 5.7.1
  _ZTI15QGeoTileFetcher@Qt_5_PRIVATE_API 5.6.0
  _ZTI15QPlaceAttribute@Qt_5 5.6.0
  _ZTI15QPlaceEditorial@Qt_5 5.6.0
@@ -1187,6 +1217,8 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZTI19QPlaceContactDetail@Qt_5 5.6.0
  _ZTI19QPlaceManagerEngine@Qt_5 5.6.0
  _ZTI21QAbstractGeoTileCache@Qt_5_PRIVATE_API 5.6.0
+ _ZTI21QGeoRouteParserOsrmV4@Qt_5_PRIVATE_API 5.7.1
+ _ZTI21QGeoRouteParserOsrmV5@Qt_5_PRIVATE_API 5.7.1
  _ZTI22QPlaceReplyUnsupported@Qt_5_PRIVATE_API 5.6.0
  _ZTI23QGeoCodingManagerEngine@Qt_5 5.6.0
  _ZTI24QGeoMappingManagerEngine@Qt_5_PRIVATE_API 5.6.0
@@ -1214,6 +1246,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZTS13QPlaceManager@Qt_5 5.6.0
  _ZTS14QGeoRouteReply@Qt_5 5.6.0
  _ZTS14QPlaceCategory@Qt_5 5.6.0
+ _ZTS15QGeoRouteParser@Qt_5_PRIVATE_API 5.7.1
  _ZTS15QGeoTileFetcher@Qt_5_PRIVATE_API 5.6.0
  _ZTS15QPlaceAttribute@Qt_5 5.6.0
  _ZTS15QPlaceEditorial@Qt_5 5.6.0
@@ -1232,6 +1265,8 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZTS19QPlaceContactDetail@Qt_5 5.6.0
  _ZTS19QPlaceManagerEngine@Qt_5 5.6.0
  _ZTS21QAbstractGeoTileCache@Qt_5_PRIVATE_API 5.6.0
+ _ZTS21QGeoRouteParserOsrmV4@Qt_5_PRIVATE_API 5.7.1
+ _ZTS21QGeoRouteParserOsrmV5@Qt_5_PRIVATE_API 5.7.1
  _ZTS22QPlaceReplyUnsupported@Qt_5_PRIVATE_API 5.6.0
  _ZTS23QGeoCodingManagerEngine@Qt_5 5.6.0
  _ZTS24QGeoMappingManagerEngine@Qt_5_PRIVATE_API 5.6.0
@@ -1258,6 +1293,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZTV13QPlaceManager@Qt_5 5.6.0
  _ZTV14QGeoRouteReply@Qt_5 5.6.0
  _ZTV14QPlaceCategory@Qt_5 5.6.0
+ _ZTV15QGeoRouteParser@Qt_5_PRIVATE_API 5.7.1
  _ZTV15QGeoTileFetcher@Qt_5_PRIVATE_API 5.6.0
  _ZTV15QPlaceAttribute@Qt_5 5.6.0
  _ZTV15QPlaceEditorial@Qt_5 5.6.0
@@ -1276,6 +1312,8 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZTV19QPlaceContactDetail@Qt_5 5.6.0
  _ZTV19QPlaceManagerEngine@Qt_5 5.6.0
  _ZTV21QAbstractGeoTileCache@Qt_5_PRIVATE_API 5.6.0
+ _ZTV21QGeoRouteParserOsrmV4@Qt_5_PRIVATE_API 5.7.1
+ _ZTV21QGeoRouteParserOsrmV5@Qt_5_PRIVATE_API 5.7.1
  _ZTV22QPlaceReplyUnsupported@Qt_5_PRIVATE_API 5.6.0
  _ZTV23QGeoCodingManagerEngine@Qt_5 5.6.0
  _ZTV24QGeoMappingManagerEngine@Qt_5_PRIVATE_API 5.6.0
