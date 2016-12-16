@@ -6,6 +6,7 @@ qtlocation-opensource-src (5.7.1-1) UNRELEASED; urgency=medium
   * Bump qtbase build-dependencies to 5.7.1 final.
   * Update debian/copyright.
   * Update libqt5location5.symbols from the current amd64 build log.
+  * Replace 5.7.1~20161021 with 5.7.1 in libqt5location5.symbols.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 16 Dec 2016 19:00:20 +0300
 

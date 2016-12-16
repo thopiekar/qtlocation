@@ -454,7 +454,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN18QGeoMappingManager11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.6.0
  _ZN18QGeoMappingManager11qt_metacastEPKc@Qt_5_PRIVATE_API 5.6.0
  _ZN18QGeoMappingManager16staticMetaObjectE@Qt_5_PRIVATE_API 5.6.0
- _ZN18QGeoMappingManager24supportedMapTypesChangedEv@Qt_5_PRIVATE_API 5.7.1~20161021
+ _ZN18QGeoMappingManager24supportedMapTypesChangedEv@Qt_5_PRIVATE_API 5.7.1
  _ZN18QGeoMappingManager9createMapEP7QObject@Qt_5_PRIVATE_API 5.6.0
  _ZN18QGeoMappingManager9setLocaleERK7QLocale@Qt_5_PRIVATE_API 5.6.0
  _ZN18QGeoMappingManagerC1EP24QGeoMappingManagerEngineP7QObject@Qt_5_PRIVATE_API 5.6.0
@@ -679,7 +679,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN24QGeoMappingManagerEngine17setManagerVersionEi@Qt_5_PRIVATE_API 5.6.0
  _ZN24QGeoMappingManagerEngine20setSupportedMapTypesERK5QListI11QGeoMapTypeE@Qt_5_PRIVATE_API 5.6.0
  _ZN24QGeoMappingManagerEngine21setCameraCapabilitiesERK22QGeoCameraCapabilities@Qt_5_PRIVATE_API 5.6.0
- _ZN24QGeoMappingManagerEngine24supportedMapTypesChangedEv@Qt_5_PRIVATE_API 5.7.1~20161021
+ _ZN24QGeoMappingManagerEngine24supportedMapTypesChangedEv@Qt_5_PRIVATE_API 5.7.1
  _ZN24QGeoMappingManagerEngine9setLocaleERK7QLocale@Qt_5_PRIVATE_API 5.6.0
  _ZN24QGeoMappingManagerEngineC1EP7QObject@Qt_5_PRIVATE_API 5.6.0
  _ZN24QGeoMappingManagerEngineC2EP7QObject@Qt_5_PRIVATE_API 5.6.0
@@ -870,8 +870,8 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK12QGeoTiledMap22maximumLatitudeForZoomEd@Qt_5_PRIVATE_API 5.7.0
  _ZNK12QGeoTiledMap24coordinateToItemPositionERK14QGeoCoordinateb@Qt_5_PRIVATE_API 5.6.0
  _ZNK12QGeoTiledMap24itemPositionToCoordinateERK15QDoubleVector2Db@Qt_5_PRIVATE_API 5.6.0
- _ZNK12QGeoTiledMap33referenceCoordinateToItemPositionERK14QGeoCoordinate@Qt_5_PRIVATE_API 5.7.1~20161021
- _ZNK12QGeoTiledMap33referenceItemPositionToCoordinateERK15QDoubleVector2D@Qt_5_PRIVATE_API 5.7.1~20161021
+ _ZNK12QGeoTiledMap33referenceCoordinateToItemPositionERK14QGeoCoordinate@Qt_5_PRIVATE_API 5.7.1
+ _ZNK12QGeoTiledMap33referenceItemPositionToCoordinateERK15QDoubleVector2D@Qt_5_PRIVATE_API 5.7.1
  _ZNK12QPlaceResult11isSponsoredEv@Qt_5 5.6.0
  _ZNK12QPlaceResult5placeEv@Qt_5 5.6.0
  _ZNK12QPlaceResult8distanceEv@Qt_5 5.6.0
@@ -948,7 +948,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK15QGeoRouteParser10parseReplyER5QListI9QGeoRouteER7QStringRK10QByteArray@Qt_5_PRIVATE_API 5.7.1
  _ZNK15QGeoRouteParser10requestUrlERK16QGeoRouteRequestRK7QString@Qt_5_PRIVATE_API 5.7.1
  _ZNK15QGeoTileFetcher10metaObjectEv@Qt_5_PRIVATE_API 5.6.0
- _ZNK15QGeoTileFetcher11initializedEv@Qt_5_PRIVATE_API 5.7.1~20161021
+ _ZNK15QGeoTileFetcher11initializedEv@Qt_5_PRIVATE_API 5.7.1
  _ZNK15QPlaceAttribute4textEv@Qt_5 5.6.0
  _ZNK15QPlaceAttribute5labelEv@Qt_5 5.6.0
  _ZNK15QPlaceAttribute7isEmptyEv@Qt_5 5.6.0
