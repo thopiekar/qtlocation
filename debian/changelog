@@ -3,6 +3,7 @@ qtlocation-opensource-src (5.7.1-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream stable release.
   * Ignore the tests results rather than completely disable them.
+  * Bump qtbase build-dependencies to 5.7.1 final.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 16 Dec 2016 19:00:20 +0300
 
