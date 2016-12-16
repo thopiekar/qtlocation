@@ -42,7 +42,7 @@ override_dh_install:
 
 override_dh_auto_test-arch:
 	# Disable tests for the migration,we have a couple of flaky ones on mips*.
-	#dbus-run-session -- dh_auto_test -- QT_QPA_PLATFORM=minimal
+	-dbus-run-session -- dh_auto_test -- QT_QPA_PLATFORM=minimal
 
 override_dh_auto_test-indep:
 
