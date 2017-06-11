@@ -1,6 +1,7 @@
 qtlocation-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Add myself to Uploaders.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 10 Jun 2017 21:25:01 -0500
 

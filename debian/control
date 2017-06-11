@@ -4,7 +4,8 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Timo Jyrinki <timo@debian.org>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
-           Dmitry Shachnev <mitya57@debian.org>
+           Dmitry Shachnev <mitya57@debian.org>,
+           Simon Quigley <tsimonq2@ubuntu.com>
 Build-Depends: dbus,
                debhelper (>= 9.20160114~),
                libqt5opengl5-dev (>= 5.7.1+dfsg~),
