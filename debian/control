@@ -11,7 +11,7 @@ Build-Depends: dbus,
                libqt5opengl5-dev (>= 5.9.0+dfsg~),
                pkg-kde-tools,
                qtbase5-private-dev (>= 5.9.0+dfsg~),
-               qtdeclarative5-private-dev (>= 5.9.0~20161021~)
+               qtdeclarative5-private-dev (>= 5.9.0~)
 Build-Depends-Indep: libqt5sql5-sqlite (>= 5.9.0+dfsg~),
                      qtbase5-doc-html (>= 5.9.0+dfsg~),
                      qttools5-dev-tools (>= 5.9.0~)
