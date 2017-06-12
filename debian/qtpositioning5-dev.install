@@ -4,6 +4,7 @@ usr/include/*/qt5/QtPositioning/QGeoAreaMonitorSource
 usr/include/*/qt5/QtPositioning/QGeoCircle
 usr/include/*/qt5/QtPositioning/QGeoCoordinate
 usr/include/*/qt5/QtPositioning/QGeoLocation
+usr/include/*/qt5/QtPositioning/QGeoPath
 usr/include/*/qt5/QtPositioning/QGeoPositionInfo
 usr/include/*/qt5/QtPositioning/QGeoPositionInfoSource
 usr/include/*/qt5/QtPositioning/QGeoPositionInfoSourceFactory
@@ -21,6 +22,7 @@ usr/include/*/qt5/QtPositioning/qgeoareamonitorsource.h
 usr/include/*/qt5/QtPositioning/qgeocircle.h
 usr/include/*/qt5/QtPositioning/qgeocoordinate.h
 usr/include/*/qt5/QtPositioning/qgeolocation.h
+usr/include/*/qt5/QtPositioning/qgeopath.h
 usr/include/*/qt5/QtPositioning/qgeopositioninfo.h
 usr/include/*/qt5/QtPositioning/qgeopositioninfosource.h
 usr/include/*/qt5/QtPositioning/qgeopositioninfosourcefactory.h
@@ -30,6 +32,7 @@ usr/include/*/qt5/QtPositioning/qgeosatelliteinfosource.h
 usr/include/*/qt5/QtPositioning/qgeoshape.h
 usr/include/*/qt5/QtPositioning/qnmeapositioninfosource.h
 usr/include/*/qt5/QtPositioning/qpositioningglobal.h
+usr/include/*/qt5/QtPositioning/qtpositioning-config.h
 usr/include/*/qt5/QtPositioning/qtpositioningversion.h
 usr/lib/*/cmake/Qt5Positioning/Qt5PositioningConfig.cmake
 usr/lib/*/cmake/Qt5Positioning/Qt5PositioningConfigVersion.cmake

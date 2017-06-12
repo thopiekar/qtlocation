@@ -4,6 +4,7 @@ qtlocation-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
   * Add myself to Uploaders.
   * Add libicu-dev and zlib1g-dev to build dependencies as they are now
     used by upstream.
+  * Install new upstream files.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 10 Jun 2017 21:25:01 -0500
 
