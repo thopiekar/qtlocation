@@ -1,10 +1,16 @@
-qtlocation-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
+qtlocation-opensource-src (5.9.0+dfsg-1) UNRELEASED; urgency=medium
 
+  [ Simon Quigley ]
   * New upstream release.
   * Add myself to Uploaders.
   * Add libicu-dev and zlib1g-dev to build dependencies as they are now
     used by upstream.
   * Install new upstream files.
+
+  [ Dmitry Shachnev ]
+  * Remove src/3rdparty/mapbox-gl-native from the tarball. It helps us
+    reduce source size from 57M to 3.2M and solve many copyright issues.
+    Because of #855464, use custom code in debian/rules to do that.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 10 Jun 2017 21:25:01 -0500
 

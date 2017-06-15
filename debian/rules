@@ -8,6 +8,9 @@ export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildfla
 export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 export QT_SELECT := qt5
 
+DEBIAN_VERSION = $(shell dpkg-parsechangelog -Sversion)
+UPSTREAM_VERSION = $(firstword $(subst +, ,$(DEBIAN_VERSION)))
+
 %:
 	dh $@ --parallel --with pkgkde_symbolshelper
 
@@ -65,3 +68,12 @@ override_dh_auto_clean:
 
 override_dh_strip:
 	dh_strip --dbgsym-migration='qtlocation5-dbg (<< 5.7.0-1~), qtpositioning5-dbg (<< 5.5.0-1~)'
+
+get-orig-source:
+	uscan --noconf --download-current-version --no-symlink
+	cd ..; rm -rf qtlocation-opensource-src-$(UPSTREAM_VERSION)
+	cd ..; tar xJf qtlocation-opensource-src-$(UPSTREAM_VERSION).tar.xz
+	rm -rf ../qtlocation-opensource-src-$(UPSTREAM_VERSION)/src/3rdparty/mapbox-gl-native/
+	cd ../qtlocation-opensource-src-$(UPSTREAM_VERSION)/src; touch -r imports 3rdparty
+	cd ..; tar -cJf qtlocation-opensource-src_$(UPSTREAM_VERSION)+dfsg.orig.tar.xz \
+		--owner=root --group=root --mode=a+rX qtlocation-opensource-src-$(UPSTREAM_VERSION)/
