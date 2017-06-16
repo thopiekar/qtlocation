@@ -1,4 +1,4 @@
-qtlocation-opensource-src (5.9.0+dfsg-1) UNRELEASED; urgency=medium
+qtlocation-opensource-src (5.9.0+dfsg-1) experimental; urgency=medium
 
   [ Simon Quigley ]
   * New upstream release.
@@ -12,7 +12,7 @@ qtlocation-opensource-src (5.9.0+dfsg-1) UNRELEASED; urgency=medium
     reduce source size from 57M to 3.2M and solve many copyright issues.
     Because of #855464, use custom code in debian/rules to do that.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 10 Jun 2017 21:25:01 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 16 Jun 2017 02:51:53 -0500
 
 qtlocation-opensource-src (5.7.1-1) unstable; urgency=medium
 
