@@ -39,7 +39,7 @@ Last-Update: 2016-07-14
  }
  
  
-@@ -77,7 +69,5 @@
+@@ -78,7 +70,5 @@
             qgeocoordinate \
             qgeolocation \
             qgeopositioninfo \
