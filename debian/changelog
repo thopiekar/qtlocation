@@ -3,6 +3,7 @@ qtlocation-opensource-src (5.9.1+dfsg-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.9.1.
+  * Refresh disable_failing_tests.patch.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 02 Jul 2017 22:10:54 +0300
 

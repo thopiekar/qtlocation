@@ -23,7 +23,7 @@ Last-Update: 2016-07-14
             cmake \
             doublevectors
  
-@@ -54,15 +53,8 @@
+@@ -54,18 +53,8 @@
             qgeotilespec \
             qgeoroutexmlparser \
             maptype \
@@ -35,11 +35,14 @@ Last-Update: 2016-07-14
 -                declarative_geoshape
 -
 -        !mac: SUBDIRS += declarative_ui
+-
+-        # QTBUG-60268
+-        boot2qt: SUBDIRS -= declarative_ui
 -    }
  }
  
  
-@@ -78,7 +70,5 @@
+@@ -81,7 +70,5 @@
             qgeocoordinate \
             qgeolocation \
             qgeopositioninfo \
