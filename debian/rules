@@ -78,9 +78,6 @@ override_dh_strip:
 
 get-orig-source:
 	uscan --noconf --download-current-version --no-symlink
-	cd ..; rm -rf qtlocation-opensource-src-$(UPSTREAM_VERSION)
-	cd ..; tar xJf qtlocation-opensource-src-$(UPSTREAM_VERSION).tar.xz
-	rm -rf ../qtlocation-opensource-src-$(UPSTREAM_VERSION)/src/3rdparty/mapbox-gl-native/
-	cd ../qtlocation-opensource-src-$(UPSTREAM_VERSION)/src; touch -r imports 3rdparty
-	cd ..; tar --sort=name -cJf qtlocation-opensource-src_$(UPSTREAM_VERSION)+dfsg.orig.tar.xz \
-		--owner=root --group=root --mode=a+rX qtlocation-opensource-src-$(UPSTREAM_VERSION)/
+	xz -dc ../qtlocation-opensource-src-$(UPSTREAM_VERSION).tar.xz | \
+		tar --delete qtlocation-opensource-src-$(UPSTREAM_VERSION)/src/3rdparty/mapbox-gl-native | \
+		xz -z > ../qtlocation-opensource-src_$(UPSTREAM_VERSION)+dfsg.orig.tar.xz
