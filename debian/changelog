@@ -1,6 +1,5 @@
-qtlocation-opensource-src (5.9.1+dfsg-1) UNRELEASED; urgency=medium
+qtlocation-opensource-src (5.9.1+dfsg-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.9.1.
   * Refresh disable_failing_tests.patch.
@@ -12,7 +11,7 @@ qtlocation-opensource-src (5.9.1+dfsg-1) UNRELEASED; urgency=medium
   * Bump Standards-Version to 4.0.0, no changes needed.
   * Simplify and speed up get-orig-source code by using pipes.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 02 Jul 2017 22:10:54 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 04 Jul 2017 00:25:47 +0300
 
 qtlocation-opensource-src (5.9.0+dfsg-2) experimental; urgency=medium
 
