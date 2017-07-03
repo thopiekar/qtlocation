@@ -7,6 +7,8 @@ qtlocation-opensource-src (5.9.1+dfsg-1) UNRELEASED; urgency=medium
   * Drop the transitional packages. They are already transitional in
     the current Debian stable and Ubuntu LTS releases.
   * Update libqt5location5.symbols from the current build log.
+  * Run all tests in Xvfb, drop disable_failing_tests.patch.
+    - Add build-dependencies on xauth, xvfb and qml-module-qttest.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 02 Jul 2017 22:10:54 +0300
 
