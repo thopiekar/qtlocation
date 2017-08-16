@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.9.1 amd64
+# SymbolsHelper-Confirmed: 5.9.1 amd64 armel armhf i386 m68k mips mipsel powerpc
 libQt5Location.so.5 libqt5location5 #MINVER#
  Qt_5.0@Qt_5.0 5.6.0
  Qt_5.1@Qt_5.1 5.6.0
@@ -2590,8 +2590,11 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK9QGeoRoute8distanceEv@Qt_5 5.6.0
  _ZNK9QGeoRouteeqERKS_@Qt_5 5.6.0
  _ZNK9QGeoRouteneERKS_@Qt_5 5.6.0
- (optional=templinst)_ZNSt14priority_queueIxSt6vectorIxSaIxEESt4lessIxEE4pushERKx@Qt_5 5.9.1
- (optional=templinst)_ZNSt6vectorIxSaIxEE19_M_emplace_back_auxIJRKxEEEvDpOT_@Qt_5 5.9.0
+ (optional=templinst|arch=amd64)_ZNSt14priority_queueIxSt6vectorIxSaIxEESt4lessIxEE4pushERKx@Qt_5 5.9.1
+ (optional=templinst|arch=powerpc)_ZNSt6vectorIxSaIxEE17_M_realloc_insertIJRKxEEEvN9__gnu_cxx17__normal_iteratorIPxS1_EEDpOT_@Qt_5 5.9.1
+ (optional=templinst|arch=!powerpc)_ZNSt6vectorIxSaIxEE19_M_emplace_back_auxIJRKxEEEvDpOT_@Qt_5 5.9.0
+ (optional=templinst|arch=powerpc)_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1EPKcRKS3_@Qt_5 5.9.1
+ (optional=templinst|arch=powerpc)_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2EPKcRKS3_@Qt_5 5.9.1
  (optional=templinst)_ZNSt7__cxx114listIxSaIxEE4sortEv@Qt_5 5.9.0
  _ZTI11QPlaceImage@Qt_5 5.6.0
  _ZTI11QPlaceReply@Qt_5 5.6.0
