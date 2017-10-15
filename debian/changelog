@@ -6,6 +6,7 @@ qtlocation-opensource-src (5.9.2+dfsg-1) UNRELEASED; urgency=medium
   * Use Files-Excluded instead of custom repacking code.
   * Update debian/copyright.
   * Install new header qtlocation-config.h in qtlocation5-dev.
+  * Update debian/libqt5location5.symbols from the current build log.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 15 Oct 2017 11:54:20 +0300
 

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.9.1 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 m68k mips mips64el mipsel powerpc powerpcspe ppc64 ppc64el s390x sh4 sparc64 x32
+# SymbolsHelper-Confirmed: 5.9.2 amd64 i386
 libQt5Location.so.5 libqt5location5 #MINVER#
  Qt_5.0@Qt_5.0 5.6.0
  Qt_5.1@Qt_5.1 5.6.0
@@ -492,6 +492,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN17QGeoFileTileCache11qt_metacastEPKc@Qt_5_PRIVATE_API 5.6.0
  _ZN17QGeoFileTileCache13getFromMemoryERK12QGeoTileSpec@Qt_5_PRIVATE_API 5.9.0
  _ZN17QGeoFileTileCache14addToDiskCacheERK12QGeoTileSpecRK7QString@Qt_5_PRIVATE_API 5.6.0
+ _ZN17QGeoFileTileCache14addToDiskCacheERK12QGeoTileSpecRK7QStringRK10QByteArray@Qt_5_PRIVATE_API 5.9.2
  _ZN17QGeoFileTileCache15setMaxDiskUsageEi@Qt_5_PRIVATE_API 5.6.0
  _ZN17QGeoFileTileCache16addToMemoryCacheERK12QGeoTileSpecRK10QByteArrayRK7QString@Qt_5_PRIVATE_API 5.6.0
  _ZN17QGeoFileTileCache16staticMetaObjectE@Qt_5_PRIVATE_API 5.6.0
@@ -1118,7 +1119,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN23QQuickGeoMapGestureArea25setMaximumZoomLevelChangeEd@Qt_5_PRIVATE_API 5.9.0
  _ZN23QQuickGeoMapGestureArea27handleFlickAnimationStoppedEv@Qt_5_PRIVATE_API 5.9.0
  _ZN23QQuickGeoMapGestureArea29maximumZoomLevelChangeChangedEv@Qt_5_PRIVATE_API 5.9.0
- _ZN23QQuickGeoMapGestureArea6setMapE8QPointerI7QGeoMapE@Qt_5_PRIVATE_API 5.9.0
+ _ZN23QQuickGeoMapGestureArea6setMapEP7QGeoMap@Qt_5_PRIVATE_API 5.9.2
  _ZN23QQuickGeoMapGestureArea6updateEv@Qt_5_PRIVATE_API 5.9.0
  _ZN23QQuickGeoMapGestureArea7endTiltEv@Qt_5_PRIVATE_API 5.9.0
  _ZN23QQuickGeoMapGestureArea7stopPanEv@Qt_5_PRIVATE_API 5.9.0
@@ -1226,6 +1227,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN25QDeclarativeCircleMapItem12updatePolishEv@Qt_5_PRIVATE_API 5.9.0
  _ZN25QDeclarativeCircleMapItem13centerChangedERK14QGeoCoordinate@Qt_5_PRIVATE_API 5.9.0
  _ZN25QDeclarativeCircleMapItem13radiusChangedEd@Qt_5_PRIVATE_API 5.9.0
+ _ZN25QDeclarativeCircleMapItem14crossEarthPoleERK14QGeoCoordinated@Qt_5_PRIVATE_API 5.9.2
  _ZN25QDeclarativeCircleMapItem15geometryChangedERK6QRectFS2_@Qt_5_PRIVATE_API 5.9.0
  _ZN25QDeclarativeCircleMapItem16staticMetaObjectE@Qt_5_PRIVATE_API 5.9.0
  _ZN25QDeclarativeCircleMapItem16updateCirclePathEv@Qt_5_PRIVATE_API 5.9.0
@@ -1233,6 +1235,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN25QDeclarativeCircleMapItem22preserveCircleGeometryER5QListI15QDoubleVector2DERK14QGeoCoordinated@Qt_5_PRIVATE_API 5.9.0
  _ZN25QDeclarativeCircleMapItem22updateMapItemPaintNodeEP7QSGNodePN10QQuickItem19UpdatePaintNodeDataE@Qt_5_PRIVATE_API 5.9.0
  _ZN25QDeclarativeCircleMapItem24markSourceDirtyAndUpdateEv@Qt_5_PRIVATE_API 5.9.0
+ _ZN25QDeclarativeCircleMapItem25calculatePeripheralPointsER5QListI14QGeoCoordinateERKS1_diRS1_@Qt_5_PRIVATE_API 5.9.2
  _ZN25QDeclarativeCircleMapItem28updateCirclePathForRenderingER5QListI15QDoubleVector2DERK14QGeoCoordinated@Qt_5_PRIVATE_API 5.9.0
  _ZN25QDeclarativeCircleMapItem6borderEv@Qt_5_PRIVATE_API 5.9.0
  _ZN25QDeclarativeCircleMapItem6centerEv@Qt_5_PRIVATE_API 5.9.0
@@ -1719,6 +1722,8 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN30QDeclarativeGeoServiceProvider14localesChangedEv@Qt_5_PRIVATE_API 5.9.0
  _ZN30QDeclarativeGeoServiceProvider15parameter_clearEP16QQmlListPropertyI39QDeclarativeGeoServiceProviderParameterE@Qt_5_PRIVATE_API 5.9.0
  _ZN30QDeclarativeGeoServiceProvider15parameter_countEP16QQmlListPropertyI39QDeclarativeGeoServiceProviderParameterE@Qt_5_PRIVATE_API 5.9.0
+ _ZN30QDeclarativeGeoServiceProvider15parametersReadyEv@Qt_5_PRIVATE_API 5.9.2
+ _ZN30QDeclarativeGeoServiceProvider15setRequirementsEP42QDeclarativeGeoServiceProviderRequirements@Qt_5_PRIVATE_API 5.9.2
  _ZN30QDeclarativeGeoServiceProvider16parameter_appendEP16QQmlListPropertyI39QDeclarativeGeoServiceProviderParameterEPS1_@Qt_5_PRIVATE_API 5.9.0
  _ZN30QDeclarativeGeoServiceProvider16preferredChangedERK11QStringList@Qt_5_PRIVATE_API 5.9.0
  _ZN30QDeclarativeGeoServiceProvider16staticMetaObjectE@Qt_5_PRIVATE_API 5.9.0
@@ -1728,6 +1733,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN30QDeclarativeGeoServiceProvider25availableServiceProvidersEv@Qt_5_PRIVATE_API 5.9.0
  _ZN30QDeclarativeGeoServiceProvider7setNameERK7QString@Qt_5_PRIVATE_API 5.9.0
  _ZN30QDeclarativeGeoServiceProvider8attachedEv@Qt_5_PRIVATE_API 5.9.0
+ _ZN30QDeclarativeGeoServiceProvider9tryAttachEv@Qt_5_PRIVATE_API 5.9.2
  _ZN30QDeclarativeGeoServiceProviderC1EP7QObject@Qt_5_PRIVATE_API 5.9.0
  _ZN30QDeclarativeGeoServiceProviderC2EP7QObject@Qt_5_PRIVATE_API 5.9.0
  _ZN30QDeclarativeGeoServiceProviderD0Ev@Qt_5_PRIVATE_API 5.9.0
@@ -1810,6 +1816,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN38QPlaceSearchSuggestionReplyUnsupported11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.6.0
  _ZN38QPlaceSearchSuggestionReplyUnsupported11qt_metacastEPKc@Qt_5_PRIVATE_API 5.6.0
  _ZN38QPlaceSearchSuggestionReplyUnsupported16staticMetaObjectE@Qt_5_PRIVATE_API 5.6.0
+ _ZN39QDeclarativeGeoServiceProviderParameter11initializedEv@Qt_5_PRIVATE_API 5.9.2
  _ZN39QDeclarativeGeoServiceProviderParameter11nameChangedERK7QString@Qt_5_PRIVATE_API 5.9.0
  _ZN39QDeclarativeGeoServiceProviderParameter11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.9.0
  _ZN39QDeclarativeGeoServiceProviderParameter11qt_metacastEPKc@Qt_5_PRIVATE_API 5.9.0
@@ -2383,6 +2390,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK25QGeoProjectionWebMercator11minimumZoomEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK25QGeoProjectionWebMercator13isProjectableERK15QDoubleVector2D@Qt_5_PRIVATE_API 5.9.0
  _ZNK25QGeoProjectionWebMercator13visibleRegionEv@Qt_5_PRIVATE_API 5.9.0
+ _ZNK25QGeoProjectionWebMercator17projectableRegionEv@Qt_5_PRIVATE_API 5.9.2
  _ZNK25QGeoProjectionWebMercator17wrapMapProjectionERK15QDoubleVector2D@Qt_5_PRIVATE_API 5.9.0
  _ZNK25QGeoProjectionWebMercator18geoToMapProjectionERK14QGeoCoordinate@Qt_5_PRIVATE_API 5.9.0
  _ZNK25QGeoProjectionWebMercator18mapProjectionToGeoERK15QDoubleVector2D@Qt_5_PRIVATE_API 5.9.0
@@ -2535,6 +2543,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK36QDeclarativeSupportedCategoriesModel9roleNamesEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK38QPlaceSearchSuggestionReplyUnsupported10metaObjectEv@Qt_5_PRIVATE_API 5.6.0
  _ZNK39QDeclarativeGeoServiceProviderParameter10metaObjectEv@Qt_5_PRIVATE_API 5.9.0
+ _ZNK39QDeclarativeGeoServiceProviderParameter13isInitializedEv@Qt_5_PRIVATE_API 5.9.2
  _ZNK39QDeclarativeGeoServiceProviderParameter4nameEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK39QDeclarativeGeoServiceProviderParameter5valueEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK42QDeclarativeGeoServiceProviderRequirements10metaObjectEv@Qt_5_PRIVATE_API 5.9.0
@@ -2543,6 +2552,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK42QDeclarativeGeoServiceProviderRequirements19routingRequirementsEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK42QDeclarativeGeoServiceProviderRequirements21geocodingRequirementsEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK42QDeclarativeGeoServiceProviderRequirements7matchesEPK19QGeoServiceProvider@Qt_5_PRIVATE_API 5.9.0
+ _ZNK42QDeclarativeGeoServiceProviderRequirementseqERKS_@Qt_5_PRIVATE_API 5.9.2
  _ZNK6QPlace10categoriesEv@Qt_5 5.6.0
  _ZNK6QPlace10primaryFaxEv@Qt_5 5.6.0
  _ZNK6QPlace10visibilityEv@Qt_5 5.6.0
@@ -2590,6 +2600,9 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK9QGeoRoute8distanceEv@Qt_5 5.6.0
  _ZNK9QGeoRouteeqERKS_@Qt_5 5.6.0
  _ZNK9QGeoRouteneERKS_@Qt_5 5.6.0
+ (optional=templinst|subst)_ZNSt6vectorIS_ISt5arrayIdL{size_t}2EESaIS1_EESaIS3_EE17_M_realloc_insertIJS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_@Qt_5 5.9.2
+ (optional=templinst|subst)_ZNSt6vectorISt5arrayIdL{size_t}2EESaIS1_EE17_M_realloc_insertIJRKS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_@Qt_5 5.9.2
+ (optional=templinst)_ZNSt6vectorIjSaIjEE12emplace_backIJRKjEEERjDpOT_@Qt_5 5.9.2
  (optional=templinst)_ZNSt6vectorIxSaIxEE17_M_realloc_insertIJRKxEEEvN9__gnu_cxx17__normal_iteratorIPxS1_EEDpOT_@Qt_5 5.9.1
  (optional=templinst)_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1EPKcRKS3_@Qt_5 5.9.1
  (optional=templinst)_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2EPKcRKS3_@Qt_5 5.9.1
