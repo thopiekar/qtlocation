@@ -83,6 +83,7 @@ usr/include/*/qt5/QtLocation/qplacesearchresult.h
 usr/include/*/qt5/QtLocation/qplacesearchsuggestionreply.h
 usr/include/*/qt5/QtLocation/qplacesupplier.h
 usr/include/*/qt5/QtLocation/qplaceuser.h
+usr/include/*/qt5/QtLocation/qtlocation-config.h
 usr/include/*/qt5/QtLocation/qtlocationversion.h
 usr/lib/*/cmake/Qt5Location/Qt5LocationConfig.cmake
 usr/lib/*/cmake/Qt5Location/Qt5LocationConfigVersion.cmake
