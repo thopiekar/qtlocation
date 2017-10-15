@@ -10,11 +10,8 @@ export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildfla
 export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 export QT_SELECT := qt5
 
-DEBIAN_VERSION = $(shell dpkg-parsechangelog -Sversion)
-UPSTREAM_VERSION = $(firstword $(subst +, ,$(DEBIAN_VERSION)))
-
 %:
-	dh $@ --parallel --with pkgkde_symbolshelper
+	dh $@ --with pkgkde_symbolshelper
 
 override_dh_auto_configure:
 	qmake QT_BUILD_PARTS+=tests
@@ -42,8 +39,8 @@ override_dh_auto_install-arch:
 override_dh_auto_install-indep:
 	make INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
 
-override_dh_install:
-	dh_install --fail-missing
+override_dh_missing:
+	dh_missing --fail-missing
 
 override_dh_auto_test-arch:
 	$(MAKE) install -Csrc/imports INSTALL_ROOT=$(CURDIR)/test_root
