@@ -1,6 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: qtlocation-opensource-src
 Source: https://download.qt.io/official_releases/qt/*/submodules/
+Files-Excluded: src/3rdparty/mapbox-gl-native
 
 Files: *
 Copyright: 2015-2016 The Qt Company Ltd.

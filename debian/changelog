@@ -3,6 +3,7 @@ qtlocation-opensource-src (5.9.2+dfsg-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.9.2.
+  * Use Files-Excluded instead of custom repacking code.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 15 Oct 2017 11:54:20 +0300
 
