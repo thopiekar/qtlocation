@@ -1,6 +1,7 @@
-# SymbolsHelper-Confirmed: 5.9.2 amd64 i386
+# SymbolsHelper-Confirmed: 5.10.1 amd64
 libQt5Location.so.5 libqt5location5 #MINVER#
  Qt_5.0@Qt_5.0 5.6.0
+ Qt_5.10@Qt_5.10 5.10.1
  Qt_5.1@Qt_5.1 5.6.0
  Qt_5.2@Qt_5.2 5.6.0
  Qt_5.3@Qt_5.3 5.6.0
@@ -32,10 +33,10 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN10QPlaceUserD1Ev@Qt_5 5.6.0
  _ZN10QPlaceUserD2Ev@Qt_5 5.6.0
  _ZN10QPlaceUseraSERKS_@Qt_5 5.6.0
- _ZN11QGeoMapTypeC1ENS_8MapStyleERK7QStringS3_bbi10QByteArray@Qt_5_PRIVATE_API 5.9.0
+ _ZN11QGeoMapTypeC1ENS_8MapStyleERK7QStringS3_bbiRK10QByteArrayRK22QGeoCameraCapabilitiesRK4QMapIS1_8QVariantE@Qt_5_PRIVATE_API 5.10.1
  _ZN11QGeoMapTypeC1ERKS_@Qt_5_PRIVATE_API 5.6.0
  _ZN11QGeoMapTypeC1Ev@Qt_5_PRIVATE_API 5.6.0
- _ZN11QGeoMapTypeC2ENS_8MapStyleERK7QStringS3_bbi10QByteArray@Qt_5_PRIVATE_API 5.9.0
+ _ZN11QGeoMapTypeC2ENS_8MapStyleERK7QStringS3_bbiRK10QByteArrayRK22QGeoCameraCapabilitiesRK4QMapIS1_8QVariantE@Qt_5_PRIVATE_API 5.10.1
  _ZN11QGeoMapTypeC2ERKS_@Qt_5_PRIVATE_API 5.6.0
  _ZN11QGeoMapTypeC2Ev@Qt_5_PRIVATE_API 5.6.0
  _ZN11QGeoMapTypeD1Ev@Qt_5_PRIVATE_API 5.6.0
@@ -104,6 +105,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN12QGeoTiledMap16staticMetaObjectE@Qt_5_PRIVATE_API 5.6.0
  _ZN12QGeoTiledMap16updateSceneGraphEP7QSGNodeP12QQuickWindow@Qt_5_PRIVATE_API 5.6.0
  _ZN12QGeoTiledMap18evaluateCopyrightsERK4QSetI12QGeoTileSpecE@Qt_5_PRIVATE_API 5.6.0
+ _ZN12QGeoTiledMap19setCopyrightVisibleEb@Qt_5_PRIVATE_API 5.10.1
  _ZN12QGeoTiledMap24handleTileVersionChangedEv@Qt_5_PRIVATE_API 5.6.0
  _ZN12QGeoTiledMap9clearDataEv@Qt_5_PRIVATE_API 5.6.0
  _ZN12QGeoTiledMap9tileCacheEv@Qt_5_PRIVATE_API 5.6.0
@@ -232,6 +234,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN14QGeoMapPrivate12addParameterEP16QGeoMapParameter@Qt_5_PRIVATE_API 5.9.0
  _ZN14QGeoMapPrivate13removeMapItemEP26QDeclarativeGeoMapItemBase@Qt_5_PRIVATE_API 5.9.0
  _ZN14QGeoMapPrivate15removeParameterEP16QGeoMapParameter@Qt_5_PRIVATE_API 5.9.0
+ _ZN14QGeoMapPrivate19setCopyrightVisibleEb@Qt_5_PRIVATE_API 5.10.1
  _ZN14QGeoMapPrivate21setCameraCapabilitiesERK22QGeoCameraCapabilities@Qt_5_PRIVATE_API 5.9.0
  _ZN14QGeoMapPrivateC1EP24QGeoMappingManagerEngineP14QGeoProjection@Qt_5_PRIVATE_API 5.9.0
  _ZN14QGeoMapPrivateC2EP24QGeoMappingManagerEngineP14QGeoProjection@Qt_5_PRIVATE_API 5.9.0
@@ -571,7 +574,9 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN17QPlaceSearchReplyD2Ev@Qt_5 5.6.0
  _ZN18QDeclarativeGeoMap10addMapItemEP26QDeclarativeGeoMapItemBase@Qt_5_PRIVATE_API 5.9.0
  _ZN18QDeclarativeGeoMap10initializeEv@Qt_5_PRIVATE_API 5.9.0
+ _ZN18QDeclarativeGeoMap10itemChangeEN10QQuickItem10ItemChangeERKNS0_14ItemChangeDataE@Qt_5_PRIVATE_API 5.10.1
  _ZN18QDeclarativeGeoMap10setBearingEd@Qt_5_PRIVATE_API 5.9.0
+ _ZN18QDeclarativeGeoMap10setBearingEdRK14QGeoCoordinate@Qt_5_PRIVATE_API 5.10.1
  _ZN18QDeclarativeGeoMap10touchEventEP11QTouchEvent@Qt_5_PRIVATE_API 5.9.0
  _ZN18QDeclarativeGeoMap10wheelEventEP11QWheelEvent@Qt_5_PRIVATE_API 5.9.0
  _ZN18QDeclarativeGeoMap11pluginReadyEv@Qt_5_PRIVATE_API 5.9.0
@@ -591,6 +596,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN18QDeclarativeGeoMap13mapParametersEv@Qt_5_PRIVATE_API 5.9.0
  _ZN18QDeclarativeGeoMap13pluginChangedEP30QDeclarativeGeoServiceProvider@Qt_5_PRIVATE_API 5.9.0
  _ZN18QDeclarativeGeoMap13removeMapItemEP26QDeclarativeGeoMapItemBase@Qt_5_PRIVATE_API 5.9.0
+ _ZN18QDeclarativeGeoMap14addMapItemViewEP26QDeclarativeGeoMapItemView@Qt_5_PRIVATE_API 5.10.1
  _ZN18QDeclarativeGeoMap14bearingChangedEd@Qt_5_PRIVATE_API 5.9.0
  _ZN18QDeclarativeGeoMap14mouseMoveEventEP11QMouseEvent@Qt_5_PRIVATE_API 5.9.0
  _ZN18QDeclarativeGeoMap14sendMouseEventEP11QMouseEvent@Qt_5_PRIVATE_API 5.9.0
@@ -615,6 +621,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN18QDeclarativeGeoMap17copyrightsChangedERK6QImage@Qt_5_PRIVATE_API 5.9.0
  _ZN18QDeclarativeGeoMap17copyrightsChangedERK7QString@Qt_5_PRIVATE_API 5.9.0
  _ZN18QDeclarativeGeoMap17mouseReleaseEventEP11QMouseEvent@Qt_5_PRIVATE_API 5.9.0
+ _ZN18QDeclarativeGeoMap17removeMapItemViewEP26QDeclarativeGeoMapItemView@Qt_5_PRIVATE_API 5.10.1
  _ZN18QDeclarativeGeoMap17supportedMapTypesEv@Qt_5_PRIVATE_API 5.9.0
  _ZN18QDeclarativeGeoMap18clearMapParametersEv@Qt_5_PRIVATE_API 5.9.0
  _ZN18QDeclarativeGeoMap18fieldOfViewChangedEd@Qt_5_PRIVATE_API 5.9.0
@@ -626,13 +633,15 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN18QDeclarativeGeoMap19setMaximumZoomLevelEdb@Qt_5_PRIVATE_API 5.9.0
  _ZN18QDeclarativeGeoMap19setMinimumZoomLevelEdb@Qt_5_PRIVATE_API 5.9.0
  _ZN18QDeclarativeGeoMap20activeMapTypeChangedEv@Qt_5_PRIVATE_API 5.9.0
- _ZN18QDeclarativeGeoMap20onMapChildrenChangedEv@Qt_5_PRIVATE_API 5.9.0
  _ZN18QDeclarativeGeoMap20setCopyrightsVisibleEb@Qt_5_PRIVATE_API 5.9.0
+ _ZN18QDeclarativeGeoMap21attachCopyrightNoticeEb@Qt_5_PRIVATE_API 5.10.1
  _ZN18QDeclarativeGeoMap21childMouseEventFilterEP10QQuickItemP6QEvent@Qt_5_PRIVATE_API 5.9.0
+ _ZN18QDeclarativeGeoMap21detachCopyrightNoticeEb@Qt_5_PRIVATE_API 5.10.1
  _ZN18QDeclarativeGeoMap21fitViewportToGeoShapeEv@Qt_5_PRIVATE_API 5.9.0
  _ZN18QDeclarativeGeoMap21fitViewportToMapItemsEv@Qt_5_PRIVATE_API 5.9.0
  _ZN18QDeclarativeGeoMap21setMaximumFieldOfViewEdb@Qt_5_PRIVATE_API 5.9.0
  _ZN18QDeclarativeGeoMap21setMinimumFieldOfViewEdb@Qt_5_PRIVATE_API 5.9.0
+ _ZN18QDeclarativeGeoMap22alignCoordinateToPointERK14QGeoCoordinateRK7QPointF@Qt_5_PRIVATE_API 5.10.1
  _ZN18QDeclarativeGeoMap22copyrightLinkActivatedERK7QString@Qt_5_PRIVATE_API 5.9.0
  _ZN18QDeclarativeGeoMap23maximumZoomLevelChangedEv@Qt_5_PRIVATE_API 5.9.0
  _ZN18QDeclarativeGeoMap23minimumZoomLevelChangedEv@Qt_5_PRIVATE_API 5.9.0
@@ -646,6 +655,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN18QDeclarativeGeoMap27onCameraCapabilitiesChangedERK22QGeoCameraCapabilities@Qt_5_PRIVATE_API 5.9.0
  _ZN18QDeclarativeGeoMap28fitViewportToVisibleMapItemsEv@Qt_5_PRIVATE_API 5.9.0
  _ZN18QDeclarativeGeoMap3panEii@Qt_5_PRIVATE_API 5.9.0
+ _ZN18QDeclarativeGeoMap42onAttachedCopyrightNoticeVisibilityChangedEv@Qt_5_PRIVATE_API 5.10.1
  _ZN18QDeclarativeGeoMap7gestureEv@Qt_5_PRIVATE_API 5.9.0
  _ZN18QDeclarativeGeoMap7setTiltEd@Qt_5_PRIVATE_API 5.9.0
  _ZN18QDeclarativeGeoMap8mapItemsEv@Qt_5_PRIVATE_API 5.9.0
@@ -1541,6 +1551,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN27QDeclarativePolylineMapItem32updateAfterLinePropertiesChangedEv@Qt_5_PRIVATE_API 5.9.0
  _ZN27QDeclarativePolylineMapItem4lineEv@Qt_5_PRIVATE_API 5.9.0
  _ZN27QDeclarativePolylineMapItem6setMapEP18QDeclarativeGeoMapP7QGeoMap@Qt_5_PRIVATE_API 5.9.0
+ _ZN27QDeclarativePolylineMapItem7setPathERK8QGeoPath@Qt_5_PRIVATE_API 5.10.1
  _ZN27QDeclarativePolylineMapItem7setPathERK8QJSValue@Qt_5_PRIVATE_API 5.9.0
  _ZN27QDeclarativePolylineMapItemC1EP10QQuickItem@Qt_5_PRIVATE_API 5.9.0
  _ZN27QDeclarativePolylineMapItemC2EP10QQuickItem@Qt_5_PRIVATE_API 5.9.0
@@ -1747,13 +1758,21 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN31QDeclarativePlaceEditorialModelD0Ev@Qt_5_PRIVATE_API 5.9.0
  _ZN31QDeclarativePlaceEditorialModelD1Ev@Qt_5_PRIVATE_API 5.9.0
  _ZN31QDeclarativePlaceEditorialModelD2Ev@Qt_5_PRIVATE_API 5.9.0
+ _ZN33QDeclarativeGeoCameraCapabilities11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.10.1
+ _ZN33QDeclarativeGeoCameraCapabilities11qt_metacastEPKc@Qt_5_PRIVATE_API 5.10.1
+ _ZN33QDeclarativeGeoCameraCapabilities16staticMetaObjectE@Qt_5_PRIVATE_API 5.10.1
+ _ZN33QDeclarativeGeoCameraCapabilitiesC1ERK22QGeoCameraCapabilitiesP7QObject@Qt_5_PRIVATE_API 5.10.1
+ _ZN33QDeclarativeGeoCameraCapabilitiesC2ERK22QGeoCameraCapabilitiesP7QObject@Qt_5_PRIVATE_API 5.10.1
+ _ZN33QDeclarativeGeoCameraCapabilitiesD0Ev@Qt_5_PRIVATE_API 5.10.1
+ _ZN33QDeclarativeGeoCameraCapabilitiesD1Ev@Qt_5_PRIVATE_API 5.10.1
+ _ZN33QDeclarativeGeoCameraCapabilitiesD2Ev@Qt_5_PRIVATE_API 5.10.1
  _ZN33QDeclarativeGeoMapCopyrightNotice10connectMapEv@Qt_5_PRIVATE_API 5.9.1
  _ZN33QDeclarativeGeoMapCopyrightNotice11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.9.0
  _ZN33QDeclarativeGeoMapCopyrightNotice11qt_metacastEPKc@Qt_5_PRIVATE_API 5.9.0
  _ZN33QDeclarativeGeoMapCopyrightNotice12setMapSourceEP18QDeclarativeGeoMap@Qt_5_PRIVATE_API 5.9.0
  _ZN33QDeclarativeGeoMapCopyrightNotice13linkActivatedERK7QString@Qt_5_PRIVATE_API 5.9.0
  _ZN33QDeclarativeGeoMapCopyrightNotice13setStyleSheetERK7QString@Qt_5_PRIVATE_API 5.9.0
- _ZN33QDeclarativeGeoMapCopyrightNotice14setCopyrightsZEi@Qt_5_PRIVATE_API 5.9.0
+ _ZN33QDeclarativeGeoMapCopyrightNotice14setCopyrightsZEd@Qt_5_PRIVATE_API 5.10.1
  _ZN33QDeclarativeGeoMapCopyrightNotice15createCopyrightEv@Qt_5_PRIVATE_API 5.9.0
  _ZN33QDeclarativeGeoMapCopyrightNotice15mousePressEventEP11QMouseEvent@Qt_5_PRIVATE_API 5.9.0
  _ZN33QDeclarativeGeoMapCopyrightNotice16mapSourceChangedEv@Qt_5_PRIVATE_API 5.9.0
@@ -1766,6 +1785,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN33QDeclarativeGeoMapCopyrightNotice20setCopyrightsVisibleEb@Qt_5_PRIVATE_API 5.9.0
  _ZN33QDeclarativeGeoMapCopyrightNotice22backgroundColorChangedERK6QColor@Qt_5_PRIVATE_API 5.9.0
  _ZN33QDeclarativeGeoMapCopyrightNotice22rasterizeHtmlAndUpdateEv@Qt_5_PRIVATE_API 5.9.0
+ _ZN33QDeclarativeGeoMapCopyrightNotice24copyrightsVisibleChangedEv@Qt_5_PRIVATE_API 5.10.1
  _ZN33QDeclarativeGeoMapCopyrightNotice29onCopyrightsStyleSheetChangedERK7QString@Qt_5_PRIVATE_API 5.9.0
  _ZN33QDeclarativeGeoMapCopyrightNotice5paintEP8QPainter@Qt_5_PRIVATE_API 5.9.0
  _ZN33QDeclarativeGeoMapCopyrightNotice9mapSourceEv@Qt_5_PRIVATE_API 5.9.0
@@ -1889,6 +1909,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN7QGeoMap17cameraDataChangedERK14QGeoCameraData@Qt_5_PRIVATE_API 5.6.0
  _ZN7QGeoMap17copyrightsChangedERK6QImage@Qt_5_PRIVATE_API 5.6.0
  _ZN7QGeoMap17copyrightsChangedERK7QString@Qt_5_PRIVATE_API 5.6.0
+ _ZN7QGeoMap19setCopyrightVisibleEb@Qt_5_PRIVATE_API 5.10.1
  _ZN7QGeoMap20activeMapTypeChangedEv@Qt_5_PRIVATE_API 5.6.0
  _ZN7QGeoMap21setCameraCapabilitiesERK22QGeoCameraCapabilities@Qt_5_PRIVATE_API 5.9.0
  _ZN7QGeoMap25cameraCapabilitiesChangedERK22QGeoCameraCapabilities@Qt_5_PRIVATE_API 5.9.0
@@ -1924,11 +1945,13 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK10QPlaceUsereqERKS_@Qt_5 5.6.0
  _ZNK11QGeoMapType10pluginNameEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK11QGeoMapType11descriptionEv@Qt_5_PRIVATE_API 5.6.0
+ _ZNK11QGeoMapType18cameraCapabilitiesEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK11QGeoMapType4nameEv@Qt_5_PRIVATE_API 5.6.0
  _ZNK11QGeoMapType5mapIdEv@Qt_5_PRIVATE_API 5.6.0
  _ZNK11QGeoMapType5nightEv@Qt_5_PRIVATE_API 5.6.0
  _ZNK11QGeoMapType5styleEv@Qt_5_PRIVATE_API 5.6.0
  _ZNK11QGeoMapType6mobileEv@Qt_5_PRIVATE_API 5.6.0
+ _ZNK11QGeoMapType8metadataEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK11QGeoMapTypeeqERKS_@Qt_5_PRIVATE_API 5.6.0
  _ZNK11QGeoMapTypeneERKS_@Qt_5_PRIVATE_API 5.6.0
  _ZNK11QPlaceImage3urlEv@Qt_5 5.6.0
@@ -2010,8 +2033,10 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK14QGeoCameraData9zoomLevelEv@Qt_5_PRIVATE_API 5.6.0
  _ZNK14QGeoCameraDataeqERKS_@Qt_5_PRIVATE_API 5.6.0
  _ZNK14QGeoCameraDataneERKS_@Qt_5_PRIVATE_API 5.6.0
+ _ZNK14QGeoMapPrivate16copyrightVisibleEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK14QGeoMapPrivate18cameraCapabilitiesEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK14QGeoMapPrivate21supportedMapItemTypesEv@Qt_5_PRIVATE_API 5.9.0
+ _ZNK14QGeoProjection23anchorCoordinateToPointERK14QGeoCoordinateRK7QPointF@Qt_5_PRIVATE_API 5.10.1
  _ZNK14QGeoRouteReply10isFinishedEv@Qt_5 5.6.0
  _ZNK14QGeoRouteReply10metaObjectEv@Qt_5 5.6.0
  _ZNK14QGeoRouteReply11errorStringEv@Qt_5 5.6.0
@@ -2038,6 +2063,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK15QGeoRouteParser10requestUrlERK16QGeoRouteRequestRK7QString@Qt_5_PRIVATE_API 5.7.1
  _ZNK15QGeoTileFetcher10metaObjectEv@Qt_5_PRIVATE_API 5.6.0
  _ZNK15QGeoTileFetcher11initializedEv@Qt_5_PRIVATE_API 5.7.1
+ _ZNK15QGeoTileFetcher15fetchingEnabledEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK15QPlaceAttribute4textEv@Qt_5 5.6.0
  _ZNK15QPlaceAttribute5labelEv@Qt_5 5.6.0
  _ZNK15QPlaceAttribute7isEmptyEv@Qt_5 5.6.0
@@ -2267,10 +2293,12 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK21QGeoRouteParserOsrmV510metaObjectEv@Qt_5_PRIVATE_API 5.7.1
  _ZNK22QDeclarativeGeoMapType10metaObjectEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK22QDeclarativeGeoMapType11descriptionEv@Qt_5_PRIVATE_API 5.9.0
+ _ZNK22QDeclarativeGeoMapType18cameraCapabilitiesEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK22QDeclarativeGeoMapType4nameEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK22QDeclarativeGeoMapType5nightEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK22QDeclarativeGeoMapType5styleEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK22QDeclarativeGeoMapType6mobileEv@Qt_5_PRIVATE_API 5.9.0
+ _ZNK22QDeclarativeGeoMapType8metadataEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK22QGeoCameraCapabilities11maximumTiltEv@Qt_5_PRIVATE_API 5.6.0
  _ZNK22QGeoCameraCapabilities11minimumTiltEv@Qt_5_PRIVATE_API 5.6.0
  _ZNK22QGeoCameraCapabilities15overzoomEnabledEv@Qt_5_PRIVATE_API 5.9.0
@@ -2387,6 +2415,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK25QDeclarativeGeoRouteQuery14maneuverDetailEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK25QDeclarativeGeoRouteQuery18routeOptimizationsEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK25QDeclarativeGeoRouteQuery23numberAlternativeRoutesEv@Qt_5_PRIVATE_API 5.9.0
+ _ZNK25QGeoProjectionWebMercator10cameraDataEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK25QGeoProjectionWebMercator11minimumZoomEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK25QGeoProjectionWebMercator13isProjectableERK15QDoubleVector2D@Qt_5_PRIVATE_API 5.9.0
  _ZNK25QGeoProjectionWebMercator13visibleRegionEv@Qt_5_PRIVATE_API 5.9.0
@@ -2521,8 +2550,16 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK31QDeclarativePlaceEditorialModel10metaObjectEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK31QDeclarativePlaceEditorialModel4dataERK11QModelIndexi@Qt_5_PRIVATE_API 5.9.0
  _ZNK31QDeclarativePlaceEditorialModel9roleNamesEv@Qt_5_PRIVATE_API 5.9.0
+ _ZNK33QDeclarativeGeoCameraCapabilities10metaObjectEv@Qt_5_PRIVATE_API 5.10.1
+ _ZNK33QDeclarativeGeoCameraCapabilities11maximumTiltEv@Qt_5_PRIVATE_API 5.10.1
+ _ZNK33QDeclarativeGeoCameraCapabilities11minimumTiltEv@Qt_5_PRIVATE_API 5.10.1
+ _ZNK33QDeclarativeGeoCameraCapabilities16maximumZoomLevelEv@Qt_5_PRIVATE_API 5.10.1
+ _ZNK33QDeclarativeGeoCameraCapabilities16minimumZoomLevelEv@Qt_5_PRIVATE_API 5.10.1
+ _ZNK33QDeclarativeGeoCameraCapabilities18maximumFieldOfViewEv@Qt_5_PRIVATE_API 5.10.1
+ _ZNK33QDeclarativeGeoCameraCapabilities18minimumFieldOfViewEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK33QDeclarativeGeoMapCopyrightNotice10metaObjectEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK33QDeclarativeGeoMapCopyrightNotice10styleSheetEv@Qt_5_PRIVATE_API 5.9.0
+ _ZNK33QDeclarativeGeoMapCopyrightNotice17copyrightsVisibleEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK33QDeclarativeSearchSuggestionModel10metaObjectEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK33QDeclarativeSearchSuggestionModel10searchTermEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK33QDeclarativeSearchSuggestionModel11suggestionsEv@Qt_5_PRIVATE_API 5.9.0
@@ -2665,6 +2702,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZTI24QGeoMappingManagerEngine@Qt_5_PRIVATE_API 5.6.0
  _ZTI24QGeoRoutingManagerEngine@Qt_5 5.6.0
  _ZTI24QPlaceIdReplyUnsupported@Qt_5_PRIVATE_API 5.6.0
+ _ZTI24QQuickPaintedItemPrivate@Qt_5 5.10.1
  _ZTI25QDeclarativeCircleMapItem@Qt_5_PRIVATE_API 5.9.0
  _ZTI25QDeclarativeContactDetail@Qt_5_PRIVATE_API 5.9.0
  _ZTI25QDeclarativeGeoRouteModel@Qt_5_PRIVATE_API 5.9.0
@@ -2697,6 +2735,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZTI29QPlaceDetailsReplyUnsupported@Qt_5_PRIVATE_API 5.6.0
  _ZTI30QDeclarativeGeoServiceProvider@Qt_5_PRIVATE_API 5.9.0
  _ZTI31QDeclarativePlaceEditorialModel@Qt_5_PRIVATE_API 5.9.0
+ _ZTI33QDeclarativeGeoCameraCapabilities@Qt_5_PRIVATE_API 5.10.1
  _ZTI33QDeclarativeGeoMapCopyrightNotice@Qt_5_PRIVATE_API 5.9.0
  _ZTI33QDeclarativeSearchSuggestionModel@Qt_5_PRIVATE_API 5.9.0
  _ZTI36QDeclarativeSupportedCategoriesModel@Qt_5_PRIVATE_API 5.9.0
@@ -2762,6 +2801,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZTS24QGeoMappingManagerEngine@Qt_5_PRIVATE_API 5.6.0
  _ZTS24QGeoRoutingManagerEngine@Qt_5 5.6.0
  _ZTS24QPlaceIdReplyUnsupported@Qt_5_PRIVATE_API 5.6.0
+ _ZTS24QQuickPaintedItemPrivate@Qt_5 5.10.1
  _ZTS25QDeclarativeCircleMapItem@Qt_5_PRIVATE_API 5.9.0
  _ZTS25QDeclarativeContactDetail@Qt_5_PRIVATE_API 5.9.0
  _ZTS25QDeclarativeGeoRouteModel@Qt_5_PRIVATE_API 5.9.0
@@ -2794,6 +2834,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZTS29QPlaceDetailsReplyUnsupported@Qt_5_PRIVATE_API 5.6.0
  _ZTS30QDeclarativeGeoServiceProvider@Qt_5_PRIVATE_API 5.9.0
  _ZTS31QDeclarativePlaceEditorialModel@Qt_5_PRIVATE_API 5.9.0
+ _ZTS33QDeclarativeGeoCameraCapabilities@Qt_5_PRIVATE_API 5.10.1
  _ZTS33QDeclarativeGeoMapCopyrightNotice@Qt_5_PRIVATE_API 5.9.0
  _ZTS33QDeclarativeSearchSuggestionModel@Qt_5_PRIVATE_API 5.9.0
  _ZTS36QDeclarativeSupportedCategoriesModel@Qt_5_PRIVATE_API 5.9.0
@@ -2858,6 +2899,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZTV24QGeoMappingManagerEngine@Qt_5_PRIVATE_API 5.6.0
  _ZTV24QGeoRoutingManagerEngine@Qt_5 5.6.0
  _ZTV24QPlaceIdReplyUnsupported@Qt_5_PRIVATE_API 5.6.0
+ _ZTV24QQuickPaintedItemPrivate@Qt_5 5.10.1
  _ZTV25QDeclarativeCircleMapItem@Qt_5_PRIVATE_API 5.9.0
  _ZTV25QDeclarativeContactDetail@Qt_5_PRIVATE_API 5.9.0
  _ZTV25QDeclarativeGeoRouteModel@Qt_5_PRIVATE_API 5.9.0
@@ -2890,6 +2932,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZTV29QPlaceDetailsReplyUnsupported@Qt_5_PRIVATE_API 5.6.0
  _ZTV30QDeclarativeGeoServiceProvider@Qt_5_PRIVATE_API 5.9.0
  _ZTV31QDeclarativePlaceEditorialModel@Qt_5_PRIVATE_API 5.9.0
+ _ZTV33QDeclarativeGeoCameraCapabilities@Qt_5_PRIVATE_API 5.10.1
  _ZTV33QDeclarativeGeoMapCopyrightNotice@Qt_5_PRIVATE_API 5.9.0
  _ZTV33QDeclarativeSearchSuggestionModel@Qt_5_PRIVATE_API 5.9.0
  _ZTV36QDeclarativeSupportedCategoriesModel@Qt_5_PRIVATE_API 5.9.0
