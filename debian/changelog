@@ -1,3 +1,7 @@
+qtlocation-opensource-src (5.9.2+dfsg-4) UNRELEASED; urgency=medium
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 Feb 2018 14:01:33 -0300
+
 qtlocation-opensource-src (5.9.2+dfsg-3) unstable; urgency=medium
 
   * Let dh_auto_configure pass cross tools to qmake (Closes: #881854).
