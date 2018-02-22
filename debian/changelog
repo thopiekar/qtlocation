@@ -4,6 +4,7 @@ qtlocation-opensource-src (5.10.1+dfsg-1) UNRELEASED; urgency=medium
   * New upstream release.
     - Bump Qt build dependencies.
   * Fix debian/watch to check for the new upstream tarball name.
+  * Update qtlocation5-dev.install, new class QGeoPolygon.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 Feb 2018 14:01:33 -0300
 

@@ -85,6 +85,9 @@ usr/include/*/qt5/QtLocation/qplacesupplier.h
 usr/include/*/qt5/QtLocation/qplaceuser.h
 usr/include/*/qt5/QtLocation/qtlocation-config.h
 usr/include/*/qt5/QtLocation/qtlocationversion.h
+usr/include/*/qt5/QtPositioning/QGeoPolygon
+usr/include/*/qt5/QtPositioning/QGeoPolygonPrivate
+usr/include/*/qt5/QtPositioning/qgeopolygon.h
 usr/lib/*/cmake/Qt5Location/Qt5LocationConfig.cmake
 usr/lib/*/cmake/Qt5Location/Qt5LocationConfigVersion.cmake
 usr/lib/*/cmake/Qt5Location/Qt5Location_GeoServiceProviderFactoryEsri.cmake
