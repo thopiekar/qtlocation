@@ -7,6 +7,9 @@ qtlocation-opensource-src (5.10.1+dfsg-1) UNRELEASED; urgency=medium
   * Update qtlocation5-dev.install, new class QGeoPolygon.
   * Update symbols files with current build log.
 
+  [ Dmitry Shachnev ]
+  * Update debian/copyright.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 Feb 2018 14:01:33 -0300
 
 qtlocation-opensource-src (5.9.2+dfsg-3) unstable; urgency=medium
