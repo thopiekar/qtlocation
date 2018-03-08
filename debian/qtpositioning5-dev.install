@@ -5,6 +5,8 @@ usr/include/*/qt5/QtPositioning/QGeoCircle
 usr/include/*/qt5/QtPositioning/QGeoCoordinate
 usr/include/*/qt5/QtPositioning/QGeoLocation
 usr/include/*/qt5/QtPositioning/QGeoPath
+usr/include/*/qt5/QtPositioning/QGeoPolygon
+usr/include/*/qt5/QtPositioning/QGeoPolygonPrivate
 usr/include/*/qt5/QtPositioning/QGeoPositionInfo
 usr/include/*/qt5/QtPositioning/QGeoPositionInfoSource
 usr/include/*/qt5/QtPositioning/QGeoPositionInfoSourceFactory
@@ -23,6 +25,7 @@ usr/include/*/qt5/QtPositioning/qgeocircle.h
 usr/include/*/qt5/QtPositioning/qgeocoordinate.h
 usr/include/*/qt5/QtPositioning/qgeolocation.h
 usr/include/*/qt5/QtPositioning/qgeopath.h
+usr/include/*/qt5/QtPositioning/qgeopolygon.h
 usr/include/*/qt5/QtPositioning/qgeopositioninfo.h
 usr/include/*/qt5/QtPositioning/qgeopositioninfosource.h
 usr/include/*/qt5/QtPositioning/qgeopositioninfosourcefactory.h
