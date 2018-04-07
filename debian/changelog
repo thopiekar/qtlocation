@@ -1,6 +1,8 @@
-qtlocation-opensource-src (5.10.1+dfsg-3) UNRELEASED; urgency=medium
+qtlocation-opensource-src (5.10.1+dfsg-3) unstable; urgency=medium
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 07 Apr 2018 17:09:14 -0300
+  * Release to unstable.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 07 Apr 2018 17:11:39 -0300
 
 qtlocation-opensource-src (5.10.1+dfsg-2) experimental; urgency=medium
 
