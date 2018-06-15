@@ -41,11 +41,11 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends: libqt5location5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Description: Qt Positioning module
+Description: Qt Positioning module - Qt Quick module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains Qt Positioning module.
+ This package contain the Qt Quick interface for the Qt Positioning module.
 
 Package: libqt5positioning5
 Architecture: any
@@ -123,7 +123,7 @@ Description: Qt Location Labs module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains the Qt Positioning QML plugin for Qt Declarative.
+ This package contains the Qt Positioning labs plugin for Qt Declarative.
 
 Package: qtlocation5-dev
 Architecture: any
