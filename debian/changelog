@@ -6,6 +6,7 @@ qtlocation-opensource-src (5.11.0+dfsg-1) UNRELEASED; urgency=medium
   * Bump Standards-version to 4.1.4, no changes needed.
   * Bump debhelper compat to 11, no changes needed.
   * Update Vcs-* for the move to Salsa.
+  * Add my name to the copyright for the package.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 15 Jun 2018 01:22:48 -0500
 
