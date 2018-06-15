@@ -1,6 +1,5 @@
-qtlocation-opensource-src (5.11.0+dfsg-1) UNRELEASED; urgency=medium
+qtlocation-opensource-src (5.11.0+dfsg-1) experimental; urgency=medium
 
-  [ Simon Quigley ]
   * New upstream release.
   * Bump build dependencies to 5.11.0.
   * Bump Standards-version to 4.1.4, no changes needed.
@@ -12,7 +11,7 @@ qtlocation-opensource-src (5.11.0+dfsg-1) UNRELEASED; urgency=medium
     Shah from Neon for the patch!
   * Update symbols from build logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 15 Jun 2018 01:22:48 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 15 Jun 2018 02:31:43 -0500
 
 qtlocation-opensource-src (5.10.1+dfsg-3) unstable; urgency=medium
 
