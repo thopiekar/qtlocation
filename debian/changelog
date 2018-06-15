@@ -10,6 +10,7 @@ qtlocation-opensource-src (5.11.0+dfsg-1) UNRELEASED; urgency=medium
   * Add two new binary packages, libqt5positioningquick5 and qml-module-
     qt-labs-location, for the new upstream release. Thanks to Bhushan
     Shah from Neon for the patch!
+  * Update symbols from build logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 15 Jun 2018 01:22:48 -0500
 
