@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.11.0 amd64
+# SymbolsHelper-Confirmed: 5.11.1 amd64
 libQt5Location.so.5 libqt5location5 #MINVER#
  Qt_5.0@Qt_5.0 5.6.0
  Qt_5.10@Qt_5.10 5.10.1
@@ -1902,6 +1902,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN26QDeclarativeGeoMapItemView19instantiateAllItemsEv@Qt_5_PRIVATE_API 5.9.0
  _ZN26QDeclarativeGeoMapItemView22autoFitViewportChangedEv@Qt_5_PRIVATE_API 5.9.0
  _ZN26QDeclarativeGeoMapItemView22exitTransitionFinishedEv@Qt_5_PRIVATE_API 5.11.0
+ _ZN26QDeclarativeGeoMapItemView22insertInstantiatedItemEiP26QDeclarativeGeoMapItemBase@Qt_5_PRIVATE_API 5.11.1
  _ZN26QDeclarativeGeoMapItemView23removeInstantiatedItemsEv@Qt_5_PRIVATE_API 5.9.0
  _ZN26QDeclarativeGeoMapItemView6setMapEP18QDeclarativeGeoMap@Qt_5_PRIVATE_API 5.9.0
  _ZN26QDeclarativeGeoMapItemView8initItemEiP7QObject@Qt_5_PRIVATE_API 5.11.0

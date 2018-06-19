@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.11.0 amd64
+# SymbolsHelper-Confirmed: 5.11.1 amd64
 libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  Qt_5.0@Qt_5.0 5.6.0
  Qt_5.10@Qt_5.10 5.10.1
@@ -140,6 +140,11 @@ libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZN14QGeoCoordinateD1Ev@Qt_5 5.6.0
  _ZN14QGeoCoordinateD2Ev@Qt_5 5.6.0
  _ZN14QGeoCoordinateaSERKS_@Qt_5 5.6.0
+ _ZN14QLocationUtils11getNmeaTimeERK10QByteArrayP5QTime@Qt_5_PRIVATE_API 5.11.1
+ _ZN14QLocationUtils14getNmeaLatLongERK10QByteArraycS2_cPdS3_@Qt_5_PRIVATE_API 5.11.1
+ _ZN14QLocationUtils18getPosInfoFromNmeaEPKciP16QGeoPositionInfodPb@Qt_5_PRIVATE_API 5.11.1
+ _ZN14QLocationUtils19getNmeaSentenceTypeEPKci@Qt_5_PRIVATE_API 5.11.1
+ _ZN14QLocationUtils20hasValidNmeaChecksumEPKci@Qt_5_PRIVATE_API 5.11.1
  _ZN15QDoubleVector2D9normalizeEv@Qt_5_PRIVATE_API 5.6.0
  _ZN15QDoubleVector2DC1ERK15QDoubleVector3D@Qt_5_PRIVATE_API 5.6.0
  _ZN15QDoubleVector2DC2ERK15QDoubleVector3D@Qt_5_PRIVATE_API 5.6.0
