@@ -1,11 +1,10 @@
-qtlocation-opensource-src (5.11.1+dfsg-1) UNRELEASED; urgency=medium
+qtlocation-opensource-src (5.11.1+dfsg-1) experimental; urgency=medium
 
-  [ Simon Quigley ]
   * New changelog entry.
   * Bump build dependencies to 5.11.1.
   * Update symbols from build logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 19 Jun 2018 16:55:57 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 19 Jun 2018 18:09:38 -0500
 
 qtlocation-opensource-src (5.11.0+dfsg-1) experimental; urgency=medium
 
