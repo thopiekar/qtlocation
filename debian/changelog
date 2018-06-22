@@ -3,6 +3,7 @@ qtlocation-opensource-src (5.11.1+dfsg-2) UNRELEASED; urgency=medium
   [ Simon Quigley ]
   * Remove the dbgsym migration section of debian/rules; it isn't needed
     anymore.
+  * Update symbols from buildd logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 22 Jun 2018 14:34:01 -0500
 
