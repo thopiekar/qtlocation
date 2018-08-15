@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.11.1 amd64 armel armhf i386 mips mipsel powerpc powerpcspe
+# SymbolsHelper-Confirmed: 5.11.1 amd64 arm64 armel armhf hppa hurd-i386 i386 m68k mips mips64el mipsel powerpc powerpcspe ppc64 ppc64el s390x sh4 sparc64
 libQt5Location.so.5 libqt5location5 #MINVER#
  Qt_5.0@Qt_5.0 5.6.0
  Qt_5.10@Qt_5.10 5.10.1
@@ -3487,14 +3487,12 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK9QGeoRoute8distanceEv@Qt_5 5.6.0
  _ZNK9QGeoRouteeqERKS_@Qt_5 5.6.0
  _ZNK9QGeoRouteneERKS_@Qt_5 5.6.0
- (optional=templinst|subst)_ZNSt6vectorIS_ISt5arrayIdL{size_t}2EESaIS1_EESaIS3_EE17_M_realloc_insertIJS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_@Qt_5 5.9.2
  (optional=templinst|subst)_ZNSt6vectorISt5arrayIdL{size_t}2EESaIS1_EE17_M_realloc_insertIJRKS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_@Qt_5 5.9.2
- (optional=templinst|subst)_ZNSt6vectorISt5arrayIdL{size_t}4EESaIS1_EE12emplace_backIJS1_EEERS1_DpOT_@Qt_5 5.11.0
+ (optional=templinst|subst)_ZNSt6vectorISt5arrayIdL{size_t}4EESaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_@Qt_5 5.11.1
  (optional=templinst)_ZNSt6vectorIjSaIjEE12emplace_backIJRKjEEERjDpOT_@Qt_5 5.9.2
  (optional=templinst)_ZNSt6vectorIxSaIxEE17_M_realloc_insertIJRKxEEEvN9__gnu_cxx17__normal_iteratorIPxS1_EEDpOT_@Qt_5 5.9.1
- (optional=templinst)_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1EPKcRKS3_@Qt_5 5.9.1
- (optional=templinst)_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2EPKcRKS3_@Qt_5 5.9.1
  (optional=templinst)_ZNSt7__cxx114listIxSaIxEE4sortEv@Qt_5 5.9.0
+ (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE16_M_insert_uniqueIS0_IiiEEES0_ISt17_Rb_tree_iteratorIS2_EbEOT_@Qt_5 5.11.1
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE8_M_eraseEPSt13_Rb_tree_nodeIS2_E@Qt_5 5.11.0
  _ZTI11QPlaceImage@Qt_5 5.6.0
  _ZTI11QPlaceReply@Qt_5 5.6.0
