@@ -1,5 +1,9 @@
 qtlocation-opensource-src (5.11.1+dfsg-4) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Make qtpositioning5-dev depend upon libqt5positioningquick5
+    (Closes: #905049). Thanks Andreas Beckmann for the bug report.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 15 Aug 2018 10:12:41 -0300
 
 qtlocation-opensource-src (5.11.1+dfsg-3) unstable; urgency=medium
