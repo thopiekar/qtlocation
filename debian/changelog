@@ -1,12 +1,11 @@
-qtlocation-opensource-src (5.11.2+dfsg-1) UNRELEASED; urgency=medium
+qtlocation-opensource-src (5.11.2+dfsg-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.11.2.
   * Update symbols files from buildds’ and the current build log.
   * Bump Standards-Version to 4.2.1, no changes needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 23 Sep 2018 14:42:59 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 23 Sep 2018 19:13:57 +0300
 
 qtlocation-opensource-src (5.11.1+dfsg-4) unstable; urgency=medium
 
