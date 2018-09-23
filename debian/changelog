@@ -1,3 +1,10 @@
+qtlocation-opensource-src (5.11.2+dfsg-1) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 23 Sep 2018 14:42:59 +0300
+
 qtlocation-opensource-src (5.11.1+dfsg-4) unstable; urgency=medium
 
   * Make qtpositioning5-dev depend upon libqt5positioningquick5
