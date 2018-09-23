@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.11.1 amd64 arm64 armel armhf hppa hurd-i386 i386 m68k mips mips64el mipsel powerpc powerpcspe ppc64 ppc64el s390x sh4 sparc64
+# SymbolsHelper-Confirmed: 5.11.2 amd64
 libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  Qt_5.0@Qt_5.0 5.6.0
  Qt_5.10@Qt_5.10 5.10.1
@@ -306,7 +306,7 @@ libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZN23QDeclarativeGeoLocationD0Ev@Qt_5_PRIVATE_API 5.6.0
  _ZN23QDeclarativeGeoLocationD1Ev@Qt_5_PRIVATE_API 5.6.0
  _ZN23QDeclarativeGeoLocationD2Ev@Qt_5_PRIVATE_API 5.6.0
- _ZN23QGeoPositionInfoPrivate8getPimplERK16QGeoPositionInfo@Qt_5_PRIVATE_API 5.10.1
+ _ZN23QGeoPositionInfoPrivate3getERK16QGeoPositionInfo@Qt_5_PRIVATE_API 5.11.2
  _ZN23QGeoPositionInfoPrivateD0Ev@Qt_5_PRIVATE_API 5.10.1
  _ZN23QGeoPositionInfoPrivateD1Ev@Qt_5_PRIVATE_API 5.10.1
  _ZN23QGeoPositionInfoPrivateD2Ev@Qt_5_PRIVATE_API 5.10.1
@@ -536,7 +536,10 @@ libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZNK9QGeoShapeeqERKS_@Qt_5 5.6.0
  _ZNK9QGeoShapeneERKS_@Qt_5 5.6.0
  (optional=templinst)_ZNSt6vectorIxSaIxEE17_M_realloc_insertIJRKxEEEvN9__gnu_cxx17__normal_iteratorIPxS1_EEDpOT_@Qt_5 5.10.1
+ (optional=templinst|arch=ia64)_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1EPKcRKS3_@Qt_5 5.11.1
+ (optional=templinst|arch=ia64)_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2EPKcRKS3_@Qt_5 5.11.1
  (optional=templinst)_ZNSt7__cxx114listIxSaIxEE4sortEv@Qt_5 5.10.1
+ (optional=templinst|arch=ia64)_ZNSt7__cxx114listIxSaIxEE5mergeEOS2_@Qt_5 5.11.1
  _ZTI11QSharedData@Qt_5 5.6.0
  _ZTI20QGeoCoordinateObject@Qt_5_PRIVATE_API 5.11.0
  _ZTI21QGeoAreaMonitorSource@Qt_5 5.6.0
