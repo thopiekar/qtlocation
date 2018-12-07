@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.11.2 amd64
+# SymbolsHelper-Confirmed: 5.11.2 alpha amd64 hurd-i386
 libQt5Location.so.5 libqt5location5 #MINVER#
  Qt_5.0@Qt_5.0 5.6.0
  Qt_5.10@Qt_5.10 5.10.1
@@ -3501,7 +3501,8 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  (optional=templinst|arch=ia64)_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2EPKcRKS3_@Qt_5 5.11.1
  (optional=templinst)_ZNSt7__cxx114listIxSaIxEE4sortEv@Qt_5 5.9.0
  (optional=templinst|arch=ia64)_ZNSt7__cxx114listIxSaIxEE5mergeEOS2_@Qt_5 5.11.1
- (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE16_M_insert_uniqueIS0_IiiEEES0_ISt17_Rb_tree_iteratorIS2_EbEOT_@Qt_5 5.11.1
+ (optional=templinst|arch=amd64)_ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE16_M_insert_uniqueIS0_IiiEEES0_ISt17_Rb_tree_iteratorIS2_EbEOT_@Qt_5 5.11.1
+ (optional=templinst|arch=!amd64)_ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE17_M_emplace_uniqueIJS0_IiiEEEES0_ISt17_Rb_tree_iteratorIS2_EbEDpOT_@Qt_5 5.11.2
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE8_M_eraseEPSt13_Rb_tree_nodeIS2_E@Qt_5 5.11.0
  _ZTI11QPlaceImage@Qt_5 5.6.0
  _ZTI11QPlaceReply@Qt_5 5.6.0
