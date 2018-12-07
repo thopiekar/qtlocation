@@ -1,4 +1,8 @@
-qtlocation-opensource-src (5.11.2+dfsg-3) UNRELEASED; urgency=medium
+qtlocation-opensource-src (5.11.3+dfsg-1) UNRELEASED; urgency=medium
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * New upstream release.
+    - Bump Qt build dependencies.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 07 Dec 2018 17:18:50 -0300
 
