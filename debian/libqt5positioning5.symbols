@@ -1,8 +1,9 @@
-# SymbolsHelper-Confirmed: 5.11.2 amd64
+# SymbolsHelper-Confirmed: 5.12.2 amd64
 libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  Qt_5.0@Qt_5.0 5.6.0
  Qt_5.10@Qt_5.10 5.10.1
  Qt_5.11@Qt_5.11 5.11.0
+ Qt_5.12@Qt_5.12 5.12.0
  Qt_5.1@Qt_5.1 5.6.0
  Qt_5.2@Qt_5.2 5.6.0
  Qt_5.3@Qt_5.3 5.6.0
@@ -24,6 +25,7 @@ libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZGVZN9QMetaType17registerConverterI9QGeoShape11QGeoPolygonPFS2_RKS1_EEEbT1_E1f@Qt_5 5.10.1
  _ZGVZN9QMetaType17registerConverterI9QGeoShape13QGeoRectanglePFS2_RKS1_EEEbT1_E1f@Qt_5 5.6.0
  _ZGVZN9QMetaType17registerConverterI9QGeoShape8QGeoPathPFS2_RKS1_EEEbT1_E1f@Qt_5 5.9.0
+ _ZGVZN9QMetaType27registerDebugStreamOperatorI14QGeoCoordinateEEbvE1f@Qt_5 5.12.2
  _ZN10QGeoCircle12extendCircleERK14QGeoCoordinate@Qt_5 5.9.0
  _ZN10QGeoCircle16staticMetaObjectE@Qt_5 5.6.0
  _ZN10QGeoCircle9setCenterERK14QGeoCoordinate@Qt_5 5.6.0
@@ -57,12 +59,16 @@ libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZN11QGeoAddressD1Ev@Qt_5 5.6.0
  _ZN11QGeoAddressD2Ev@Qt_5 5.6.0
  _ZN11QGeoAddressaSERKS_@Qt_5 5.6.0
+ _ZN11QGeoPolygon10removeHoleEi@Qt_5 5.12.2
+ _ZN11QGeoPolygon12setPerimeterERK5QListI8QVariantE@Qt_5 5.12.2
  _ZN11QGeoPolygon13addCoordinateERK14QGeoCoordinate@Qt_5 5.10.1
  _ZN11QGeoPolygon16insertCoordinateEiRK14QGeoCoordinate@Qt_5 5.10.1
  _ZN11QGeoPolygon16removeCoordinateERK14QGeoCoordinate@Qt_5 5.10.1
  _ZN11QGeoPolygon16removeCoordinateEi@Qt_5 5.10.1
  _ZN11QGeoPolygon16staticMetaObjectE@Qt_5 5.10.1
  _ZN11QGeoPolygon17replaceCoordinateEiRK14QGeoCoordinate@Qt_5 5.10.1
+ _ZN11QGeoPolygon7addHoleERK5QListI14QGeoCoordinateE@Qt_5 5.12.2
+ _ZN11QGeoPolygon7addHoleERK8QVariant@Qt_5 5.12.2
  _ZN11QGeoPolygon7setPathERK5QListI14QGeoCoordinateE@Qt_5 5.10.1
  _ZN11QGeoPolygon9translateEdd@Qt_5 5.10.1
  _ZN11QGeoPolygonC1ERK5QListI14QGeoCoordinateE@Qt_5 5.10.1
@@ -283,6 +289,7 @@ libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZN22QGeoPositionInfoSource17setUpdateIntervalEi@Qt_5 5.6.0
  _ZN22QGeoPositionInfoSource19createDefaultSourceEP7QObject@Qt_5 5.6.0
  _ZN22QGeoPositionInfoSource30setPreferredPositioningMethodsE6QFlagsINS_17PositioningMethodEE@Qt_5 5.6.0
+ _ZN22QGeoPositionInfoSource34supportedPositioningMethodsChangedEv@Qt_5 5.12.2
  _ZN22QGeoPositionInfoSource5errorENS_5ErrorE@Qt_5 5.6.0
  _ZN22QGeoPositionInfoSourceC1EP7QObject@Qt_5 5.6.0
  _ZN22QGeoPositionInfoSourceC2EP7QObject@Qt_5 5.6.0
@@ -360,6 +367,7 @@ libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZN8QGeoPath17replaceCoordinateEiRK14QGeoCoordinate@Qt_5 5.9.0
  _ZN8QGeoPath7setPathERK5QListI14QGeoCoordinateE@Qt_5 5.9.0
  _ZN8QGeoPath8setWidthERKd@Qt_5 5.9.0
+ _ZN8QGeoPath9clearPathEv@Qt_5 5.12.2
  _ZN8QGeoPath9translateEdd@Qt_5 5.9.0
  _ZN8QGeoPathC1ERK5QListI14QGeoCoordinateERKd@Qt_5 5.9.0
  _ZN8QGeoPathC1ERK9QGeoShape@Qt_5 5.9.0
@@ -401,13 +409,17 @@ libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZNK11QGeoAddress7isEmptyEv@Qt_5 5.6.0
  _ZNK11QGeoAddress8districtEv@Qt_5 5.6.0
  _ZNK11QGeoAddresseqERKS_@Qt_5 5.6.0
+ _ZNK11QGeoPolygon10holesCountEv@Qt_5 5.12.2
  _ZNK11QGeoPolygon10translatedEdd@Qt_5 5.10.1
  _ZNK11QGeoPolygon12coordinateAtEi@Qt_5 5.10.1
  _ZNK11QGeoPolygon18containsCoordinateERK14QGeoCoordinate@Qt_5 5.10.1
+ _ZNK11QGeoPolygon4holeEi@Qt_5 5.12.2
  _ZNK11QGeoPolygon4pathEv@Qt_5 5.10.1
  _ZNK11QGeoPolygon4sizeEv@Qt_5 5.10.1
  _ZNK11QGeoPolygon6lengthEii@Qt_5 5.10.1
+ _ZNK11QGeoPolygon8holePathEi@Qt_5 5.12.2
  _ZNK11QGeoPolygon8toStringEv@Qt_5 5.10.1
+ _ZNK11QGeoPolygon9perimeterEv@Qt_5 5.12.2
  _ZNK11QGeoPolygoneqERKS_@Qt_5 5.10.1
  _ZNK11QGeoPolygonneERKS_@Qt_5 5.10.1
  _ZNK12QGeoLocation10coordinateEv@Qt_5 5.6.0
@@ -577,6 +589,7 @@ libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  (optional=templinst)_ZZN9QMetaType17registerConverterI9QGeoShape11QGeoPolygonPFS2_RKS1_EEEbT1_E1f@Qt_5 5.10.1
  (optional=templinst)_ZZN9QMetaType17registerConverterI9QGeoShape13QGeoRectanglePFS2_RKS1_EEEbT1_E1f@Qt_5 5.6.0
  (optional=templinst)_ZZN9QMetaType17registerConverterI9QGeoShape8QGeoPathPFS2_RKS1_EEEbT1_E1f@Qt_5 5.9.0
+ (optional=templinst)_ZZN9QMetaType27registerDebugStreamOperatorI14QGeoCoordinateEEbvE1f@Qt_5 5.12.2
  _ZdvRK16QDoubleMatrix4x4d@Qt_5_PRIVATE_API 5.9.0
  _Zls6QDebugRK14QGeoCoordinate@Qt_5 5.6.0
  _Zls6QDebugRK15QDoubleVector2D@Qt_5_PRIVATE_API 5.6.0
