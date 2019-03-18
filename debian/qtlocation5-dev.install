@@ -3,6 +3,7 @@ usr/include/*/qt5/QtLocation/QGeoCodingManager
 usr/include/*/qt5/QtLocation/QGeoCodingManagerEngine
 usr/include/*/qt5/QtLocation/QGeoManeuver
 usr/include/*/qt5/QtLocation/QGeoRoute
+usr/include/*/qt5/QtLocation/QGeoRouteLeg
 usr/include/*/qt5/QtLocation/QGeoRouteReply
 usr/include/*/qt5/QtLocation/QGeoRouteRequest
 usr/include/*/qt5/QtLocation/QGeoRouteSegment

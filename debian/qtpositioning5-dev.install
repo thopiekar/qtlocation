@@ -45,6 +45,7 @@ usr/include/*/qt5/QtPositioningQuick/qtpositioningquickversion.h
 usr/lib/*/cmake/Qt5Positioning/Qt5PositioningConfig.cmake
 usr/lib/*/cmake/Qt5Positioning/Qt5PositioningConfigVersion.cmake
 usr/lib/*/cmake/Qt5Positioning/Qt5Positioning_QGeoPositionInfoSourceFactoryGeoclue.cmake
+usr/lib/*/cmake/Qt5Positioning/Qt5Positioning_QGeoPositionInfoSourceFactoryGeoclue2.cmake
 usr/lib/*/cmake/Qt5Positioning/Qt5Positioning_QGeoPositionInfoSourceFactoryPoll.cmake
 usr/lib/*/cmake/Qt5PositioningQuick/Qt5PositioningQuickConfig.cmake
 usr/lib/*/cmake/Qt5PositioningQuick/Qt5PositioningQuickConfigVersion.cmake
