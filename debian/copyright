@@ -4,13 +4,37 @@ Source: https://download.qt.io/official_releases/qt/*/submodules/
 Files-Excluded: src/3rdparty/mapbox-gl-native
 
 Files: *
-Copyright: 2015-2017 The Qt Company Ltd.
+Copyright: 2015-2018 The Qt Company Ltd.
            2015-2016 Jolla Ltd.
            2013-2016 Aaron McCarthy <mccarthy.aaron@gmail.com>
 License: LGPL-3 or GPL-2
 
 Files: src/plugins/geoservices/mapbox/*
 Copyright: 2014 Canonical Ltd.
+           2017 Mapbox, Inc.
+License: LGPL-3 or GPL-2
+
+Files: src/plugins/geoservices/mapbox/qgeoroutereplymapbox.*
+       src/plugins/geoservices/mapbox/qgeoroutingmanagerenginemapbox.*
+Copyright: 2016 Vlad Seryakov <vseryakov@gmail.com>
+           2016 Aaron McCarthy <mccarthy.aaron@gmail.com>
+License: LGPL-3 or GPL-2
+
+Files: src/plugins/geoservices/mapboxgl/*
+Copyright: 2017 The Qt Company Ltd.
+           2017 Mapbox, Inc.
+License: LGPL-3 or GPL-2
+
+Files: src/plugins/geoservices/nokia/qgeomapversion.*
+Copyright: 2014 Appello Systems AB
+License: LGPL-3 or GPL-2
+
+Files: src/plugins/geoservices/esri/*
+Copyright: 2013-2018 Esri <contracts@esri.com>
+License: LGPL-3 or GPL-2
+
+Files: src/plugins/position/geoclue2/*
+Copyright: 2018 Denis Shienkov <denis.shienkov@gmail.com>
 License: LGPL-3 or GPL-2
 
 Files: examples/*
@@ -18,26 +42,6 @@ Files: examples/*
        src/positioning/doc/snippets/*
 Copyright: 2017 The Qt Company Ltd.
 License: BSD-3-clause
-
-Files: src/3rdparty/clip2tri/*
-Copyright: 2014 Bitfighter developers
-License: Expat
-
-Files: src/3rdparty/clipper/*
-Copyright: 2010-2014 Angus Johnson
-License: Boost-1.0
-
-Files: src/3rdparty/earcut/*
-Copyright: 2015 Mapbox
-License: ISC
-
-Files: src/3rdparty/poly2tri/*
-Copyright: 2009-2010, Poly2Tri Contributors
-License: BSD-3-clause
-
-Files: src/plugins/geoservices/nokia/qgeomapversion.*
-Copyright: 2014 Appello Systems AB
-License: LGPL-3 or GPL-2
 
 Files: config.tests/*
        tests/*
@@ -54,18 +58,42 @@ Copyright: 2016 Aaron McCarthy <mccarthy.aaron@gmail.com>
 License: GPL-3 with Qt-1.0 exception
 
 Files: *.qdoc
-Copyright: 2015-2017 The Qt Company Ltd.
+Copyright: 2017-2018 The Qt Company Ltd.
+License: GFDL-NIV-1.3
+
+Files: src/location/doc/src/plugins/esri.qdoc
+Copyright: 2013-2018 Esri <contracts@esri.com>
 License: GFDL-NIV-1.3
 
 Files: src/location/doc/src/plugins/mapbox.qdoc
 Copyright: 2014 Canonical Ltd.
-           2017 The Qt Company Ltd.
+License: GFDL-NIV-1.3
+
+Files: src/location/doc/src/plugins/mapboxgl.qdoc
+Copyright: 2017 The Qt Company Ltd.
            2017 Mapbox, Inc.
+           2014 Canonical Ltd
 License: GFDL-NIV-1.3
 
 Files: src/location/doc/src/plugins/osm.qdoc
 Copyright: 2015 Aaron McCarthy <mccarthy.aaron@gmail.com>
 License: GFDL-NIV-1.3
+
+Files: src/3rdparty/clip2tri/*
+Copyright: 2014 Bitfighter developers
+License: Expat
+
+Files: src/3rdparty/clipper/*
+Copyright: 2010-2015 Angus Johnson
+License: Boost-1.0
+
+Files: src/3rdparty/earcut/*
+Copyright: 2015 Mapbox
+License: ISC
+
+Files: src/3rdparty/poly2tri/*
+Copyright: 2009-2010, Poly2Tri Contributors
+License: BSD-3-clause
 
 Files: debian/*
 Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
@@ -75,7 +103,7 @@ Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
            2005-2007 Brian Nelson <pyro@debian.org>
            2012 Timo Jyrinki <timo.jyrinki@canonical.com>
            2014 Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
-           2014-2017 Dmitry Shachnev <mitya57@debian.org>
+           2014-2019 Dmitry Shachnev <mitya57@debian.org>
            2018 Simon Quigley <tsimonq2@ubuntu.com>
 License: LGPL-3 or GPL-2
 

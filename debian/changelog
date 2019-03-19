@@ -5,6 +5,7 @@ qtlocation-opensource-src (5.12.2+dfsg-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.12.2.
   * Install the GeoClue2 plugin and one new header.
   * Update symbols files from the current build log.
+  * Update debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 Mar 2019 12:18:06 +0300
 
