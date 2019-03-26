@@ -1,13 +1,12 @@
-qtlocation-opensource-src (5.12.2+dfsg-1) UNRELEASED; urgency=medium
+qtlocation-opensource-src (5.12.2+dfsg-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.12.2.
   * Install the GeoClue2 plugin and one new header.
   * Update symbols files from the current build log.
   * Update debian/copyright.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 Mar 2019 12:18:06 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 26 Mar 2019 09:09:37 +0300
 
 qtlocation-opensource-src (5.11.3+dfsg-2) unstable; urgency=medium
 
