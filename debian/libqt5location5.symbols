@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.12.2 amd64 arm64 armhf hppa i386 ia64 m68k mips64el ppc64el s390x sh4 sparc64 x32
+# SymbolsHelper-Confirmed: 5.12.3 amd64
 libQt5Location.so.5 libqt5location5 #MINVER#
  Qt_5.0@Qt_5.0 5.6.0
  Qt_5.10@Qt_5.10 5.10.1
@@ -1975,6 +1975,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN26QDeclarativeGeoMapItemView12modelUpdatedERK13QQmlChangeSetb@Qt_5_PRIVATE_API 5.11.0
  _ZN26QDeclarativeGeoMapItemView14destroyingItemEP7QObject@Qt_5_PRIVATE_API 5.11.0
  _ZN26QDeclarativeGeoMapItemView15delegateChangedEv@Qt_5_PRIVATE_API 5.9.0
+ _ZN26QDeclarativeGeoMapItemView15disposeDelegateEP10QQuickItem@Qt_5_PRIVATE_API 5.12.3
  _ZN26QDeclarativeGeoMapItemView16addDelegateToMapEP10QQuickItemib@Qt_5_PRIVATE_API 5.12.2
  _ZN26QDeclarativeGeoMapItemView16addItemViewToMapEPS_ib@Qt_5_PRIVATE_API 5.12.2
  _ZN26QDeclarativeGeoMapItemView16staticMetaObjectE@Qt_5_PRIVATE_API 5.9.0
@@ -1990,6 +1991,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZN26QDeclarativeGeoMapItemView22exitTransitionFinishedEv@Qt_5_PRIVATE_API 5.11.0
  _ZN26QDeclarativeGeoMapItemView22insertInstantiatedItemEiP10QQuickItemb@Qt_5_PRIVATE_API 5.12.2
  _ZN26QDeclarativeGeoMapItemView23removeInstantiatedItemsEb@Qt_5_PRIVATE_API 5.12.2
+ _ZN26QDeclarativeGeoMapItemView23terminateExitTransitionEP10QQuickItem@Qt_5_PRIVATE_API 5.12.3
  _ZN26QDeclarativeGeoMapItemView24incubateDelegatesChangedEv@Qt_5_PRIVATE_API 5.12.2
  _ZN26QDeclarativeGeoMapItemView6setMapEP18QDeclarativeGeoMap@Qt_5_PRIVATE_API 5.9.0
  _ZN26QDeclarativeGeoMapItemView8initItemEiP7QObject@Qt_5_PRIVATE_API 5.11.0
