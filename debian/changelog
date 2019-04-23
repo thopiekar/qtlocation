@@ -1,6 +1,5 @@
-qtlocation-opensource-src (5.12.3+dfsg-1) UNRELEASED; urgency=medium
+qtlocation-opensource-src (5.12.3+dfsg-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Update debian/libqt5location5.symbols from buildds’ logs.
   * Bump Qt build-dependencies to 5.12.3.
@@ -9,7 +8,7 @@ qtlocation-opensource-src (5.12.3+dfsg-1) UNRELEASED; urgency=medium
   * Add Build-Depends-Package fields to the symbols files.
   * Add a doc-base file for the qtlocation5-doc-html package.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 22 Apr 2019 23:23:20 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 23 Apr 2019 17:20:58 +0300
 
 qtlocation-opensource-src (5.12.2+dfsg-1) experimental; urgency=medium
 
