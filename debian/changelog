@@ -4,6 +4,7 @@ qtlocation-opensource-src (5.12.4+dfsg-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Qt build-dependencies to 5.12.4.
   * Update symbols files from buildds’ logs.
+  * Use separate doc-base files for Location and Positioning.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 23 Jun 2019 23:27:35 +0300
 
