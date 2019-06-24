@@ -28,9 +28,6 @@ override_dh_auto_install-arch:
 	rm -rfv $(CURDIR)/debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtPositioningQuick/*/QtPositioningQuick/private
 	rm -fv $(CURDIR)/debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/mkspecs/modules/qt_lib_*_private.pri
 
-	# Remove binary that includes libtheora in itself
-	rm -f debian/tmp/usr/lib/*/qt5/examples/qtlocation/declarative/mapviewer/qml_location_mapviewer
-
 override_dh_auto_install-indep:
 	make INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
 
