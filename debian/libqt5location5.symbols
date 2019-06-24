@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.12.3 amd64 ia64
+# SymbolsHelper-Confirmed: 5.12.4 amd64
 libQt5Location.so.5 libqt5location5 #MINVER#
 * Build-Depends-Package: qtlocation5-dev
  Qt_5.0@Qt_5.0 5.6.0
@@ -3336,7 +3336,6 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK25QDeclarativeCircleMapItem6radiusEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK25QDeclarativeCircleMapItem8containsERK7QPointF@Qt_5_PRIVATE_API 5.9.0
  _ZNK25QDeclarativeCircleMapItem8geoShapeEv@Qt_5_PRIVATE_API 5.9.0
- _ZNK25QDeclarativeCircleMapItem8itemTypeEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK25QDeclarativeContactDetail10metaObjectEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK25QDeclarativeContactDetail13contactDetailEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK25QDeclarativeContactDetail5labelEv@Qt_5_PRIVATE_API 5.9.0
@@ -3398,6 +3397,7 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK26QDeclarativeGeoMapItemBase14mapItemOpacityEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK26QDeclarativeGeoMapItemBase16zoomLevelOpacityEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK26QDeclarativeGeoMapItemBase17isPolishScheduledEv@Qt_5_PRIVATE_API 5.9.0
+ _ZNK26QDeclarativeGeoMapItemBase8itemTypeEv@Qt_5_PRIVATE_API 5.12.4
  _ZNK26QDeclarativeGeoMapItemView10metaObjectEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK26QDeclarativeGeoMapItemView15autoFitViewportEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK26QDeclarativeGeoMapItemView17incubateDelegatesEv@Qt_5_PRIVATE_API 5.12.2
@@ -3412,7 +3412,6 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK26QDeclarativePolygonMapItem5colorEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK26QDeclarativePolygonMapItem8containsERK7QPointF@Qt_5_PRIVATE_API 5.9.0
  _ZNK26QDeclarativePolygonMapItem8geoShapeEv@Qt_5_PRIVATE_API 5.9.0
- _ZNK26QDeclarativePolygonMapItem8itemTypeEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK26QGeoManeuverPrivateDefault18extendedAttributesEv@Qt_5_PRIVATE_API 5.11.0
  _ZNK26QGeoManeuverPrivateDefault21timeToNextInstructionEv@Qt_5_PRIVATE_API 5.11.0
  _ZNK26QGeoManeuverPrivateDefault25distanceToNextInstructionEv@Qt_5_PRIVATE_API 5.11.0
@@ -3437,7 +3436,6 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK27QDeclarativeGeoMapQuickItem10metaObjectEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK27QDeclarativeGeoMapQuickItem11anchorPointEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK27QDeclarativeGeoMapQuickItem8geoShapeEv@Qt_5_PRIVATE_API 5.9.0
- _ZNK27QDeclarativeGeoMapQuickItem8itemTypeEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK27QDeclarativeGeoMapQuickItem9zoomLevelEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK27QDeclarativeGeoRouteSegment10metaObjectEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK27QDeclarativeGeoRouteSegment10travelTimeEv@Qt_5_PRIVATE_API 5.9.0
@@ -3453,7 +3451,6 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK27QDeclarativePolylineMapItem4pathEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK27QDeclarativePolylineMapItem8containsERK7QPointF@Qt_5_PRIVATE_API 5.9.0
  _ZNK27QDeclarativePolylineMapItem8geoShapeEv@Qt_5_PRIVATE_API 5.9.0
- _ZNK27QDeclarativePolylineMapItem8itemTypeEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK27QDeclarativeSearchModelBase10metaObjectEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK27QDeclarativeSearchModelBase10searchAreaEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK27QDeclarativeSearchModelBase11errorStringEv@Qt_5_PRIVATE_API 5.9.0
@@ -3474,7 +3471,6 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  _ZNK28QDeclarativeRectangleMapItem5colorEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK28QDeclarativeRectangleMapItem8containsERK7QPointF@Qt_5_PRIVATE_API 5.9.0
  _ZNK28QDeclarativeRectangleMapItem8geoShapeEv@Qt_5_PRIVATE_API 5.9.0
- _ZNK28QDeclarativeRectangleMapItem8itemTypeEv@Qt_5_PRIVATE_API 5.9.0
  _ZNK28QGeoServiceProviderFactoryV229createNavigationManagerEngineERK4QMapI7QString8QVariantEPN19QGeoServiceProvider5ErrorEPS1_@Qt_5 5.11.0
  _ZNK28QMapIconObjectPrivateDefault10coordinateEv@Qt_5_PRIVATE_API 5.11.0
  _ZNK28QMapIconObjectPrivateDefault4sizeEv@Qt_5_PRIVATE_API 5.11.0

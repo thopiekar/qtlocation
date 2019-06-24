@@ -3,7 +3,7 @@ qtlocation-opensource-src (5.12.4+dfsg-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.12.4.
-  * Update symbols files from buildds’ logs.
+  * Update symbols files from buildds’ and the current build logs.
   * Use separate doc-base files for Location and Positioning.
   * Strip only boost from the tarball, leave mapbox-gl there.
   * Override Lintian false positive error about JSON license.
