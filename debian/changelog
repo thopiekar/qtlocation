@@ -10,6 +10,7 @@ qtlocation-opensource-src (5.12.4+dfsg-1) UNRELEASED; urgency=medium
   * Make test results fatal on most architectures.
   * Do not install xauth and xvfb with nocheck build profile.
   * Stop removing qml_location_mapviewer, it no longer bundles demo.ogv.
+  * Simplify debian/rules by using a debian/not-installed file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 23 Jun 2019 23:27:35 +0300
 
