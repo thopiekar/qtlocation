@@ -13,8 +13,8 @@ Build-Depends: debhelper (>= 11),
                qml-module-qttest (>= 5.12.4~),
                qtbase5-private-dev (>= 5.12.4+dfsg~),
                qtdeclarative5-private-dev (>= 5.12.4~),
-               xauth,
-               xvfb,
+               xauth <!nocheck>,
+               xvfb <!nocheck>,
                zlib1g-dev
 Build-Depends-Indep: qtbase5-doc-html (>= 5.12.4+dfsg~) <!nodoc>,
                      qttools5-dev-tools (>= 5.12.4~) <!nodoc>
