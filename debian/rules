@@ -39,10 +39,17 @@ override_dh_missing:
 
 override_dh_auto_test-arch:
 	$(MAKE) install -Csrc/imports INSTALL_ROOT=$(CURDIR)/test_root
-	# Disable tests for the migration,we have a couple of flaky ones on mips*.
+	# Qt QML engine is broken on several architectures:
+	# mips* (#868745), sparc64 (#894726), ia64 (#929682), hppa (no bug).
+ifneq (,$(filter $(DEB_HOST_ARCH),hppa ia64 mips mips64el mipsel sparc64))
 	-xvfb-run -a -s "-screen 0 1024x768x24 +extension RANDR +extension RENDER +extension GLX" \
-		dh_auto_test -- -Ctests/auto HOME=$(CURDIR)/test_home QT_LOGGING_RULES="default.debug=true" \
+		dh_auto_test -- -Ctests/auto HOME=$(CURDIR)/test_home \
 		QML2_IMPORT_PATH=$(CURDIR)/test_root/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qml
+else
+	xvfb-run -a -s "-screen 0 1024x768x24 +extension RANDR +extension RENDER +extension GLX" \
+		dh_auto_test -- -Ctests/auto HOME=$(CURDIR)/test_home \
+		QML2_IMPORT_PATH=$(CURDIR)/test_root/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qml
+endif
 
 override_dh_auto_test-indep:
 
