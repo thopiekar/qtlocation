@@ -6,6 +6,7 @@ qtlocation-opensource-src (5.12.4+dfsg-1) UNRELEASED; urgency=medium
   * Update symbols files from buildds’ logs.
   * Use separate doc-base files for Location and Positioning.
   * Strip only boost from the tarball, leave mapbox-gl there.
+  * Override Lintian false positive error about JSON license.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 23 Jun 2019 23:27:35 +0300
 
