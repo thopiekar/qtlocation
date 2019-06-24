@@ -1,6 +1,5 @@
-qtlocation-opensource-src (5.12.4+dfsg-1) UNRELEASED; urgency=medium
+qtlocation-opensource-src (5.12.4+dfsg-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.12.4.
   * Update symbols files from buildds’ and the current build logs.
@@ -12,7 +11,7 @@ qtlocation-opensource-src (5.12.4+dfsg-1) UNRELEASED; urgency=medium
   * Stop removing qml_location_mapviewer, it no longer bundles demo.ogv.
   * Simplify debian/rules by using a debian/not-installed file.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 23 Jun 2019 23:27:35 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 24 Jun 2019 16:55:24 +0300
 
 qtlocation-opensource-src (5.12.3+dfsg-1) experimental; urgency=medium
 
