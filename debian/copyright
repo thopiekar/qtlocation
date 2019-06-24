@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: qtlocation-everywhere-src
 Source: https://download.qt.io/official_releases/qt/*/submodules/
-Files-Excluded: src/3rdparty/mapbox-gl-native
+Files-Excluded: src/3rdparty/mapbox-gl-native/deps/boost
 
 Files: *
 Copyright: 2015-2018 The Qt Company Ltd.
@@ -87,7 +87,65 @@ Files: src/3rdparty/clipper/*
 Copyright: 2010-2015 Angus Johnson
 License: Boost-1.0
 
+Files: src/3rdparty/mapbox-gl-native/*
+Copyright: 2014-2017 Mapbox
+License: BSD-2-clause
+
+Files: src/3rdparty/mapbox-gl-native/deps/kdbush/*
+Copyright: 2016 Vladimir Agafonkin
+License: ISC
+
+Files: src/3rdparty/mapbox-gl-native/deps/optional/*
+Copyright: 2011-2012 Andrzej Krzemienski
+License: Boost-1.0
+
+Files: src/3rdparty/mapbox-gl-native/deps/geojson/*
+       src/3rdparty/mapbox-gl-native/deps/geojsonvt/*
+       src/3rdparty/mapbox-gl-native/deps/geometry/*
+       src/3rdparty/mapbox-gl-native/deps/polylabel/*
+       src/3rdparty/mapbox-gl-native/deps/shelf-pack/*
+       src/3rdparty/mapbox-gl-native/deps/supercluster/*
+       src/3rdparty/mapbox-gl-native/deps/vector-tile/*
+Copyright: 2016-2017 Mapbox
+License: ISC
+
+Files: src/3rdparty/mapbox-gl-native/deps/rapidjson/*
+Copyright: 2015 THL A29 Limited, a Tencent company
+           2015 Milo Yip
+License: Expat
+
+Files: src/3rdparty/mapbox-gl-native/deps/tao_tuple/*
+Copyright: 2015-2017 Daniel Frey
+License: Expat
+
+Files: src/3rdparty/mapbox-gl-native/deps/unique_resource/*
+Copyright: 2015 Shintarou Okada
+License: Boost-1.0
+
+Files: src/3rdparty/mapbox-gl-native/deps/variant/*
+Copyright: 2014-2017 Mapbox
+License: BSD-3-clause
+
+Files: src/3rdparty/mapbox-gl-native/deps/wagyu/*
+Copyright: 2010-2015 Angus Johnson
+           2016 Mapbox
+License: Expat
+
+Files: src/3rdparty/mapbox-gl-native/src/csscolorparser/*
+Copyright: 2012 Dean McNamee
+           2014 Konstantin Käfer
+License: Expat
+
+Files: src/3rdparty/mapbox-gl-native/src/parsedate/*
+Copyright: 1998-2014 Daniel Stenberg, et al.
+License: Expat
+
+Files: src/3rdparty/mapbox-gl-native/vendor/nunicode/*
+Copyright: 2013 Aleksey Tulinov <aleksey.tulinov@gmail.com>
+License: Expat
+
 Files: src/3rdparty/earcut/*
+       src/3rdparty/mapbox-gl-native/deps/earcut/*
 Copyright: 2015 Mapbox
 License: ISC
 
@@ -166,6 +224,30 @@ License: GPL-3 with Qt-1.0 exception
  source code to this application, excluding the source code of the
  independent modules, but including any changes you have made to this
  application, under the terms of this license.
+
+License: BSD-2-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are
+ met:
+ .
+ * Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in
+   the documentation and/or other materials provided with the
+   distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS
+ IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+ THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+ PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+ LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 License: BSD-3-clause
  You may use this file under the terms of the BSD license as follows:
