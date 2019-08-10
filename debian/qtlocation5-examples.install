@@ -1,2 +1,4 @@
 usr/lib/*/qt5/examples/location/
 usr/lib/*/qt5/examples/positioning/
+usr/share/qt5/doc/qtlocation/examples-manifest.xml
+usr/share/qt5/doc/qtpositioning/examples-manifest.xml
