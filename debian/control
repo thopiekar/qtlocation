@@ -133,8 +133,8 @@ Depends: libqt5location5 (= ${binary:Version}),
          qtbase5-dev,
          qtdeclarative5-dev,
          ${misc:Depends}
-Breaks: qtlocation5-doc-html (<< 5.12.4+dfsg-1~)
-Replaces: qtlocation5-doc-html (<< 5.12.4+dfsg-1~)
+Breaks: qtlocation5-doc-html (<< 5.12.4+dfsg-2~)
+Replaces: qtlocation5-doc-html (<< 5.12.4+dfsg-2~)
 Description: Qt 5 Location development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -153,9 +153,9 @@ Depends: libqt5positioning5 (= ${binary:Version}),
          qtdeclarative5-dev,
          ${misc:Depends}
 Breaks: qtlocation5-dev (<< 5.10.1+dfsg-2~),
-        qtlocation5-doc-html (<< 5.12.4+dfsg-1~)
+        qtlocation5-doc-html (<< 5.12.4+dfsg-2~)
 Replaces: qtlocation5-dev (<< 5.10.1+dfsg-2~),
-          qtlocation5-doc-html (<< 5.12.4+dfsg-1~)
+          qtlocation5-doc-html (<< 5.12.4+dfsg-2~)
 Description: Qt 5 Positioning development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -174,9 +174,9 @@ Depends: libqt5location5-plugins (= ${binary:Version}),
          qml-module-qtpositioning (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Breaks: qtlocation5-doc-html (<< 5.12.4+dfsg-1~),
+Breaks: qtlocation5-doc-html (<< 5.12.4+dfsg-2~),
         qtpositioning5-examples (<< 5.5.0~)
-Replaces: qtlocation5-doc-html (<< 5.12.4+dfsg-1~),
+Replaces: qtlocation5-doc-html (<< 5.12.4+dfsg-2~),
           qtpositioning5-examples (<< 5.5.0~)
 Description: Qt 5 Location and Positioning examples
  Qt is a cross-platform C++ application framework. Qt's primary feature
