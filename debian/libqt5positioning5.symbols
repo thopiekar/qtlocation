@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.12.3 amd64 ia64
+# SymbolsHelper-Confirmed: 5.12.5 amd64 i386
 libQt5Positioning.so.5 libqt5positioning5 #MINVER#
 * Build-Depends-Package: qtpositioning5-dev
  Qt_5.0@Qt_5.0 5.6.0
@@ -549,8 +549,8 @@ libQt5Positioning.so.5 libqt5positioning5 #MINVER#
  _ZNK9QGeoShapeeqERKS_@Qt_5 5.6.0
  _ZNK9QGeoShapeneERKS_@Qt_5 5.6.0
  (optional=templinst)_ZNSt6vectorIxSaIxEE17_M_realloc_insertIJRKxEEEvN9__gnu_cxx17__normal_iteratorIPxS1_EEDpOT_@Qt_5 5.10.1
- (optional=templinst|arch=ia64)_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IS3_EEPKcRKS3_@Qt_5 5.12.3
- (optional=templinst|arch=ia64)_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_@Qt_5 5.12.3
+ (optional=templinst)_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IS3_EEPKcRKS3_@Qt_5 5.12.3
+ (optional=templinst)_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_@Qt_5 5.12.3
  (optional=templinst)_ZNSt7__cxx114listIxSaIxEE4sortEv@Qt_5 5.10.1
  (optional=templinst|arch=ia64)_ZNSt7__cxx114listIxSaIxEE5mergeEOS2_@Qt_5 5.11.1
  _ZTI11QSharedData@Qt_5 5.6.0

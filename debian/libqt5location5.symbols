@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.12.4 amd64
+# SymbolsHelper-Confirmed: 5.12.5 amd64 i386
 libQt5Location.so.5 libqt5location5 #MINVER#
 * Build-Depends-Package: qtlocation5-dev
  Qt_5.0@Qt_5.0 5.6.0
@@ -3646,11 +3646,11 @@ libQt5Location.so.5 libqt5location5 #MINVER#
  (optional=templinst|arch=ia64)_ZNSt6vectorIjSaIjEE12emplace_backIJRKjEEERjDpOT_@Qt_5 5.12.2
  (optional=templinst)_ZNSt6vectorIjSaIjEE17_M_realloc_insertIJRKjEEEvN9__gnu_cxx17__normal_iteratorIPjS1_EEDpOT_@Qt_5 5.12.2
  (optional=templinst)_ZNSt6vectorIxSaIxEE17_M_realloc_insertIJRKxEEEvN9__gnu_cxx17__normal_iteratorIPxS1_EEDpOT_@Qt_5 5.9.1
- (optional=templinst|arch=ia64)_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IS3_EEPKcRKS3_@Qt_5 5.12.3
- (optional=templinst|arch=ia64)_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_@Qt_5 5.12.3
+ (optional=templinst)_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IS3_EEPKcRKS3_@Qt_5 5.12.3
+ (optional=templinst)_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_@Qt_5 5.12.3
  (optional=templinst)_ZNSt7__cxx114listIxSaIxEE4sortEv@Qt_5 5.9.0
  (optional=templinst|arch=ia64)_ZNSt7__cxx114listIxSaIxEE5mergeEOS2_@Qt_5 5.11.1
- (optional=templinst|arch=!amd64 !arm64 !hppa !ia64 !m68k !mips64el !ppc64el !sh4 !sparc64 !x32)_ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE17_M_emplace_uniqueIJS0_IiiEEEES0_ISt17_Rb_tree_iteratorIS2_EbEDpOT_@Qt_5 5.11.2
+ (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE17_M_emplace_uniqueIJS0_IiiEEEES0_ISt17_Rb_tree_iteratorIS2_EbEDpOT_@Qt_5 5.11.2
  (optional=templinst)_ZNSt8_Rb_treeIiSt4pairIKiiESt10_Select1stIS2_ESt4lessIiESaIS2_EE8_M_eraseEPSt13_Rb_tree_nodeIS2_E@Qt_5 5.11.0
  _ZTI11QPlaceImage@Qt_5 5.6.0
  _ZTI11QPlaceReply@Qt_5 5.6.0
