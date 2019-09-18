@@ -1,6 +1,5 @@
-qtlocation-opensource-src (5.12.5+dfsg-1) UNRELEASED; urgency=medium
+qtlocation-opensource-src (5.12.5+dfsg-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.12.5.
   * Update symbols files from the current build log.
@@ -8,7 +7,7 @@ qtlocation-opensource-src (5.12.5+dfsg-1) UNRELEASED; urgency=medium
   * Remove libqt5positioningquick5 dependency on libqt5location5 to fix
     circular dependency (the latter package depends on the former).
 
- -- Scarlett Moore <sgmoore@kde.org>  Sat, 10 Aug 2019 09:00:14 -0700
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 18 Sep 2019 21:03:27 +0300
 
 qtlocation-opensource-src (5.12.4+dfsg-1) experimental; urgency=medium
 
