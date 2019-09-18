@@ -5,6 +5,8 @@ qtlocation-opensource-src (5.12.5+dfsg-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.12.5.
   * Update symbols files from the current build log.
   * Bump Qt build-dependencies to 4.4.0, no changes needed.
+  * Remove libqt5positioningquick5 dependency on libqt5location5 to fix
+    circular dependency (the latter package depends on the former).
 
  -- Scarlett Moore <sgmoore@kde.org>  Sat, 10 Aug 2019 09:00:14 -0700
 
