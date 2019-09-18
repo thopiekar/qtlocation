@@ -1,5 +1,7 @@
-qtlocation-opensource-src (5.12.4+dfsg-2) UNRELEASED; urgency=medium
+qtlocation-opensource-src (5.12.5+dfsg-1) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * New upstream release.
 
  -- Scarlett Moore <sgmoore@kde.org>  Sat, 10 Aug 2019 09:00:14 -0700
 
