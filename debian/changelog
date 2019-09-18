@@ -4,6 +4,7 @@ qtlocation-opensource-src (5.12.5+dfsg-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Qt build-dependencies to 5.12.5.
   * Update symbols files from the current build log.
+  * Bump Qt build-dependencies to 4.4.0, no changes needed.
 
  -- Scarlett Moore <sgmoore@kde.org>  Sat, 10 Aug 2019 09:00:14 -0700
 
