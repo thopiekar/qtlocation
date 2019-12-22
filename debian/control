@@ -7,6 +7,7 @@ Uploaders: Timo Jyrinki <timo@debian.org>,
            Dmitry Shachnev <mitya57@debian.org>,
            Simon Quigley <tsimonq2@debian.org>
 Build-Depends: debhelper (>= 11),
+               libboost-dev,
                libicu-dev,
                libqt5opengl5-dev (>= 5.12.5+dfsg~),
                pkg-kde-tools,
@@ -68,7 +69,20 @@ Description: Qt Location module - geolocation plugins
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains Qt Location position and geolocation plugins.
+ This package contains Qt Location plugins: ESRI, Items Overlay, Mapbox,
+ HERE/Nokia and Open Street Map.
+
+Package: libqt5location5-plugin-mapboxgl
+Architecture: any
+Multi-Arch: same
+Depends: libqt5location5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Qt Location module - Mapbox GL plugin
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Mapbox GL plugin for Qt Location.
 
 Package: libqt5positioning5-plugins
 Architecture: any
@@ -127,6 +141,7 @@ Package: qtlocation5-dev
 Architecture: any
 Section: libdevel
 Depends: libqt5location5 (= ${binary:Version}),
+         libqt5location5-plugin-mapboxgl (= ${binary:Version}),
          libqt5location5-plugins (= ${binary:Version}),
          qtbase5-dev,
          qtdeclarative5-dev,

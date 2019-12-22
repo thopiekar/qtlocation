@@ -91,6 +91,7 @@ usr/lib/*/cmake/Qt5Location/Qt5LocationConfigVersion.cmake
 usr/lib/*/cmake/Qt5Location/Qt5Location_GeoServiceProviderFactoryEsri.cmake
 usr/lib/*/cmake/Qt5Location/Qt5Location_QGeoServiceProviderFactoryItemsOverlay.cmake
 usr/lib/*/cmake/Qt5Location/Qt5Location_QGeoServiceProviderFactoryMapbox.cmake
+usr/lib/*/cmake/Qt5Location/Qt5Location_QGeoServiceProviderFactoryMapboxGL.cmake
 usr/lib/*/cmake/Qt5Location/Qt5Location_QGeoServiceProviderFactoryNokia.cmake
 usr/lib/*/cmake/Qt5Location/Qt5Location_QGeoServiceProviderFactoryOsm.cmake
 usr/lib/*/libQt5Location.prl
