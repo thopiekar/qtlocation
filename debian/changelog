@@ -1,3 +1,8 @@
+qtlocation-opensource-src (5.12.5+dfsg-3) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 22 Dec 2019 11:53:42 +0300
+
 qtlocation-opensource-src (5.12.5+dfsg-2) unstable; urgency=medium
 
   * Bump Standards-Version to 4.4.1, no changes needed.
