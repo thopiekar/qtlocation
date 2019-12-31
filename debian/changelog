@@ -7,6 +7,7 @@ qtlocation-opensource-src (5.12.5+dfsg-3) UNRELEASED; urgency=medium
   * Bump debhelper compat level to 12, use the new syntax.
   * Split the doxygen .tags files into a new qtlocation5-doc-dev package
     (see #922707).
+  * Update descriptions of the documentation packages.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 22 Dec 2019 11:53:42 +0300
 
