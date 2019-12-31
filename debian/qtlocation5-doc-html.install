@@ -1,2 +1,14 @@
-usr/share/qt5/doc/qtlocation/*
-usr/share/qt5/doc/qtpositioning/*
+usr/share/qt5/doc/qtlocation/*.html
+usr/share/qt5/doc/qtlocation/examples-manifest.xml
+usr/share/qt5/doc/qtlocation/images/
+usr/share/qt5/doc/qtlocation/qtlocation.index
+usr/share/qt5/doc/qtlocation/qtlocation.qhp
+usr/share/qt5/doc/qtlocation/qtlocation.qhp.sha1
+usr/share/qt5/doc/qtlocation/style/
+usr/share/qt5/doc/qtpositioning/*.html
+usr/share/qt5/doc/qtpositioning/examples-manifest.xml
+usr/share/qt5/doc/qtpositioning/images/
+usr/share/qt5/doc/qtpositioning/qtpositioning.index
+usr/share/qt5/doc/qtpositioning/qtpositioning.qhp
+usr/share/qt5/doc/qtpositioning/qtpositioning.qhp.sha1
+usr/share/qt5/doc/qtpositioning/style/
