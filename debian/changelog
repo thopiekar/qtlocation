@@ -1,3 +1,8 @@
+qtlocation-opensource-src (5.12.5+dfsg-4) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 08 Jan 2020 18:41:13 +0300
+
 qtlocation-opensource-src (5.12.5+dfsg-3) experimental; urgency=medium
 
   * Ship the Mapbox GL plugin in a separate package (closes: #929842).
