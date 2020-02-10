@@ -1,6 +1,8 @@
-qtlocation-opensource-src (5.12.5+dfsg-5) UNRELEASED; urgency=medium
+qtlocation-opensource-src (5.12.5+dfsg-5) unstable; urgency=medium
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 10 Feb 2020 11:18:31 -0300
+  * Brow paperbag upload: the last upload should have gone to unstable.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 10 Feb 2020 11:19:18 -0300
 
 qtlocation-opensource-src (5.12.5+dfsg-4) experimental; urgency=medium
 
