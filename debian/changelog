@@ -1,3 +1,21 @@
+qtlocation-opensource-src (5.12.5+dfsg-5ubuntu1) focal; urgency=medium
+
+  * Ignore test failures on riscv64 for now. Some qml counts are wrong.
+
+ -- William Grant <wgrant@ubuntu.com>  Mon, 06 Apr 2020 07:50:31 +1000
+
+qtlocation-opensource-src (5.12.5+dfsg-5build2) focal; urgency=medium
+
+  * No-change rebuild for icu soname change.
+
+ -- Matthias Klose <doko@ubuntu.com>  Tue, 03 Mar 2020 21:36:50 +0100
+
+qtlocation-opensource-src (5.12.5+dfsg-5build1) focal; urgency=medium
+
+  * No-change rebuild for icu soname change.
+
+ -- Matthias Klose <doko@ubuntu.com>  Thu, 13 Feb 2020 12:39:50 +0100
+
 qtlocation-opensource-src (5.12.5+dfsg-5) unstable; urgency=medium
 
   * Brow paperbag upload: the last upload should have gone to unstable.
