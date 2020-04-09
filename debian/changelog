@@ -1,3 +1,9 @@
+qtlocation-opensource-src (5.12.8+dfsg-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream bugfix release.
+
+ -- Dmitry Shachnev <mitya57@ubuntu.com>  Thu, 09 Apr 2020 11:05:09 +0300
+
 qtlocation-opensource-src (5.12.5+dfsg-5ubuntu1) focal; urgency=medium
 
   * Ignore test failures on riscv64 for now. Some qml counts are wrong.
