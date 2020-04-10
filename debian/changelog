@@ -1,10 +1,10 @@
-qtlocation-opensource-src (5.12.8+dfsg-0ubuntu1) UNRELEASED; urgency=medium
+qtlocation-opensource-src (5.12.8+dfsg-0ubuntu1) focal; urgency=medium
 
   * New upstream bugfix release.
   * Bump Qt build-dependencies to 5.12.8.
   * Update symbols files from the current build log.
 
- -- Dmitry Shachnev <mitya57@ubuntu.com>  Thu, 09 Apr 2020 11:05:09 +0300
+ -- Dmitry Shachnev <mitya57@ubuntu.com>  Fri, 10 Apr 2020 11:51:30 +0300
 
 qtlocation-opensource-src (5.12.5+dfsg-5ubuntu1) focal; urgency=medium
 
