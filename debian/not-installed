@@ -1,9 +1,3 @@
-usr/include/*/qt5/QtLocation/5.*
-usr/include/*/qt5/QtPositioning/5.*
-usr/include/*/qt5/QtPositioningQuick/5.*
 usr/lib/*/libQt5Location.la
 usr/lib/*/libQt5Positioning.la
 usr/lib/*/libQt5PositioningQuick.la
-usr/lib/*/qt5/mkspecs/modules/qt_lib_location_private.pri
-usr/lib/*/qt5/mkspecs/modules/qt_lib_positioning_private.pri
-usr/lib/*/qt5/mkspecs/modules/qt_lib_positioningquick_private.pri
