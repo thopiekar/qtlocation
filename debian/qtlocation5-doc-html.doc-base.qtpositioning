@@ -1,0 +1,9 @@
+Document: qt5-positioning
+Title: Qt 5 Positioning module
+Author: The Qt Company Ltd
+Abstract: This is the HTML documentation for Qt 5 Positioning
+Section: Programming/C++
+
+Format: HTML
+Index: /usr/share/doc/qtlocation5-doc-html/html/qtpositioning/qtpositioning-index.html
+Files: /usr/share/doc/qtlocation5-doc-html/html/qtpositioning/*.html
