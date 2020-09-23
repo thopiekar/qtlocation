@@ -1,2 +1,4 @@
 usr/include/*/qt5/QtPositioning/*/QtPositioning/private/*
+usr/include/*/qt5/QtPositioningQuick/*/QtPositioningQuick/private/*
 usr/lib/*/qt5/mkspecs/modules/qt_lib_positioning_private.pri
+usr/lib/*/qt5/mkspecs/modules/qt_lib_positioningquick_private.pri
