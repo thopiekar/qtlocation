@@ -1,3 +1,9 @@
+qtlocation-opensource-src (5.12.8+dfsg-0ubuntu2) focal; urgency=medium
+
+  * Readding private headers, which have been excluded before.
+
+ -- Thomas Karl Pietrowski <thopiekar@gmail.com>  Thu, 23 Sep 2020 19:27:42 +0200
+
 qtlocation-opensource-src (5.12.8+dfsg-0ubuntu1) focal; urgency=medium
 
   * New upstream bugfix release.
